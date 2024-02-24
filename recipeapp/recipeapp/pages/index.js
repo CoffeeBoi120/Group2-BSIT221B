@@ -28,7 +28,7 @@ function Home( {users} ) {
           users.map(i => {
             return (
               <div key={i.num}>
-              <p>{"Ingredients: " + i.ingredients.amount}</p>
+              <p>{"Ingredients: " + i.ingredients}</p>
               </div>
             )
           })

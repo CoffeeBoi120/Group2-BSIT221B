@@ -1,38 +1,12 @@
 [
     {"name":"Oreo Cheesecake", 
      "information":"A rich, buttery Oreo base sits beneath a luscious, ultra-creamy, Oreo-studded cheesecake filling, all topped with whipped cream.", 
-     "ingredients": [
-      {
-        "amount": "24",
-        "unit": "Whole",
-        "item": "Oreo Cookies (divided)"
-      },
-      {
-        "amount": "3",
-        "unit": "tablespoon",
-        "item": "Butter (Melted)"
-      },
-      {
-        "amount": "3",
-        "unit": "packages",
-        "item": "Philadelphia Cream Cheese (softened)"
-      },
-      {
-        "amount": "¾",
-        "unit": "cup",
-        "item": "sugar"
-      },
-      {
-        "amount": "1",
-        "unit": "teaspoon",
-        "item": "vanilla"
-      },
-      {
-        "amount": "3",
-        "unit": "large",
-        "item": "eggs"
-      }
-    ],
+     "ingredients":["24 Oreo Cookies, divided",
+     "3 tablespoons butter, melted",
+     "3 (8 ounce) packages Philadelphia Cream Cheese, softened",
+     "¾ cup sugar",
+     "1 teaspoon vanilla",
+     "3 large eggs"],
 
     "steps":["Preheat the oven to 350 degrees F (175 degrees C).",
      "Place 16 cookies in a resealable plastic bag. Flatten bag to remove excess air, then seal bag. Finely crush cookies by rolling a rolling pin across the bag. Place crushed cookies in a bowl. Add melted butter; mix well. Press mixture firmly onto bottom of a 9-inch springform pan.",
@@ -51,42 +25,14 @@
         "information":
           "Homemade Mochi Ice Cream is a sweet and chewy Japanese rice cake filled with your choice of ice cream in a soft, slightly chewy, sweet rice dough. You won't believe how easy it is to make yourself!",
         "ingredients": [
-      {
-        "amount": "1",
-        "unit": "cup",
-        "item": "glutinous rice flour (Sweet rice flour, I recommend shiratamako or mochiko)"
-      },
-      {
-        "amount": "¼",
-        "unit": "cup",
-        "item": "Sugar"
-      },
-      {
-        "amount": "2",
-        "unit": "tablespoon",
-        "item": "powdered sugar"
-      },
-      {
-        "amount": "1",
-        "unit": "cup",
-        "item": "water"
-      },
-      {
-        "amount": "1",
-        "unit": "optional",
-        "item": "food coloring (to change the color of dough)"
-      },
-      {
-        "amount": "1",
-        "unit": "package",
-        "item": "Cornstarch , or potato starch (for dusting and rolling)"
-      },
-      {
-        "amount": "1",
-        "unit": "package",
-        "item": "Ice cream, your favorite kind"
-      }
-    ],
+          "1 cup glutinous rice flour (Sweet rice flour, I recommend shiratamako or mochiko)",
+          "¼ cup sugar",
+          "2 Tablespoons powdered sugar",
+          "1 cup water",
+          "food coloring , optional, to change the color of the dough",
+          "Cornstarch , or potato starch (for dusting and rolling)",
+          "Ice cream , your favorite kind"
+        ],
         "steps": [
           "Freeze ice cream balls:  Line a sheet pan with parchment paper. Working quickly, use a small ice cream scoop to scoop ice cream balls and place them onto the parchment paper.  Be sure to pack the ice cream tightly as you scoop, leaving a flat edge on the ice cream so that it will sit flat on your cookie sheet. Freeze for 1 hour.",
           "Make mochi: Combine flour, sugar, and powdered sugar in a microwave safe bowl. Add water and stir well until smooth.  Cover the bowl with plastic wrap and microwave mochi dough for 1 minute. Wet your spatula to prevent sticking and use your spatula to repeatedly fold the mixture. Cover and microwave again for 1 minute.  Fold the dough again and microwave for 30 more seconds. The mochi should look slightly shiny and if it doesn't, microwave for 30 more seconds.",
@@ -167,56 +113,16 @@
           "Tiramisu has Italian origins. The famous Italian restaurateur Ado Campeol is credited with its invention in the 1970s. In fact, he was widely known as the father of tiramisu. The word tiramisu translates to pick-me-up." 
         ],
         "ingredients": [
-          {
-            "amount": "6",
-            "unit": "large",
-            "item": "egg yolks"
-          },
-          {
-            "amount": "¾",
-            "unit": "cup",
-            "item": "white sugar"
-          },
-          {
-            "amount": "⅔",
-            "unit": "cup",
-            "item": "milk"
-          },
-          {
-            "amount": "1 ¼",
-            "unit": "cup",
-            "item": "heavy cream"
-          },
-          {
-            "amount": "½",
-            "unit": "teaspoon",
-            "item": "vanilla extract"
-          },
-          {
-            "amount": "1",
-            "unit": "pound",
-            "item": "mascarpone cheese, at room temperature"
-          },
-          {
-            "amount": "¼",
-            "unit": "cup",
-            "item": "strong brewed coffee, at room temperature"
-          },
-          {
-            "amount": "2",
-            "unit": "tablespoon",
-            "item": "rum"
-          },
-          {
-            "amount": "2",
-            "unit": "package",
-            "item": "ladyfinger cookies"
-          },
-          {
-            "amount": "1",
-            "unit": "tablespoon",
-            "item": "unsweetened cocoa powder"
-          }
+          "6 large egg yolks",
+          "¾ cup white sugar",
+          "⅔ cup milk",
+          "1 ¼ cups heavy cream",
+          "½ teaspoon vanilla extract",
+          "1 pound mascarpone cheese, at room temperature",
+          "¼ cup strong brewed coffee, at room temperature",
+          "2 tablespoons rum",
+          "2 (3 ounce) packages ladyfinger cookies",
+          "1 tablespoon unsweetened cocoa powder"
         ],
         "steps": [
           "Whisk egg yolks and sugar together in a medium saucepan until well blended.",
@@ -244,46 +150,14 @@
         "They are kid-sized and just a fun way to serve cinnamon rolls. Refrigerated cinnamon rolls are cut into bites, air fried, tossed in cinnamon sugar, and served with an orange-flavored creamy dip."
       ],
       "ingredients": [
-        {
-          "amount": "12.4",
-          "unit": "ounce",
-          "item": "can refrigerated cinnamon rolls (such as Pillsbury™)"
-        },
-        {
-          "amount": "1/4",
-          "unit": "cup",
-          "item": "white sugar"
-        },
-        {
-          "amount": "1/2",
-          "unit": "teaspoon",
-          "item": "ground cinnamon"
-        },
-        {
-          "amount": "4",
-          "unit": "ounce",
-          "item": "cream cheese, softened"
-        },
-        {
-          "amount": "3/4",
-          "unit": "cup",
-          "item": "confectioner's sugar"
-        },
-        {
-          "amount": "1",
-          "unit": "tablespoon",
-          "item": "freshly grated orange peel"
-        },
-        {
-          "amount": "1",
-          "unit": "tablespoon",
-          "item": "orange juice"
-        },
-        {
-          "amount": "1",
-          "unit": "tablespoon",
-          "item": "icing from cinnamon roll package"
-        }
+        "1 (12.4 ounce) can refrigerated cinnamon rolls (such as Pillsbury™)",
+        "1/4 cup white sugar",
+        "1/2 teaspoon ground cinnamon",        
+        "4 ounces cream cheese, softened",      
+        "3/4 cup confectioner's sugar",      
+        "1 tablespoon freshly grated orange peel",      
+        "1 tablespoon orange juice",      
+        "icing from the cinnamon roll package"
       ],
       "steps": [
         "Preheat an air fryer to 325 degrees F (165 degrees C) according to manufacturer's instructions. Add sugar and cinnamon to a large resealable plastic bag, and shake to combine.",
@@ -305,51 +179,15 @@
         "It's traditionally made with ricotta cheese and sugar. As we know it today, it also contains heavy whipping cream, whipped and sweetened with sugar. From here on, the recipe varies from person to person! You can also include cinnamon, lemon zest, and chocolate chips."
       ],
       "ingredients": [
-        {
-          "amount": "1 (9-inch)",
-          "unit": "prepared",
-          "item": "graham cracker crust"
-        },
-        {
-          "amount": "1",
-          "unit": "cup",
-          "item": "heavy whipping cream"
-        },
-        {
-          "amount": "8",
-          "unit": "ounce",
-          "item": "package cream cheese, at room temperature"
-        },
-        {
-          "amount": "1",
-          "unit": "cup",
-          "item": "confectioner's sugar"
-        },
-        {
-          "amount": "1 1/12",
-          "unit": "cup",
-          "item": "full fat ricotta cheese"
-        },
-        {
-          "amount": "1",
-          "unit": "teaspoon",
-          "item": "vanilla extract"
-        },
-        {
-          "amount": "1/2",
-          "unit": "teaspoon",
-          "item": "kosher salt"
-        },
-        {
-          "amount": "1/2",
-          "unit": "cup",
-          "item": "chopped lightly salted pistachios"
-        },
-        {
-          "amount": "1/2",
-          "unit": "cup",
-          "item": "mini chocolate chips, plus more for topping"
-        }
+        "1 (9-inch) prepared graham cracker crust",
+        "1 cup heavy whipping cream",      
+        "1 (8 ounce) package cream cheese, at room temperature",      
+        "1 cup confectioner's sugar",      
+        "1 1/2 cups full fat ricotta cheese",        
+        "1 teaspoon vanilla extract",      
+        "1/2 teaspoon kosher salt",
+        "1/2 cup chopped lightly salted pistachios",      
+        "1/2 cup mini chocolate chips, plus more for topping"
       ],
       "steps": [
         "Preheat the oven to 325 degrees F(165 degrees C).",
@@ -493,31 +331,11 @@
         "It's every chocolate lover's dream!."
       ],
       "ingredients": [
-        {
-          "amount": "1",
-          "unit": "whole",
-          "item": "chocolate cake (baked in a 9x13 pan)"
-        },
-        {
-          "amount": "1",
-          "unit": "pint",
-          "item": "heavy whipping cream"
-        },
-        {
-          "amount": "1/4",
-          "unit": "cup",
-          "item": "powdered sugar"
-        },
-        {
-          "amount": "3",
-          "unit": "cup",
-          "item": "chocolate pudding homemade or store-bought"
-        },
-        {
-          "amount": "4-5",
-          "unit": "whole",
-          "item": "heath candy bars* , crushed into small chunks"
-        }
+        "1 chocolate cake (baked in a 9x13 pan)",
+        "1 pint heavy whipping cream",
+        "1/4 cup powdered sugar",
+        "3 cups chocolate pudding homemade or store-bought*",
+        "4-5 heath candy bars* , crushed into small chunks"
       ],
       "steps": [
        "Prepare pudding according to recipe directions.",
@@ -542,71 +360,20 @@
 
       ],
       "ingredients": [
-        {
-          "amount": "1 1/2",
-          "unit": "cup",
-          "item": "all-purpose flour"
-        },
-        {
-          "amount": "2",
-          "unit": "tablespoon",
-          "item": "unsweetened cocoa powder"
-        },
-        {
-          "amount": "1",
-          "unit": "teaspoon",
-          "item": "baking soda"
-        },
-        {
-          "amount": "1/4",
-          "unit": "teaspoon",
-          "item": "baking powder"
-        },
-        {
-          "amount": "1/4",
-          "unit": "teaspoon",
-          "item": "salt"
-        },
-        {
-          "amount": "1",
-          "unit": "cup",
-          "item": "granulated sugar"
-        },
-        {
-          "amount": "1/2",
-          "unit": "cup",
-          "item": "unsalted butter , softened"
-        },
-        {
-          "amount": "1",
-          "unit": "large",
-          "item": "egg"
-        },
-        {
-          "amount": "1",
-          "unit": "tablespoon",
-          "item": "liquid red food coloring"
-        },
-        {
-          "amount": "1/4",
-          "unit": "cup",
-          "item": "butter"
-        },
-        {
-          "amount": "4",
-          "unit": "ounces",
-          "item": "cream cheese , softened"
-        },
-        {
-          "amount": "1 3/4",
-          "unit": "cup",
-          "item": "powdered sugar"
-        },
-        {
-          "amount": "1/2",
-          "unit": "teaspoon",
-          "item": "vanilla extract"
-        }
+        "1 1/2 cups all-purpose flour",
+        "2 Tablespoons unsweetened cocoa powder",
+        "1 teaspoon baking soda",
+        "1/4 teaspoon baking powder",
+        "1/4 teaspoon salt",
+        "1 cup granulated sugar",
+        "1/2 cup unsalted butter , softened",
+        "1 large egg",
+        "1 Tablespoon liquid red food coloring",
+        "Cream Cheese Filling:",
+        "1/4 cup butter",
+        "4 ounces cream cheese , softened",
+        "1 3/4 cups powdered sugar",
+        "1/2 teaspoon vanilla extract"
       ],
       "steps": [
         "For the Red Velvet Cookies:",
