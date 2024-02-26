@@ -510,7 +510,7 @@
       "cookingTime":  "40minutes mins",
      "preppingTime": " 1 hour",
     "servings": 30,
-        "nutrition_facts": {
+        "nutrition": {
          "calories": "311",
           "fat": "11g",
           "carbs": "40g",
