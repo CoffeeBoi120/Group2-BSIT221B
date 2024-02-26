@@ -10,7 +10,7 @@ function Recipes( {recipes} ) {
       recipes.map(recipe => {
         return (
           <div key={recipe.id}>
-          <Link href="/">{recipe.name}</Link>
+          <Link href={"/recipelist/" + recipe.id}>{recipe.name}</Link>
           </div>
         )
       })
