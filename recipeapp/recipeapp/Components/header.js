@@ -4,8 +4,8 @@ function Header() {
     return(
         <>
         <div className="header">
-           <h1>Dessert Delights</h1> 
-           <Link href="/">Home </Link>
+           <Link href="/">Dessert Delights </Link>
+           <Link href="/home">Home </Link>
            <Link href="/recipes">Recipes </Link>
            <Link href="/tips">Tips </Link>
            <Link href="/about">About </Link>

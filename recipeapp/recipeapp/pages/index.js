@@ -1,8 +1,8 @@
-function Home() {
+function Main() {
   return(
     <>
-    <p>BRUH</p>
+    <p>Landing Page</p>
     </>
   )
 }
-export default Home
+export default Main
