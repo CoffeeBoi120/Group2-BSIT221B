@@ -2,15 +2,15 @@ import Link from 'next/link'
 import fs from 'fs';
 import path from 'path';
 
-function Recipes( {users} ) {
+function Recipes( {recipes} ) {
     return(
       <>
       <h1>Recipes</h1>
       {
-      users.map(i => {
+      recipes.map(recipe => {
         return (
-          <div key={i.num}>
-          <Link href="/">{i.name}</Link>
+          <div key={recipe.id}>
+          <Link href="/">{recipe.name}</Link>
           </div>
         )
       })
@@ -29,7 +29,7 @@ function Recipes( {users} ) {
     console.log(data)
     return {
       props: {
-        users: data
+        recipes: data
       }
       }
   }
