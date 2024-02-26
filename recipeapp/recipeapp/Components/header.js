@@ -1,11 +1,11 @@
 import Link from 'next/link'
 
-function Navbar() {
+function Header() {
     return(
         <>
-        <div className="navBar">
+        <div className="header">
            <h1>Dessert Delights</h1> 
-           <Link href="/home">Home </Link>
+           <Link href="/">Home </Link>
            <Link href="/recipes">Recipes </Link>
            <Link href="/tips">Tips </Link>
            <Link href="/about">About </Link>
@@ -14,4 +14,4 @@ function Navbar() {
     ) 
 }
 
-export default Navbar
+export default Header
