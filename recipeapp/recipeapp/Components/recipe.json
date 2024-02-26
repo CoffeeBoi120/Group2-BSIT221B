@@ -1,6 +1,7 @@
 [
     { "id": 1,
       "name":"Oreo Cheesecake", 
+      "image": "images/oreo-cheesecake.jpg",
      "information":"A rich, buttery Oreo base sits beneath a luscious, ultra-creamy, Oreo-studded cheesecake filling, all topped with whipped cream.", 
      "ingredients":["24 Oreo Cookies, divided",
      "3 tablespoons butter, melted",
@@ -23,6 +24,7 @@
 
     { "id": 2,
         "name": "Mochi Ice Cream",
+        "image": "images/Mochi-Ice-Cream.jpg",
         "information":
           "Homemade Mochi Ice Cream is a sweet and chewy Japanese rice cake filled with your choice of ice cream in a soft, slightly chewy, sweet rice dough. You won't believe how easy it is to make yourself!",
         "ingredients": [

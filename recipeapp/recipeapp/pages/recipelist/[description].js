@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import image from "next/image";
 
 function Recipelist( {recipe} ){
     return(
