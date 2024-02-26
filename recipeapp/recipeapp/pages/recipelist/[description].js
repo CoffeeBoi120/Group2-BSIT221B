@@ -1,12 +1,18 @@
 import fs from 'fs';
 import path from 'path';
-import image from "next/image";
+import Image from "next/image";
 
 function Recipelist( {recipe} ){
     return(
         <>
         <div key={recipe.id}>
             <h1>{recipe.name}</h1>
+            <Image
+            src={`/./${recipe.image}`}
+            alt={recipe.name}
+            width={500}
+            height={500}
+            />
             <h2>{recipe.information}</h2>
             <h3>{"Servings: " + recipe.servings}</h3>
             <h4>{"Cooking Time: " + recipe.cookingTime}</h4>
