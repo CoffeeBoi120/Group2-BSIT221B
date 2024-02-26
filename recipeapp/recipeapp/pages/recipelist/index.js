@@ -21,7 +21,6 @@ function Recipes( {recipes} ) {
   export default Recipes
 
   export async function getStaticProps() {
-    //Local JSON Fetching
     const filePath = path.join(process.cwd(), './Components/recipe.json');
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const data = JSON.parse(fileContent);

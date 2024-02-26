@@ -15,10 +15,10 @@
      "Bake in the preheated oven until center is just set, about 45 minutes.",
      "Refrigerate for 3 hours to overnight. Cut cheesecake into 12 equal pieces; store leftovers in the refrigerator."], 
      "class": { "desserttype": "Hot Dessert", "origin": "Greece"}, 
-     "servings": 12,
+     "servings": "12",
      "preppingTime": "15 minutes",
      "cookingTime": "45 minutes ",
-     "nutrition": { "calorites": 386, "fat": "27g", "carbs": "33g", "protein": "6g"}
+     "nutrition": { "calories": "386", "fat": "27g", "carbs": "33g", "protein": "6g"}
     },
 
     { "id": 2,
@@ -44,51 +44,23 @@
           "Freeze: Place mochi back in the freezer with the twisted plastic wrap side down. Continue with remaining dough and ice cream. Freeze mochi ice cream for at least 1 hour before eating. Once frozen, store it, still wrapped in the plastic wrap, in a freezer safe bag or container in the freezer for up to 3 months.  Allow the dough to slightly thaw before eating."
         ],
         "class": { "desserttype": "Cold Dessert", "origin": "Japan"}, 
-        "servings": 12,
+        "servings": "12",
         "preppingTime": "25min",
         "cookingTime": "3min",
-        "nutrition": {"calories": 70, "fat": "1g", "carbs": "16g", "protein": "1g"}
+        "nutrition": {"calories": "70", "fat": "1g", "carbs": "16g", "protein": "1g"}
     },
 
     {"id": 3,
       "name": "Chocolate Mousse",
       "information":"This classic chocolate mousse is light yet intensely chocolate. Don't be fooled by the French name — it's quick and easy to make!",
         "ingredients": [
-          {
-            "amount": "3 1/2",
-            "unit": "ounces",
-            "item": "dark chocolate (62% cacao is ideal)"
-          },
-          {
-            "amount": "1",
-            "unit": "tablespoon",
-            "item": "unsalted butter"
-          },
-          {
-            "amount": "2",
-            "unit": "large",
-            "item": "egg yolks"
-          },
-          {
-            "amount": "1",
-            "unit": "tablespoon",
-            "item": "white sugar"
-          },
-          {
-            "amount": "1/4",
-            "unit": "cup",
-            "item": "water"
-          },
-          {
-            "amount": "1",
-            "unit": "tiny pinch",
-            "item": "salt"
-          },
-          {
-            "amount": "1/2",
-            "unit": "cup",
-            "item": "chilled heavy whipping cream"
-          }
+          "3 1/2 Ounces of Dark Chocolate (62% Cacao is ideal)",
+          "1 Tablespoon of Unsalted Butter",
+          "2 Large Egg Yolks",
+          "1 Tablespoon of White Sugar",
+          "1/4 cup of Water",
+          "1 Tiny Pinch of Salt",
+          "1/2 cup of Chilled Heavy Whipping Cream"
         ],
         "steps": [
           "Break up or chop chocolate into small pieces and set aside with butter.",
@@ -100,10 +72,10 @@
           "Chef's Note: You can use 1/4 cup water as specified, or you can use another liquid for part of the water, such as a combination of 2 tablespoons water + 2 tablespoons cold coffee, or 3 tablespoons water + 1 tablespoon rum, if you would like a flavor other than pure chocolate for your mousse."
         ],
         "class": { "desserttype": "Cold Dessert", "origin": "Japan"}, 
-        "servings": 4,
+        "servings": "4",
         "preppingTime": "25min",
         "cookingTime": "3min",
-        "nutrition": {"Calories": 415, "Fat": "31g", "Carbs": "34g", "Protein": "5g"}
+        "nutrition": {"calories": "415", "fat": "31g", "carbs": "34g", "protein": "5g"}
       },
 
       {"id": 4,
@@ -141,8 +113,8 @@
         "class": { "desserttype": "Warm Dessert", "origin": "Italy"}, 
         "cookingTime": "5mins",
         "preppingTime": "30mins",
-        "servings": 12,
-        "nutrition": {"Calories": "387", "Fat": "31g", "Carbs": "23g", "Protein": "7g"}
+        "servings": "12",
+        "nutrition": {"calories": "387", "fat": "31g", "carbs": "23g", "protein": "7g"}
       },
 
       {"id": 5,
@@ -170,8 +142,8 @@
       "class": { "desserttype": "Warm Dessert", "origin": "USA"},
       "cookingTime": "5mins",
       "preppingTime": "10mins",
-      "servings": 8,
-      "nutrition": {"Calories": "281", "Fat": "11g", "Carbs": "45g", "Protein": "3g"}
+      "servings": "8",
+      "nutrition": {"calories": "281", "fat": "11g", "carbs": "45g", "protein": "3g"}
     },
 
     {"id": 6,
@@ -201,24 +173,16 @@
       "class": { "desserttype": "Warm Dessert", "origin": "Italy"},
       "cookingTime": "10mins",
       "preppingTime": "10mins",
-      "servings": 8,
-      "nutrition": {"Calories": "547", "Fat": "39g", "Carbs": "41g", "Protein": "11g"}
+      "servings": "8",
+      "nutrition": {"calories": "547", "fat": "39g", "carbs": "41g", "protein": "11g"}
     },
 
     {"id": 7,
       "name": "Donut Ice Cream Sandwiches",
       "information": "These donut ice cream sandwiches begin with a not-so-ordinary maple bacon bar, but butter pecan ice cream inside really takes them over the top. A maple bar will do for the sandwich, but it might be worth the trouble to track down a maple bacon bar. For a treat this good, who would think you'd only need 5 minutes to make them?",
       "ingredients": [
-        {
-          "amount": "1",
-          "unit": "package",
-          "item": "Maple Bacon Bar Donut"
-        },
-        {
-          "amount": "1/2",
-          "unit": "cup",
-          "item": "Butter Pecan Ice Cream"
-        }
+        "1 Maple Bacon Bar Donut",
+        "1/2 Cup of Butter Pecan Ice Cream"
       ],
       "steps": [
         "Cut maple bacon bar in half, then cut each piece in half horizontally.",
@@ -229,74 +193,25 @@
       "class": { "desserttype": "Warm Dessert", "origin": "USA"},
       "cookingTime": "4 hour and 20 minutes",
       "preppingTime": "20 minutes",
-      "servings": 8,
-      "nutrition": { "calories": 712, "fat": "34g", "carbs": "98g", "protein": "8g"}
+      "servings": "8",
+      "nutrition": { "calories": "712", "fat": "34g", "carbs": "98g", "protein": "8g"}
      },
 
      {"id": 8,
       "name": "Butternut Squash Cheesecake",
       "information": "This butternut squash cheesecake is genius—it's lighter, more flavorful, and just as rich and decadent as its pumpkin cheesecake cousin. This one is baked Basque cheesecake-style, hot and fast, needs no crust, and will be nicely browned on top. It may crack, but really, do we care when it is this creamy and delicious?",
       "ingredients": [
-        {
-          "amount": "1",
-          "unit": "large",
-          "item": "Butternut Squash"
-        },
-        {
-          "amount": "16",
-          "unit": "ounces",
-          "item": "Cream Cheese"
-        },
-        {
-          "amount": "3/4",
-          "unit": "cup",
-          "item": "White Sugar"
-        },
-        {
-          "amount": "1/4",
-          "unit": "cup",
-          "item": "All-Purpose Flour"
-        },
-        {
-          "amount": "1/4",
-          "unit": "teaspoon",
-          "item": "kosher salt"
-        },
-        {
-          "amount": "1/4",
-          "unit": "cup",
-          "item": "Maple Syrup"
-        },
-        {
-          "amount": "1/2",
-          "unit": "teaspoon",
-          "item": "Ground Cinnamon"
-        },
-        {
-          "amount": "1/2",
-          "unit": "teaspoon",
-          "item": "Ground Ginger"
-        },
-        {
-          "amount": "1/4",
-          "unit": "teaspoon",
-          "item": "Freshly Grated Nutmeg"
-        },
-        {
-          "amount": "1 1/2",
-          "unit": "teaspoon",
-          "item": "Vanilla Extract"
-        },
-        {
-          "amount": "5",
-          "unit": "large",
-          "item": "Eggs"
-        },
-        {
-          "amount": "1",
-          "unit": "cup",
-          "item": "Heavy Cream"
-        }
+        "1 Large Butternut Squash",
+        "16 Ounces of Cream Cheese",
+        "3/4 Cup of White Sugar",
+        "1/4 Cup of All-Purpose Flour",
+        "1/4 Teaspoon of Kosher Salt",
+        "1/4 Cup of Maple Syrup",
+        "1/2 Teaspoon of Ground Ginger",
+        "1/4 Teaspoon of Freshly Grated Nutmeg",
+        "1 1/2 Teaspoon of Vanilla Extract",
+        "5 Large Eggs",
+        "1 Cup of Heavy Cream"
       ],
       "steps": [
         "Preheat the oven to 400 degrees F (200 degrees C). Oil a 10-inch springform pan, line with parchment, and set aside.",
@@ -316,9 +231,9 @@
       "class": { "desserttype": "Warm Dessert", "origin": "Greece"},
       "cookingTime": "1 hr 50 mins",
       "preppingTime": "15 mins",
-      "servings": 10,
+      "servings": "10",
       "nutrition": {
-        "calories": 392,
+        "calories": "392",
         "fat": "28g",
         "carbs": "29g",
         "protein": "7g"
@@ -349,8 +264,8 @@
     "class": { "desserttype": "Warm Dessert", "origin": "USA"},
       "cookingTime": "Refrigerate 2hr ",
       "preppingTime": "20min",
-      "servings": 12,
-      "nutrition": {"Calories": "211kcal", "Fat": "13g", "Carbs": "20g", "Protein": "2g"}
+      "servings": "12",
+      "nutrition": {"calories": "211", "fat": "13g", "carbs": "20g", "protein": "2g"}
     },
     
     {"id": 10,
@@ -393,8 +308,8 @@
     "class": { "desserttype": "Warm Dessert", "origin": "USA"},
       "cookingTime": "10min",
       "preppingTime": "15min",
-      "servings": 12,
-      "nutrition": {"Calories": "332kcal", "Fat": "15g", "Carbs": "47g", "Protein": "3g"}
+      "servings": "12",
+      "nutrition": {"calories": "332", "fat": "15g", "carbs": "47g", "protein": "3g"}
     },
 
     {"id": 11,
@@ -403,82 +318,21 @@
           "A croquembouche, French for “crunch in the mouth”, is a cone-shaped tower of cream puffs bound together by caramel. Originally served only on the medieval tables of French royalty and nobility, it is now traditionally served at French weddings, baptisms, and christenings. The cream puffs can be filled with various whipped creams and ganaches, but this version goes the classic route of vanilla pastry cream."
           ],
         "ingredients": [
-          {
-            "amount": "6",
-            "unit": "cup",
-            "item": "milk"
-          },
-          {
-            "amount": "2",
-            "unit": "scraped",
-            "item": "vanilla beans"
-          },
-          {
-            "amount": "18",
-            "unit": "whole",
-            "item": "egg yolks"
-          },
-          {
-            "amount": "2 ¼",
-            "unit": "cups",
-            "item": "sugar"
-          },
-          {
-            "amount": "¾",
-            "unit": "cup",
-            "item": "Cornstarch"
-          },
-          {
-            "amount": "3",
-            "unit": "tablespoon",
-            "item": "butter"
-          },
-          {
-            "amount": "4",
-            "unit": "cup",
-            "item": "water"
-          },
-          {
-            "amount": "4",
-            "unit": "sticks",
-            "item": "butter"
-          },
-          {
-            "amount": "2",
-            "unit": "teaspoon",
-            "item": "salt"
-          },
-          {
-            "amount": "6",
-            "unit": "tablespoon",
-            "item": "sugar"
-          },
-          {
-            "amount": "4",
-            "unit": "cup",
-            "item": "flour"
-          },
-          {
-            "amount": "12",
-            "unit": "whole",
-            "item": "eggs"
-          },
-          {
-            "amount": "2",
-            "unit": "cup",
-            "item": "sugar"
-          },
-          {
-            "amount": "2",
-            "unit": "tablespoon",
-            "item": "dark corn syrup"
-          },
-          {
-            "amount": "⅔",
-            "unit": "cup",
-            "item": "water"
-          }
-        
+            "6 cups (1 ½ L) of Milk",
+            "2, scraped Vanilla Beans",
+            "18 Egg Yolks",
+            "2 ¼ cups (450 g) of Sugar",
+            "¾ cup (95 g) of Cornstarch",
+            "3 tablespoons of Butter",
+            "4 cups (945 mL) of Water",
+            "4 sticks of Butter",
+            "2 teaspoons of Salt",
+            "6 tablespoons of Sugar",
+            "4 cups (500 g) of Flour",
+            "12 eggs",
+            "2 cups (400 g) of Sugar",
+            "2 tablespoons of Dark Corn Syrup",
+            "⅔ cup (160 mL) of Water"
         ],
         "steps": [
           "In a pot, heat the milk and vanilla bean pod and seeds over medium heat, bringing it to a boil. Once it begins to boil, turn off the heat and let steep for 15 minutes.",
@@ -507,9 +361,9 @@
           "Once your tower is completed, dip a fork into the caramel sauce and drizzle it around the tower."
         ],
         "class": { "desserttype": "Warm Dessert", "origin": "France"},
-      "cookingTime":  "40minutes mins",
+      "cookingTime":  "40 minutes",
      "preppingTime": " 1 hour",
-    "servings": 30,
+    "servings": "30",
         "nutrition": {
          "calories": "311",
           "fat": "11g",
