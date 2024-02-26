@@ -12,6 +12,12 @@ function Recipelist( {recipe} ){
                     <li key={index}>{ingredients}</li>
                 ))}
             </ul>
+            <p>Steps</p>
+            <ul>
+                {recipe.steps.map((steps, index) => (
+                    <li key={index}>{steps}</li>
+                ))}
+            </ul>
         </div>
         </>
     )
