@@ -10,7 +10,7 @@ function Recipes( {users} ) {
       users.map(i => {
         return (
           <div key={i.num}>
-          <Link href="/">{"Name: " + i.name}</Link>
+          <Link href="/">{i.name}</Link>
           </div>
         )
       })
