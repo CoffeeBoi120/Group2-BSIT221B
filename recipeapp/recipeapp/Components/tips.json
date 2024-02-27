@@ -1,14 +1,42 @@
 [
     {
         "id": 1,
-        "tip": "wow cool tip"
+        "tip": "A little patience in the kitchen ensures a sweet reward on the plate."
     },
     {
         "id": 2,
-        "tip": "wow another cool tip"
+        "tip": "In the art of dessert-making, precision and creativity dance together to create delightful treats."
     },
     {
         "id": 3,
-        "tip": "once again, wow another cool tip"
+        "tip": "The secret ingredient in every successful dessert? Love and attention to detail."
+    },
+    {
+        "id": 4,
+        "tip": "Mastering the art of dessert-making is like mastering life's sweetest moments—one step at a time."
+    },
+    {
+        "id": 5,
+        "tip": "Behind every delicious dessert lies a tale of trial, error, and the determination to perfect."
+    },
+    {
+        "id": 6,
+        "tip": "Dessert-making is not just a skill; it's an expression of passion and creativity."
+    },
+    {
+        "id": 7,
+        "tip": "The sweetest desserts often come from the simplest of ingredients, combined with a sprinkle of ingenuity."
+    },
+    {
+        "id": 8,
+        "tip": "In the kitchen, every mistake is just a flavor waiting to be discovered."
+    },
+    {
+        "id": 9,
+        "tip": "Dessert-making is both an art and a science—a delicate balance of flavors, textures, and temperatures."
+    },
+    {
+        "id": 10,
+        "tip": "The joy of dessert-making lies not only in the finished product but in the journey of creation itself."
     }
 ]
