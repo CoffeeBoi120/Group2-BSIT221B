@@ -14,27 +14,27 @@ function Recipelist( {recipe} ){
             height={500}
             />
             <h2>{recipe.information}</h2>
-            <h3>{"Servings: " + recipe.servings}</h3>
-            <h4>{"Cooking Time: " + recipe.cookingTime}</h4>
-            <h5>{"Prepping Time: " + recipe.preppingTime}</h5>
-            <p>Ingredients</p>
+            <h3>{"Dessert Type: " + recipe.class.desserttype  + ", " + " Origin: " + recipe.class.origin}</h3>
+            <h4>{"Servings: " + recipe.servings}</h4>
+            <h5>{"Cooking Time: " + recipe.cookingTime  + ", " + " Prepping Time: " + recipe.preppingTime}</h5>
+            <text className="title">Ingredients:</text>
             <ul>
                 {recipe.ingredients.map((ingredients, index) => (
-                    <li key={index}>{ingredients}</li>
+                    <li className="list" key={index}>{ingredients}</li>
                 ))}
             </ul>
-            <p>Steps</p>
-            <ul>
+            <text className="title">Steps:</text>
+            <ol>
                 {recipe.steps.map((steps, index) => (
-                    <li key={index}>{steps}</li>
+                    <li className="list" key={index}>{steps}</li>
                 ))}
-            </ul>
-            <p>Nutrition Facts</p>
+            </ol>
+            <text className="title">Nutrition Facts:</text>
             <ul>
-                <li>{"Calories: " + recipe.nutrition.calories}</li>
-                <li>{"Fats: " + recipe.nutrition.fat}</li>
-                <li>{"Carbohydrates: " + recipe.nutrition.carbs}</li>
-                <li>{"Protein: "+ recipe.nutrition.protein}</li>
+                <li className="list">{"Calories: " + recipe.nutrition.calories}</li>
+                <li className="list">{"Fats: " + recipe.nutrition.fat}</li>
+                <li className="list">{"Carbohydrates: " + recipe.nutrition.carbs}</li>
+                <li className="list">{"Protein: "+ recipe.nutrition.protein}</li>
             </ul>
         </div>
         </>

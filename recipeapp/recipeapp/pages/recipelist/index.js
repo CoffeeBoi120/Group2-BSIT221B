@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import fs from 'fs';
 import path from 'path';
+import Image from "next/image";
 
 function Recipes( {recipes} ) {
     return(
@@ -10,7 +11,15 @@ function Recipes( {recipes} ) {
       recipes.map(recipe => {
         return (
           <div key={recipe.id}>
-          <Link href={"/recipelist/" + recipe.id}>{recipe.name}</Link>
+          <Link href={"/recipelist/" + recipe.id}>    
+          <Image
+            src={`/./${recipe.image}`}
+            alt={recipe.name}
+            width={300}
+            height={300}
+            />
+            {recipe.name}
+            </Link>
           </div>
         )
       })
