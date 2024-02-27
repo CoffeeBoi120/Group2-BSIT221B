@@ -7,7 +7,7 @@ function Header() {
            <Link href="/">Dessert Delights </Link>
            <Link href="/home">Home </Link>
            <Link href="/recipelist">Recipes </Link>
-           <Link href="/tips">Tips </Link>
+           <Link href="/quotes">Quotes </Link>
            <Link href="/about">About </Link>
         </div>
         </>
