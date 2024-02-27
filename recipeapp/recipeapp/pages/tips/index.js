@@ -2,17 +2,17 @@ import fs from 'fs';
 import path from 'path';
 
 function Tips( {tips} ) {
+
+        const randomId = Math.floor(
+            Math.random() * tips.length);
+        const tipText = tips[randomId].tip;
+
+
     return(
       <>
-      {
-      tips.map(tips => {
-        return (
-          <div key={tips.id}>
-           <p>{tips.tip}</p>  
+          <div>
+           <p>{tipText}</p>  
           </div>
-        )
-      })
-    }
       </>
     )
   }
