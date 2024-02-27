@@ -4,15 +4,15 @@ import path from 'path';
 import Image from "next/image";
 
 function Recipes( {recipes} ) {
-    return(
-      <>
-      <h1>Recipes</h1>
-      {
-      recipes.map(recipe => {
+  return(
+    <>
+     <h1>Recipes</h1>
+     {
+       recipes.map(recipe => {
         return (
-          <div key={recipe.id}>
-          <Link href={"/recipelist/" + recipe.id}>    
-          <Image
+         <div key={recipe.id}>
+         <Link href={"/recipelist/" + recipe.id}>    
+           <Image
             src={`/./${recipe.image}`}
             alt={recipe.name}
             width={300}
