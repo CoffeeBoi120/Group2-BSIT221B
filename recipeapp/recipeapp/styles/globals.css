@@ -1,0 +1,234 @@
+.indexcontainer{
+    background-image: url("/images/homepagebg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    
+}
+.indexlogo img {
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+.indexnavmenu {
+    margin-right: auto; 
+}
+.indexnavmenu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    
+}
+
+.indexnavmenu ul li {
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.indexnavmenu ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo img {
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3vh;
+}
+.indexcontent{
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.homebox {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column; /* Ensure that the elements stack vertically */
+    justify-content: space-between; /* Push the button to the bottom */
+    align-items: flex-end; /* Align button to the left */
+
+}
+.homebox p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%; 
+}
+.hoverable-button {
+    background-color: #b1b1b1; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.hoverable-button:hover {
+    background-color: #53ce59; /* Darker Green */
+}
+
+
+
+
+
+
+
+
+
+
+/** break break break **/
+
+
+
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 15vh;
+    background-color: #AE5661;
+    
+}
+
+.logo img {
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3vh;
+}
+
+.navmenu {
+    margin-right: auto; 
+    margin-bottom: 3vh;
+
+}
+
+.navmenu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    
+}
+
+.navmenu ul li {
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+.navmenu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center; 
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3vh;
+    margin-right: auto;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    margin-left: 10px; 
+    background-color: #AE5661;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+/** footer footer footer **/
+
+.footercontainer{
+    height: 30vh;
+    width: auto;
+    background-color: #AE5661;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#footerlogo {
+    height: 130px;
+    width: 300px;
+}
+
+.footcont1 {
+    width: auto;
+}
+
+.footcont2 {
+    width: auto;
+}
+
+.footcont3 {
+    width: 100%;
+}
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-icons img {
+    width: 30px; 
+    margin: 0 10px; 
+}
+.footcont2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/** about container **/ 
+
+.container{
+    height: 100vh;
+    background-image: url("/images/marble.jpg");
+    opacity: 0.5;
+}

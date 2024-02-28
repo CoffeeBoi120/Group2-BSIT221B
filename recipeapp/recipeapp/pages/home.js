@@ -1,8 +1,11 @@
 function Home() {
     return(
       <>
-      <p>Home</p>
+        <div className="container">
+            
+        </div>
+      
       </>
     )
   }
-  export default Home
+  export default Home;
