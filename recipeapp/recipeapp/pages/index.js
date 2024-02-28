@@ -5,12 +5,12 @@ function Main() {
       <div className="indexcontainer">
         <div class="navbar1">
             <div class="indexlogo">
-                <img src="images/desertdelightlogo.png" alt="Logo"/>
+            <a href= "/"> <img src="images/desertdelightlogo.png" alt="Logo"/> </a>
             </div>
             <div class="indexnavmenu">
                 <ul>
-                    <li><a href="/home">Recipes</a></li>
-                    <li><a href="/tips">Tips</a></li>
+                    <li><a href="/recipelist">Recipes</a></li>
+                    <li><a href="/services">Services</a></li>
                     <li><a href="/about">About</a></li>
                 </ul>
             </div>

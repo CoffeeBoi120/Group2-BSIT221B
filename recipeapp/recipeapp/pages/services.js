@@ -1,10 +1,10 @@
-function About() {
+function Services() {
     return(
       <>
       <div className="container">
-        <p>About</p>
+        <p>Services</p>
       </div>
       </>
     )
   }
-  export default About
+  export default Services
