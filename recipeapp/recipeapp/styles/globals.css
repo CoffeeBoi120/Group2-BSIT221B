@@ -230,5 +230,5 @@
 .container{
     height: 100vh;
     background-image: url("/images/marble.jpg");
-    opacity: 0.5;
+    opacity: 1;
 }
