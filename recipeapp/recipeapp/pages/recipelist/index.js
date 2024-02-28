@@ -10,7 +10,7 @@ function Recipes( {recipes} ) {
      {
        recipes.map(recipe => {
         return (
-         <div className="container" key={recipe.id}>
+         <div key={recipe.id}>
          <Link href={"/recipelist/" + recipe.id}>    
            <Image
             src={`/./${recipe.image}`}
