@@ -1,7 +1,18 @@
 
+
 function Main() {
+  
   return(
-    <>        
+    <> 
+      <div class="Loading3" id="Loading3"></div>
+
+      <div class="Loading2" id="Loading2"></div>
+
+      <div class="Loading" id="Loading">
+          <img src="images/com-cut-unscreen.gif" alt=""/>
+      </div>
+
+
       <div className="indexcontainer">
         <div class="navbar1">
             <div class="indexlogo">
@@ -9,9 +20,9 @@ function Main() {
             </div>
             <div class="indexnavmenu">
                 <ul>
-                    <li><a href="/recipelist">Recipes</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li><a href="/recipelist" class="nav-item" onclick="appearP2()">Recipes</a></li>
+                    <li><a href="/services" class="nav-item" onclick="appearP2()">Services</a></li>
+                    <li><a href="/about" class="nav-item" onclick="appearP2()">About</a></li>
                 </ul>
             </div>
         </div>
@@ -19,7 +30,7 @@ function Main() {
         <div class="indexcontent">
             <div class="homebox">
                 <p>"Indulge in the symphony of sweetness, for in every bite of dessert, we find a delightful harmony of joy and satisfaction."</p>
-                <a href="/home" className="hoverable-button">Learn More</a>
+                <a href="/home" className="hoverable-button" onclick="appearP2()">Learn More</a>
             </div>
         </div>
       </div>
