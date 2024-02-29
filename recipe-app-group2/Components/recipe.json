@@ -1,0 +1,384 @@
+[
+    { "id": 1,
+      "name":"Oreo Cheesecake", 
+      "image": "images/oreo-cheesecake.jpg",
+     "information":"A rich, buttery Oreo base sits beneath a luscious, ultra-creamy, Oreo-studded cheesecake filling, all topped with whipped cream.", 
+     "ingredients":["24 Oreo Cookies, divided",
+     "3 tablespoons butter, melted",
+     "3 (8 ounce) packages Philadelphia Cream Cheese, softened",
+     "¾ cup sugar",
+     "1 teaspoon vanilla",
+     "3 large eggs"],
+
+    "steps":["Preheat the oven to 350 degrees F (175 degrees C).",
+     "Place 16 cookies in a resealable plastic bag. Flatten bag to remove excess air, then seal bag. Finely crush cookies by rolling a rolling pin across the bag. Place crushed cookies in a bowl. Add melted butter; mix well. Press mixture firmly onto bottom of a 9-inch springform pan.",
+     "Beat cream cheese, sugar, and vanilla in a large bowl with an electric mixer on medium speed until well-blended. Beat in eggs, 1 at a time, until just blended. Chop remaining 8 cookies; gently stir 1/2 of the chopped cookies into cream cheese batter. Pour over prepared crust; sprinkle remaining chopped cookies on top.",
+     "Bake in the preheated oven until center is just set, about 45 minutes.",
+     "Refrigerate for 3 hours to overnight. Cut cheesecake into 12 equal pieces; store leftovers in the refrigerator."], 
+     "class": { "desserttype": "Hot Dessert", "origin": "Greece"}, 
+     "servings": "12",
+     "preppingTime": "15 minutes",
+     "cookingTime": "45 minutes ",
+     "nutrition": { "calories": "386", "fat": "27g", "carbs": "33g", "protein": "6g"}
+    },
+
+    { "id": 2,
+        "name": "Mochi Ice Cream",
+        "image": "images/Mochi-Ice-Cream.jpg",
+        "information":
+          "Homemade Mochi Ice Cream is a sweet and chewy Japanese rice cake filled with your choice of ice cream in a soft, slightly chewy, sweet rice dough. You won't believe how easy it is to make yourself!",
+        "ingredients": [
+          "1 cup glutinous rice flour (Sweet rice flour, I recommend shiratamako or mochiko)",
+          "¼ cup sugar",
+          "2 Tablespoons powdered sugar",
+          "1 cup water",
+          "food coloring , optional, to change the color of the dough",
+          "Cornstarch , or potato starch (for dusting and rolling)",
+          "Ice cream , your favorite kind"
+        ],
+        "steps": [
+          "Freeze ice cream balls:  Line a sheet pan with parchment paper. Working quickly, use a small ice cream scoop to scoop ice cream balls and place them onto the parchment paper.  Be sure to pack the ice cream tightly as you scoop, leaving a flat edge on the ice cream so that it will sit flat on your cookie sheet. Freeze for 1 hour.",
+          "Make mochi: Combine flour, sugar, and powdered sugar in a microwave safe bowl. Add water and stir well until smooth.  Cover the bowl with plastic wrap and microwave mochi dough for 1 minute. Wet your spatula to prevent sticking and use your spatula to repeatedly fold the mixture. Cover and microwave again for 1 minute.  Fold the dough again and microwave for 30 more seconds. The mochi should look slightly shiny and if it doesn't, microwave for 30 more seconds.",
+          "Roll dough: Place a piece of parchment paper on the counter and dust with a layer of cornstarch.  Use a rubber spatula to scrape the mochi dough from the bowl and onto the parchment paper (keep in mind that it will be very hot, so be careful not to touch it. Place the dirty dishes in the sink and soak them in water.",
+          "Dust the top of the dough ball with cornstarch.  Use a rolling pin to roll the mochi dough into a large rectangle. If the dough sticks at all while rolling, continue to dust the top with cornstarch to prevent sticking.  Roll the dough to a thickness of 1/4''.  Place the parchment paper with the rolled out dough onto a sheet pan and refrigerate for 30 minutes.",
+          "Use scissors to cut large squares of plastic wrap (one for each ice cream ball). Each mochi will get wrapped in plastic wrap before freezing.",
+          "Fill the dough: Remove the dough from the fridge and use a round cookie or biscuit cutter (about 3 inch round) to cut circles in the dough.  Your circles need to be big enough to pinch the dough around the ice cream. Pick up one circle of dough and gently brush off the cornstarch from the top (I like to use a dry pastry brush to do this). Working with one scoop of ice cream at a time, keeping the rest in the freezer so they don't melt, place one ice cream scoop in the center of the mochi and gently press the dough around the ice cream.  Pinch the edges of the mochi to seal it. Place mochi on a piece of plastic wrap bringing the corners of the square to the center and twisting tightly at the top to seal it.",
+          "Freeze: Place mochi back in the freezer with the twisted plastic wrap side down. Continue with remaining dough and ice cream. Freeze mochi ice cream for at least 1 hour before eating. Once frozen, store it, still wrapped in the plastic wrap, in a freezer safe bag or container in the freezer for up to 3 months.  Allow the dough to slightly thaw before eating."
+        ],
+        "class": { "desserttype": "Cold Dessert", "origin": "Japan"}, 
+        "servings": "12",
+        "preppingTime": "25min",
+        "cookingTime": "3min",
+        "nutrition": {"calories": "70", "fat": "1g", "carbs": "16g", "protein": "1g"}
+    },
+
+    {"id": 3,
+      "name": "Chocolate Mousse",
+      "image": "images/Chocolate-Mousse.jpg",
+      "information":"This classic chocolate mousse is light yet intensely chocolate. Don't be fooled by the French name — it's quick and easy to make!",
+        "ingredients": [
+          "3 1/2 Ounces of Dark Chocolate (62% Cacao is ideal)",
+          "1 Tablespoon of Unsalted Butter",
+          "2 Large Egg Yolks",
+          "1 Tablespoon of White Sugar",
+          "1/4 cup of Water",
+          "1 Tiny Pinch of Salt",
+          "1/2 cup of Chilled Heavy Whipping Cream"
+        ],
+        "steps": [
+          "Break up or chop chocolate into small pieces and set aside with butter.",
+          "Add egg yolks, sugar, water, and salt to a metal mixing bowl. Cook, whisking, directly over medium-low heat until the mixture is thick, foamy, and hot to the touch (145 to 150 degrees F (63 to 65 degrees C)).",
+          "Once the yolk mixture is thick and hot, add chocolate and butter, and whisk until all chocolate is melted. Let rest for a few minutes on the counter, whisking occasionally to further cool the mixture to just above or at room temperature. The chocolate mixture shouldn’t go into the whipped cream while still warm, but if cooled too long, the mixture may get too firm to fold in.",
+          "Whisk cold cream until medium stiff peaks form. If cream is whisked further, it will separate and the final texture will be grainy.",
+          "Transfer about 1/3 of chocolate mixture into whipped cream, and fold with a spatula until almost incorporated. Gently fold in remaining chocolate, trying to keep as much air in the mixture as possible.",
+          "Transfer into 4 serving dishes, wrap, and chill before serving, at least 1 hour.",
+          "Chef's Note: You can use 1/4 cup water as specified, or you can use another liquid for part of the water, such as a combination of 2 tablespoons water + 2 tablespoons cold coffee, or 3 tablespoons water + 1 tablespoon rum, if you would like a flavor other than pure chocolate for your mousse."
+        ],
+        "class": { "desserttype": "Cold Dessert", "origin": "Japan"}, 
+        "servings": "4",
+        "preppingTime": "25min",
+        "cookingTime": "3min",
+        "nutrition": {"calories": "415", "fat": "31g", "carbs": "34g", "protein": "5g"}
+      },
+
+      {"id": 4,
+        "name": "Tiramisu",
+        "image": "images/Tiramisu.jpg",
+        "information": [
+          "Tiramisu is a classic Italian layered dessert that's easy to make at home with coffee-soaked ladyfingers, a creamy mascarpone custard, and whipped cream. Dust the top of the tiramisu with cocoa powder for an impressive no-bake dessert!",
+          "Classic tiramisu, with its irresistible coffee flavor and lightly sweetened mascarpone, will never go out of style. This tiramisu recipe is a no-bake dessert that's sure to impress even the pickiest of eaters.",
+          "Tiramisu has Italian origins. The famous Italian restaurateur Ado Campeol is credited with its invention in the 1970s. In fact, he was widely known as the father of tiramisu. The word tiramisu translates to pick-me-up." 
+        ],
+        "ingredients": [
+          "6 large egg yolks",
+          "¾ cup white sugar",
+          "⅔ cup milk",
+          "1 ¼ cups heavy cream",
+          "½ teaspoon vanilla extract",
+          "1 pound mascarpone cheese, at room temperature",
+          "¼ cup strong brewed coffee, at room temperature",
+          "2 tablespoons rum",
+          "2 (3 ounce) packages ladyfinger cookies",
+          "1 tablespoon unsweetened cocoa powder"
+        ],
+        "steps": [
+          "Whisk egg yolks and sugar together in a medium saucepan until well blended.",
+          "Whisk in milk and cook over medium heat, stirring constantly, until mixture comes to a boil.",
+          "Boil gently for 1 minute, then remove from the heat and allow to cool slightly.",
+          "Cover tightly and chill in the refrigerator for 1 hour.",
+          "Beat cream and vanilla in a medium bowl with an electric mixer until stiff peaks form.",
+          "Remove egg yolk mixture from the refrigerator; add mascarpone cheese and whisk until smooth.",
+          "Combine coffee and rum in a small bowl. Split ladyfingers in half lengthwise and drizzle with the coffee mixture. Arrange 1/2 of the soaked ladyfingers in the bottom of a 7x11-inch dish.",
+          "Spread 1/2 of the mascarpone mixture over the ladyfingers, then spread 1/2 of the whipped cream over top. Repeat layers once more.",
+          "Sprinkle cocoa powder over top.",
+          "Cover and refrigerate until set, 4 to 6 hours.",
+          "Enjoy!"
+        ],
+        "class": { "desserttype": "Warm Dessert", "origin": "Italy"}, 
+        "cookingTime": "5mins",
+        "preppingTime": "30mins",
+        "servings": "12",
+        "nutrition": {"calories": "387", "fat": "31g", "carbs": "23g", "protein": "7g"}
+      },
+
+      {"id": 5,
+        "name": "Air Fryer Cinnamon Roll Bites",
+        "image": "images/Air-Fryer-Cinnamon-Roll-Bites.jpg",
+      "information": [
+        "They are kid-sized and just a fun way to serve cinnamon rolls. Refrigerated cinnamon rolls are cut into bites, air fried, tossed in cinnamon sugar, and served with an orange-flavored creamy dip."
+      ],
+      "ingredients": [
+        "1 (12.4 ounce) can refrigerated cinnamon rolls (such as Pillsbury™)",
+        "1/4 cup white sugar",
+        "1/2 teaspoon ground cinnamon",        
+        "4 ounces cream cheese, softened",      
+        "3/4 cup confectioner's sugar",      
+        "1 tablespoon freshly grated orange peel",      
+        "1 tablespoon orange juice",      
+        "icing from the cinnamon roll package"
+      ],
+      "steps": [
+        "Preheat an air fryer to 325 degrees F (165 degrees C) according to manufacturer's instructions. Add sugar and cinnamon to a large resealable plastic bag, and shake to combine.",
+        "Remove the 8 cinnamon rolls from the can, and set icing aside. Cut each roll into 4 equal pieces for a total of 32 bites.",      
+        "Line the fryer basket with parchment paper. Place the bites in a single layer in the bottom of the basket, cook for 3 minutes, turn over using tongs, and cook until golden brown, another 2 to 3 minutes. Depending on the brand and size of your air fryer, you may have to cook in batches, and your timing may vary, so watch closely.",    
+        "Meanwhile, prepare the dip. Add cream cheese, confectioner's sugar, orange zest, orange juice, and the packaged icing to a small bowl. Beat with an electric mixer on medium speed until you reach a dipping consistency, about 1 minute.",        
+        "Drop the warm pieces into the sugar-cinnamon mixture, and shake. Transfer to a plate or basket, and serve with the dip."
+      ],
+      "class": { "desserttype": "Warm Dessert", "origin": "USA"},
+      "cookingTime": "5mins",
+      "preppingTime": "10mins",
+      "servings": "8",
+      "nutrition": {"calories": "281", "fat": "11g", "carbs": "45g", "protein": "3g"}
+    },
+
+    {"id": 6,
+      "name": "Cannoli Cream Pie",
+      "image": "images/Cannoli-Pie.jpg",
+      "information": [
+        "It's traditionally made with ricotta cheese and sugar. As we know it today, it also contains heavy whipping cream, whipped and sweetened with sugar. From here on, the recipe varies from person to person! You can also include cinnamon, lemon zest, and chocolate chips."
+      ],
+      "ingredients": [
+        "1 (9-inch) prepared graham cracker crust",
+        "1 cup heavy whipping cream",      
+        "1 (8 ounce) package cream cheese, at room temperature",      
+        "1 cup confectioner's sugar",      
+        "1 1/2 cups full fat ricotta cheese",        
+        "1 teaspoon vanilla extract",      
+        "1/2 teaspoon kosher salt",
+        "1/2 cup chopped lightly salted pistachios",      
+        "1/2 cup mini chocolate chips, plus more for topping"
+      ],
+      "steps": [
+        "Preheat the oven to 325 degrees F(165 degrees C).",
+        "Bake graham cracker crust in the preheated oven until golden brown and fragrant, about 10 minutes. Let cool completely on a wire rack.",    
+        "Add heavy whipping cream to a clean bowl, and beat with an electric mixer to stiff peaks. Set aside.",      
+        "Beat cream cheese and powdered sugar together in another bowl with an electric mixer until smooth. Fold in ricotta, vanilla extract, and salt until thoroughly combined.",
+        "Gently fold whipped cream into ricotta mixture. Gently fold in chopped pistachios and mini chocolate chips.",    
+        "Pour the filing into the prepared pie crust and spread evenly. Chill in the refrigerator for 5 hours or up to overnight. Top with mini chocolate chips to serve."
+      ],
+      "class": { "desserttype": "Warm Dessert", "origin": "Italy"},
+      "cookingTime": "10mins",
+      "preppingTime": "10mins",
+      "servings": "8",
+      "nutrition": {"calories": "547", "fat": "39g", "carbs": "41g", "protein": "11g"}
+    },
+
+    {"id": 7,
+      "name": "Donut Ice Cream Sandwiches",
+      "image": "images/Donut-Ice-Cream-Sandwiches.jpg",
+      "information": "These donut ice cream sandwiches begin with a not-so-ordinary maple bacon bar, but butter pecan ice cream inside really takes them over the top. A maple bar will do for the sandwich, but it might be worth the trouble to track down a maple bacon bar. For a treat this good, who would think you'd only need 5 minutes to make them?",
+      "ingredients": [
+        "1 Maple Bacon Bar Donut",
+        "1/2 Cup of Butter Pecan Ice Cream"
+      ],
+      "steps": [
+        "Cut maple bacon bar in half, then cut each piece in half horizontally.",
+        "Spread the bottom of each bar donut half with butter pecan ice cream.",
+        "Place the cut donut tops onto the ice cream.",
+        "Serve immediately."
+      ],
+      "class": { "desserttype": "Warm Dessert", "origin": "USA"},
+      "cookingTime": "4 hour and 20 minutes",
+      "preppingTime": "20 minutes",
+      "servings": "8",
+      "nutrition": { "calories": "712", "fat": "34g", "carbs": "98g", "protein": "8g"}
+     },
+
+     {"id": 8,
+      "name": "Butternut Squash Cheesecake",
+      "image": "images/Butternut-Squash-Cheesecake.jpg",
+      "information": "This butternut squash cheesecake is genius—it's lighter, more flavorful, and just as rich and decadent as its pumpkin cheesecake cousin. This one is baked Basque cheesecake-style, hot and fast, needs no crust, and will be nicely browned on top. It may crack, but really, do we care when it is this creamy and delicious?",
+      "ingredients": [
+        "1 Large Butternut Squash",
+        "16 Ounces of Cream Cheese",
+        "3/4 Cup of White Sugar",
+        "1/4 Cup of All-Purpose Flour",
+        "1/4 Teaspoon of Kosher Salt",
+        "1/4 Cup of Maple Syrup",
+        "1/2 Teaspoon of Ground Ginger",
+        "1/4 Teaspoon of Freshly Grated Nutmeg",
+        "1 1/2 Teaspoon of Vanilla Extract",
+        "5 Large Eggs",
+        "1 Cup of Heavy Cream"
+      ],
+      "steps": [
+        "Preheat the oven to 400 degrees F (200 degrees C). Oil a 10-inch springform pan, line with parchment, and set aside.",
+        "Line a baking sheet with parchment.",
+        "Cut butternut squash into thick crosswise slices, remove seeds, and place on the lined baking sheet.",
+        "Roast in the preheated oven until very soft, about 1 hour. When cool enough to handle, separate the flesh from the skin; discard skin.",
+        "Mash squash until smooth, measure out 1 1/2 cups, and set aside to cool completely. Reserve any remaining squash for another use.",
+        "Increase the oven temperature to 425 degrees F (220 degrees C).",
+        "Add softened cream cheese, sugar, flour, and salt to a bowl, and cream together with a spatula until very smooth.",
+        "Add maple syrup, 1 1/2 cups mashed butternut squash, cinnamon, ginger, and nutmeg. Mix with an electric mixer or whisk until combined; mix in vanilla.",
+        "Add eggs, one at a time, beating well after each addition. Stir in cream.",
+        "Pour batter into prepared springform pan. Tap the pan lightly on the counter to settle the batter. If the pan is shaken back and forth, the center should wiggle very slightly.",
+        "Bake in the preheated oven until cheesecake is almost fully set, 50 to 60 minutes. The center should wiggle very slightly. If the center seems soupy, continue baking for a few more minutes.",
+        "Remove and let cool for 5 minutes. Run a thin knife between the outside edge of the cheesecake and the inside of the springform ring to release cheesecake from the ring; it will contract as it cools.",
+        "Let cool 30 minutes more, then remove outside ring."
+      ],
+      "class": { "desserttype": "Warm Dessert", "origin": "Greece"},
+      "cookingTime": "1 hr 50 mins",
+      "preppingTime": "15 mins",
+      "servings": "10",
+      "nutrition": {
+        "calories": "392",
+        "fat": "28g",
+        "carbs": "29g",
+        "protein": "7g"
+      }
+    },
+
+    {"id": 9,
+      "name": "Chocolate Trifle",
+      "image": "images/chocolate-trifle.jpg",
+      "information": [
+        "This easy Chocolate Trifle recipe has layers of chocolate cake, chocolate pudding, whipped cream, and crushed heath bars.",
+        "It's every chocolate lover's dream!."
+      ],
+      "ingredients": [
+        "1 chocolate cake (baked in a 9x13 pan)",
+        "1 pint heavy whipping cream",
+        "1/4 cup powdered sugar",
+        "3 cups chocolate pudding homemade or store-bought*",
+        "4-5 heath candy bars* , crushed into small chunks"
+      ],
+      "steps": [
+       "Prepare pudding according to recipe directions.",
+       "Cut the baked chocolate cake into small cubes. (You can use a cake mix for the cake, or make it from scratch, just be sure to bake it in a 9x13'' pan so it's easier to cut into cubes).",
+       "Whip Cream: Place whipping cream in a large mixing bowl. Beat with electric beaters for 1-2 minutes. Slowly add the powdered sugar and continue beating until stiff peaks form. Set aside.",
+       "Assemble: Layer 1/3 of the cake cubes in the bottom of a trifle dish. Dollop 1/3 of the pudding mixture over the cake. Sprinkle 1/3 of the heath bar pieces over the pudding. Spread 1/3 of the whipped cream over the heath bars.",
+       "Repeat with two more layers.",
+       "Refrigerate trifle for 1-2 hours before serving."
+    ],
+    "class": { "desserttype": "Warm Dessert", "origin": "USA"},
+      "cookingTime": "Refrigerate 2hr ",
+      "preppingTime": "20min",
+      "servings": "12",
+      "nutrition": {"calories": "211", "fat": "13g", "carbs": "20g", "protein": "2g"}
+    },
+    
+    {"id": 10,
+      "name": "Red Velvet Cookies",
+      "image": "images/red-velvet-cookies.jpg",
+      "information": [
+        "This easy Red Velvet Cookies recipe is made from scratch and makes the best soft and chewy red velvet cookies with cream cheese frosting sandwiched in the middle.",
+        "They are a crowd favorite!."
+
+      ],
+      "ingredients": [
+        "1 1/2 cups all-purpose flour",
+        "2 Tablespoons unsweetened cocoa powder",
+        "1 teaspoon baking soda",
+        "1/4 teaspoon baking powder",
+        "1/4 teaspoon salt",
+        "1 cup granulated sugar",
+        "1/2 cup unsalted butter , softened",
+        "1 large egg",
+        "1 Tablespoon liquid red food coloring",
+        "Cream Cheese Filling:",
+        "1/4 cup butter",
+        "4 ounces cream cheese , softened",
+        "1 3/4 cups powdered sugar",
+        "1/2 teaspoon vanilla extract"
+      ],
+      "steps": [
+        "For the Red Velvet Cookies:",
+        "Preheat oven to 375 degrees F. Line two cookie sheets with parchment paper.",
+        "Whisk together the flour, cocoa powder, baking soda, baking powder, and salt.",
+        "In a separate mixing bowl, beat together the butter and sugar until light and fluffy. Add the egg and red food coloring and mix to combine.",
+        "Add the dry ingredients and mix on low speed, just until combined.",
+        "Scoop tablespoon size balls onto cookie sheets (should make about 24 cookies). Use a measuring cup or the palm of your hand to gently flatten the balls just slightly.",
+        "Bake until edges start setting, about 8-10 minutes. Cool for 10 minutes on baking sheet before transferring to a wire rack to cool completely.",
+        "Cream Cheese Frosting:",
+        "Beat together the cream cheese and butter until smooth.",
+        "Add powdered sugar and vanilla then mix until smooth. Add more powdered sugar or a splash of milk, if needed, until desired consistency is reached.",
+        "Once the cookies have cooled, add a small spoonful of cream cheese filling onto one cookie. Place another cookie on top and press them together to make a cookie sandwich.",
+        "Store cookies in an airtight container in the refrigerator for up to 1 week."
+    ],
+    "class": { "desserttype": "Warm Dessert", "origin": "USA"},
+      "cookingTime": "10min",
+      "preppingTime": "15min",
+      "servings": "12",
+      "nutrition": {"calories": "332", "fat": "15g", "carbs": "47g", "protein": "3g"}
+    },
+
+    {"id": 11,
+      "name":"Croquembouche",
+      "image": "images/Croquembouche.jpg",
+        "information": [
+          "A croquembouche, French for “crunch in the mouth”, is a cone-shaped tower of cream puffs bound together by caramel. Originally served only on the medieval tables of French royalty and nobility, it is now traditionally served at French weddings, baptisms, and christenings. The cream puffs can be filled with various whipped creams and ganaches, but this version goes the classic route of vanilla pastry cream."
+          ],
+        "ingredients": [
+            "6 cups (1 ½ L) of Milk",
+            "2, scraped Vanilla Beans",
+            "18 Egg Yolks",
+            "2 ¼ cups (450 g) of Sugar",
+            "¾ cup (95 g) of Cornstarch",
+            "3 tablespoons of Butter",
+            "4 cups (945 mL) of Water",
+            "4 sticks of Butter",
+            "2 teaspoons of Salt",
+            "6 tablespoons of Sugar",
+            "4 cups (500 g) of Flour",
+            "12 eggs",
+            "2 cups (400 g) of Sugar",
+            "2 tablespoons of Dark Corn Syrup",
+            "⅔ cup (160 mL) of Water"
+        ],
+        "steps": [
+          "In a pot, heat the milk and vanilla bean pod and seeds over medium heat, bringing it to a boil. Once it begins to boil, turn off the heat and let steep for 15 minutes.",
+          "Using a hand mixer, beat the egg yolks and sugar until light and fluffy, about 2 minutes.",
+          "Add the cornstarch and mix until fully incorporated.",
+          "Remove the vanilla bean pod from the milk. Add ½ cup (120 ml) of the milk to the egg yolk mixture and mix until well combined. Add the remaining milk mixture and beat until fully incorporated.",
+          "Over medium heat, whisk the mixture constantly until thickened, about 7-10 minutes.",
+          "Remove from the heat and add the butter, whisking to combine.",
+          "Strain the custard into a bowl to ensure a creamy custard (optional). Cover the custard with plastic wrap, making sure that the plastic touches the custard, and chill for at least 2 hours.",
+          "Preheat oven to 425˚F (220˚C).",
+          "In a large pot, bring the water, butter, salt, and sugar to a boil over high heat.",
+          "Once the water begins to boil, remove the pot from the heat and immediately add the flour, stirring constantly with a wooden spoon until the liquid is absorbed and the mixture begins to form a ball.",
+          "Return the pot to the heat and cook for another 30 seconds to remove excess moisture. Remove the pot from the heat.",
+          "Working quickly, add the eggs, one at a time, stirring until fully incorporated. Continue stirring until the dough starts to pull away from the sides of the pan and is thick and glossy. Alternatively, you can use a stand mixer with the paddle attachment.",
+          "Using a piping bag with a standard round tip, fill the bag with the batter.",
+          "Place 1-inch (2 cm) dollops on a parchment paper-lined baking sheet, spaced at least 1-inch (2 cm) apart.",
+          "Use a wet fingertip to gently press down any points on the puffs. Brush the egg wash over the puffs.",
+          "Bake for 15 minutes. Reduce heat to 375˚F (190˚C), and bake for 15 minutes.",
+          "Let puffs cool completely.",
+          "Use the bottom of a wooden skewer to create an opening in the bottom of the cream puff shells, just big enough for a piping tip to insert.",
+          "Fill a piping bag fitting with a small round tip with the custard. Gently fill the puff shells with the custard.",
+          "Add the sugar, corn syrup, and water to a pan over medium heat. Bring to a boil and put the lid on, cooking for 5 minutes without moving. Remove the lid and cook for an additional 7-10 minutes, until the caramel is a deep amber color and reaches 300˚F (150˚C).",
+          "Remove the pan from the heat and add the heavy cream, stirring vigorously.",
+          "Working quickly, dip the cream puffs into the caramel and arrange on a serving platter in a circular pattern.",
+          "Continue to stack caramel-dipped cream puffs in a tower shape.",
+          "Once your tower is completed, dip a fork into the caramel sauce and drizzle it around the tower."
+        ],
+        "class": { "desserttype": "Warm Dessert", "origin": "France"},
+      "cookingTime":  "40 minutes",
+     "preppingTime": " 1 hour",
+    "servings": "30",
+        "nutrition": {
+         "calories": "311",
+          "fat": "11g",
+          "carbs": "40g",
+          "protein": "11g"}
+      }
+]
