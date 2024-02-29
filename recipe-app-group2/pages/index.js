@@ -9,14 +9,14 @@ function Main() {
       <div class="Loading2" id="Loading2"></div>
 
       <div class="Loading" id="Loading">
-          <img src="images/com-cut-unscreen.gif" alt=""/>
+          <img src="static/images/com-cut-unscreen.gif" alt=""/>
       </div>
 
 
       <div className="indexcontainer">
         <div class="navbar1">
             <div class="indexlogo">
-            <a href= "/"> <img src="images/desertdelightlogo.png" alt="Logo"/> </a>
+            <a href= "/"> <img src="static/images/desertdelightlogo.png" alt="Logo"/> </a>
             </div>
             <div class="indexnavmenu">
                 <ul>

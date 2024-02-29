@@ -45,7 +45,7 @@
 
 
 .indexcontainer{
-  background-image: url("/images/homepagebg.jpg");
+  background-image: url("/static/images/homepagebg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
