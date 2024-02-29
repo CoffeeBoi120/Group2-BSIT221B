@@ -102,7 +102,7 @@
 
 
 /** break break break **/
-
+/**Header**/
 
 
 
@@ -146,6 +146,10 @@
 .navmenu ul li a {
     text-decoration: none;
     color: #ffffff;
+}
+.navmenu ul li.active:hover {
+    background-color: #f0f0f0;
+    
 }
 
 .search-bar {
