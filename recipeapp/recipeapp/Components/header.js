@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+
 
 function Header() {
     return (
@@ -9,10 +9,10 @@ function Header() {
             </div>
             <nav className="navmenu"> {}
                 <ul>
-                <li className={location.pathname === '/home' ? 'active' : ''}><a href="/home">Home</a></li>
-                    <li className={location.pathname === '/recipelist' ? 'active' : ''}><a href="/recipelist">Recipes</a></li>
-                    <li className={location.pathname === '/services' ? 'active' : ''}><a href="/services">Services</a></li>
-                    <li className={location.pathname === '/about' ? 'active' : ''}><a href="/about">About</a></li>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/recipelist">Recipes</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/about">About</a></li>
                 </ul>
             </nav>
             <div className="search-bar">
