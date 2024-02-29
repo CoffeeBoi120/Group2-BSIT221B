@@ -61,9 +61,9 @@
     width: 600px;
     height: 500px;
     display: flex;
-    flex-direction: column; /* Ensure that the elements stack vertically */
-    justify-content: space-between; /* Push the button to the bottom */
-    align-items: flex-end; /* Align button to the left */
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-end; 
 
 }
 .homebox p {
@@ -74,7 +74,7 @@
     margin-top: 10%; 
 }
 .hoverable-button {
-    background-color: #b1b1b1; /* Green */
+    background-color: #b1b1b1; 
     border: none;
     color: white;
     text-align: center;
@@ -89,7 +89,7 @@
 }
 
 .hoverable-button:hover {
-    background-color: #53ce59; /* Darker Green */
+    background-color: #53ce59;
 }
 
 
