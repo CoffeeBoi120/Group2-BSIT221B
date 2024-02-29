@@ -11,7 +11,7 @@ function Recipes( {recipes} ) {
        recipes.map(recipe => {
         return (
          <div key={recipe.id}>
-         <Link href={"/recipelist/" + recipe.id}>  
+         <Link href={"/recipelist/" + recipe.id}>
            <Image
             src={`/./././${recipe.image}`}
             alt={recipe.name}
