@@ -9,7 +9,7 @@ function Header() {
     return (
         <header className="navbar"> {}
             <div class="logo">
-                <a href= "/"> <img src="images/desertdelightlogo.png" alt="Logo"/> </a>
+                <a href= "/"> <img src="static/images/desertdelightlogo.png" alt="Logo"/> </a>
             </div>
             <nav className="navmenu"> {}
                 <ul>

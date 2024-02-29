@@ -1,7 +1,7 @@
 [
     { "id": 1,
       "name":"Oreo Cheesecake", 
-      "image": "images/oreo-cheesecake.jpg",
+      "image": "static/images/oreo-cheesecake.jpg",
      "information":"A rich, buttery Oreo base sits beneath a luscious, ultra-creamy, Oreo-studded cheesecake filling, all topped with whipped cream.", 
      "ingredients":["24 Oreo Cookies, divided",
      "3 tablespoons butter, melted",
@@ -24,7 +24,7 @@
 
     { "id": 2,
         "name": "Mochi Ice Cream",
-        "image": "images/Mochi-Ice-Cream.jpg",
+        "image": "static/images/Mochi-Ice-Cream.jpg",
         "information":
           "Homemade Mochi Ice Cream is a sweet and chewy Japanese rice cake filled with your choice of ice cream in a soft, slightly chewy, sweet rice dough. You won't believe how easy it is to make yourself!",
         "ingredients": [
@@ -54,7 +54,7 @@
 
     {"id": 3,
       "name": "Chocolate Mousse",
-      "image": "images/Chocolate-Mousse.jpg",
+      "image": "static/images/Chocolate-Mousse.jpg",
       "information":"This classic chocolate mousse is light yet intensely chocolate. Don't be fooled by the French name — it's quick and easy to make!",
         "ingredients": [
           "3 1/2 Ounces of Dark Chocolate (62% Cacao is ideal)",
@@ -83,7 +83,7 @@
 
       {"id": 4,
         "name": "Tiramisu",
-        "image": "images/Tiramisu.jpg",
+        "image": "static/images/Tiramisu.jpg",
         "information": [
           "Tiramisu is a classic Italian layered dessert that's easy to make at home with coffee-soaked ladyfingers, a creamy mascarpone custard, and whipped cream. Dust the top of the tiramisu with cocoa powder for an impressive no-bake dessert!",
           "Classic tiramisu, with its irresistible coffee flavor and lightly sweetened mascarpone, will never go out of style. This tiramisu recipe is a no-bake dessert that's sure to impress even the pickiest of eaters.",
@@ -123,7 +123,7 @@
 
       {"id": 5,
         "name": "Air Fryer Cinnamon Roll Bites",
-        "image": "images/Air-Fryer-Cinnamon-Roll-Bites.jpg",
+        "image": "static/images/Air-Fryer-Cinnamon-Roll-Bites.jpg",
       "information": [
         "They are kid-sized and just a fun way to serve cinnamon rolls. Refrigerated cinnamon rolls are cut into bites, air fried, tossed in cinnamon sugar, and served with an orange-flavored creamy dip."
       ],
@@ -153,7 +153,7 @@
 
     {"id": 6,
       "name": "Cannoli Cream Pie",
-      "image": "images/Cannoli-Pie.jpg",
+      "image": "static/images/Cannoli-Pie.jpg",
       "information": [
         "It's traditionally made with ricotta cheese and sugar. As we know it today, it also contains heavy whipping cream, whipped and sweetened with sugar. From here on, the recipe varies from person to person! You can also include cinnamon, lemon zest, and chocolate chips."
       ],
@@ -185,7 +185,7 @@
 
     {"id": 7,
       "name": "Donut Ice Cream Sandwiches",
-      "image": "images/Donut-Ice-Cream-Sandwiches.jpg",
+      "image": "static/images/Donut-Ice-Cream-Sandwiches.jpg",
       "information": "These donut ice cream sandwiches begin with a not-so-ordinary maple bacon bar, but butter pecan ice cream inside really takes them over the top. A maple bar will do for the sandwich, but it might be worth the trouble to track down a maple bacon bar. For a treat this good, who would think you'd only need 5 minutes to make them?",
       "ingredients": [
         "1 Maple Bacon Bar Donut",
@@ -206,7 +206,7 @@
 
      {"id": 8,
       "name": "Butternut Squash Cheesecake",
-      "image": "images/Butternut-Squash-Cheesecake.jpg",
+      "image": "static/images/Butternut-Squash-Cheesecake.jpg",
       "information": "This butternut squash cheesecake is genius—it's lighter, more flavorful, and just as rich and decadent as its pumpkin cheesecake cousin. This one is baked Basque cheesecake-style, hot and fast, needs no crust, and will be nicely browned on top. It may crack, but really, do we care when it is this creamy and delicious?",
       "ingredients": [
         "1 Large Butternut Squash",
@@ -250,7 +250,7 @@
 
     {"id": 9,
       "name": "Chocolate Trifle",
-      "image": "images/chocolate-trifle.jpg",
+      "image": "static/images/chocolate-trifle.jpg",
       "information": [
         "This easy Chocolate Trifle recipe has layers of chocolate cake, chocolate pudding, whipped cream, and crushed heath bars.",
         "It's every chocolate lover's dream!."
@@ -279,7 +279,7 @@
     
     {"id": 10,
       "name": "Red Velvet Cookies",
-      "image": "images/red-velvet-cookies.jpg",
+      "image": "static/images/red-velvet-cookies.jpg",
       "information": [
         "This easy Red Velvet Cookies recipe is made from scratch and makes the best soft and chewy red velvet cookies with cream cheese frosting sandwiched in the middle.",
         "They are a crowd favorite!."
@@ -324,7 +324,7 @@
 
     {"id": 11,
       "name":"Croquembouche",
-      "image": "images/Croquembouche.jpg",
+      "image": "static/images/Croquembouche.jpg",
         "information": [
           "A croquembouche, French for “crunch in the mouth”, is a cone-shaped tower of cream puffs bound together by caramel. Originally served only on the medieval tables of French royalty and nobility, it is now traditionally served at French weddings, baptisms, and christenings. The cream puffs can be filled with various whipped creams and ganaches, but this version goes the classic route of vanilla pastry cream."
           ],
