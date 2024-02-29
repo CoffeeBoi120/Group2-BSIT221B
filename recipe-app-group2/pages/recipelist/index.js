@@ -12,7 +12,7 @@ function Recipes( {recipes} ) {
         return (
          <div key={recipe.id}>
          <Link href={"/recipelist/" + recipe.id}>
-           <Image
+           <img
             src={`/./././${recipe.image}`}
             alt={recipe.name}
             width={300}

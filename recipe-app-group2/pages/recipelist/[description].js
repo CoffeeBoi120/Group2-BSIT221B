@@ -7,7 +7,7 @@ function Recipelist( {recipe} ){
         <>
         <div key={recipe.id}>
             <h1>{recipe.name}</h1>
-            <Image
+            <img
             src={`/./${recipe.image}`}
             alt={recipe.name}
             width={500}
