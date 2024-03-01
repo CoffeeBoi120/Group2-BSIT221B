@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 
 import "@/styles/globals.css";
 import "@/styles/Home.module.css";
-
+import LoadingScreen from './LoadingScreen';
 
 
 export default function App({ Component, pageProps }) {

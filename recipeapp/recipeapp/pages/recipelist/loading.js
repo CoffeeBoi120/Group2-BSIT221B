@@ -6,7 +6,7 @@ function appearP2() {
   var Mainpage = document.querySelector('.Main');
 
   // Hide Mainpage immediately
-  Mainpage.style.display = 'none';
+  Main.style.display = 'none';
 
   // Add a class to trigger the animation
   Loading.style.left = "0";
@@ -21,7 +21,7 @@ function appearP2() {
       Loading3.style.left = "-100%";
 
       // Show Mainpage when the transition to Loading3 is complete
-      Mainpage.style.display = 'block';
+      Main.style.display = 'block';
   }, 3000);
 }
 
@@ -33,7 +33,7 @@ function appearP1() {
   var Mainpage = document.querySelector('.Main');
 
   // Hide Mainpage immediately
-  Mainpage.style.display = 'none';
+  Main.style.display = 'none';
 
   // Add a class to trigger the animation
   Loading.style.left = "0";
@@ -48,6 +48,6 @@ function appearP1() {
       Loading3.style.left = "-100%";
 
       // Show Mainpage when the transition to Loading3 is complete
-      Homepage.style.display = 'block';
+      Home.style.display = 'block';
   }, 3000);
 }
