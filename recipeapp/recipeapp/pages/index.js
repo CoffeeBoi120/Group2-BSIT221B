@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+import LoadingScreen from '@/Components/loading';
 
 
 function Main() {
@@ -5,12 +7,6 @@ function Main() {
   return(
     <> 
       <div class="Home">
-        <div class="Loading3" id="Loading3"></div>
-        <div class="Loading2" id="Loading2"></div>
-        <div class="Loading" id="Loading">
-            <img src="images/com-cut-unscreen.gif" alt=""/>
-        </div>
-
 
         <div className="indexcontainer">
           <div class="navbar1">
@@ -29,7 +25,7 @@ function Main() {
           <div class="indexcontent">
               <div class="homebox">
                   <p>"Indulge in the symphony of sweetness, for in every bite of dessert, we find a delightful harmony of joy and satisfaction."</p>
-                  <a href="/home" className="hoverable-button" onclick="appearP2()">Learn More</a>
+                  <a href="/home" className="hoverable-button" onclick={handleNavigation}>Learn More</a>
               </div>
           </div>
         </div>

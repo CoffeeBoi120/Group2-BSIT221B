@@ -271,7 +271,7 @@
 }
 
 
-
+/** explore/services container**/ 
 
 
 
@@ -281,4 +281,11 @@
     height: 100vh;
     background-image: url("/images/marble.jpg");
     opacity: 0.5;
+    display: flex;
+    flex-direction: row;
+}
+.leftcont .rightcont{
+    height: 50%;
+    width: 50%;
+    border-color: aqua;
 }

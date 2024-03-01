@@ -57,10 +57,11 @@ function LoadingScreen() {
       }
       
       // Call one of the functions to trigger the loading animation logic
-      appearP1(); // or appearP2();
+      appearP2(); // or appearP2();
     }, []);
+
+   
+}
   
-    return null; // This component doesn't render anything visible
-  }
   
   export default LoadingScreen;
