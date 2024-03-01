@@ -277,13 +277,19 @@
 
 /** about container **/ 
 
-.container{
-  height: 100vh;
-  background-image: url("/static/images/marble.png");
-  opacity: 0.5;
+
+.aboutcontainer{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  width: auto;
+  
 }
-.leftcont .rightcont{
-    height: 100%;
-    width: 50%;
-    border-color: aqua;
+.aboutcontainer img{
+  width: 100px;
+  height: 100px
 }
+
+

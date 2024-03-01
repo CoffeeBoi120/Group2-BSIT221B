@@ -81,3 +81,62 @@
 .hoverable-button:hover {
   background-color: #53ce59; /* Darker Green */
 }
+
+
+
+/** Main **/
+.Main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.headerpic{
+  width: auto;
+  height: 20%;
+}
+
+.cont1 {
+  width: auto;
+  height: 30%;
+}
+
+.cont2 {
+  width: auto;
+  height: 5%;
+}
+
+.cont2 p {
+  text-align: center;
+}
+
+.cont3 {
+  width: auto;
+  height: 5%;
+}
+
+.cont3 img {
+  width: auto;
+}
+
+
+
+/** about **/
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+}
+.leftcont{
+  height: 100%;
+  width: 50%;
+  border-color: aqua;
+}
+.rightcont{
+
+}

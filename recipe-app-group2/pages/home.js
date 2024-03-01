@@ -3,8 +3,16 @@ import React, { useState } from 'react';
 function Home() {
     return(
       <>
-        <div className="container">
-            
+         <div className="Main">
+              <div className="cont1">
+                 <img src="static/images/homepagebg.png" id="headerpic" alt="Logo"/> 
+              </div>
+          <div className="cont2">
+            <p>aaaaaaaaaaaaa</p>
+          </div>
+          <div className="cont3">
+            <a href= "/"> <img src="border" alt="Logo"/> </a>
+          </div>
         </div>
       
       </>

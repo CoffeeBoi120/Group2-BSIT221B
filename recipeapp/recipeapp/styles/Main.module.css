@@ -3,22 +3,26 @@
     justify-content: space-around;
     align-items: center;
     height: 100vh;
+    width: auto;
 }
 
 .cont1{
     width: auto;
-    height: 20%;
+    height: 30%
 }
-.cont2,
-.cont3 {
-    text-align: center;
-    padding: 20px;
-    border: 2px solid #000;
-    border-radius: 10px;
-}
+.cont2{
+    width: auto;
+    height: 5%;
 
-.cont1 img,
-.cont3 img {
-    width: 100px;
-    height: 100px;
+}
+.cont2 .p{
+    text-align: center;
+}
+.cont3 {
+    width: auto;
+    height: 5%;
+}
+.cont3 .img{
+    width: auto;
+    
 }
