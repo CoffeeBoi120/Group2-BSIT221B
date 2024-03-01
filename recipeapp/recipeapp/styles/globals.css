@@ -285,7 +285,7 @@
     flex-direction: row;
 }
 .leftcont .rightcont{
-    height: 50%;
+    height: 100%;
     width: 50%;
     border-color: aqua;
 }

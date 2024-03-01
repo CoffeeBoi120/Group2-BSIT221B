@@ -1,4 +1,9 @@
+import LoadingScreen from '@/Components/loading';
+import { useRouter } from 'next/router';
+
 function About() {
+
+  
     return(
       <>
       <div className="container">

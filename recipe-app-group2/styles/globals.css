@@ -282,3 +282,8 @@
   background-image: url("/static/images/marble.png");
   opacity: 0.5;
 }
+.leftcont .rightcont{
+    height: 100%;
+    width: 50%;
+    border-color: aqua;
+}
