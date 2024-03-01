@@ -289,3 +289,24 @@
     width: 50%;
     border-color: aqua;
 }
+
+
+
+
+
+
+
+
+
+/**HOME **/
+.Main{
+    display: flex;
+    flex-direction: column;
+
+}
+.Main img {
+    width: 300px;
+    height: auto; 
+    margin-top: 20px;
+}
+

@@ -6,7 +6,7 @@ import Image from "next/image";
 function Recipes( {recipes} ) {
   return(
     <>
-     <h1>aaa</h1>
+     <h1>Recipes</h1>
      {
        recipes.map(recipe => {
         return (
