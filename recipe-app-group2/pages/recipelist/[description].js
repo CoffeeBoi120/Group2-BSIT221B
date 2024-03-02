@@ -14,8 +14,7 @@ function Recipelist( {recipe} ){
                         <img
                         src={`/./${recipe.image}`}
                         alt={recipe.name}
-                        width={500}
-                        height={500}
+                       
                         className={styles.recipeImage}
                         />
                     </div>

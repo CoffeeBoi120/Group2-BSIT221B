@@ -7,17 +7,22 @@ import styles from "@/styles/Home.module.css";
 function Recipes( {recipes} ) {
   return(
     <>
-    <div className={styles.mainp}>
+    <div className={styles.MainPage}>
 
-      <div className={styles.mainpagehead}> 
+      <div className={styles.HeaderPic}> 
         <img src="/static/images/mainheader.png" alt="" />
       </div>
 
-      <div className={styles.secondhead}> 
+      <div className={styles.HeaderText}> 
         <p>"In the world of desserts, every bite is a chapter in the book of indulgence, where each page unfolds a tale of sweet satisfaction and culinary delight."</p>
       </div>
 
-      <div className={styles.mainpagecont}> 
+      <div className={styles.ContentTitle}> 
+        <p>Recipes</p>
+      </div>
+
+
+      <div className={styles.MainContent}> 
        
         {
           recipes.map(recipe => {
@@ -29,8 +34,7 @@ function Recipes( {recipes} ) {
               <img
                 src={`/./././${recipe.image}`}
                 alt={recipe.name}
-                width={300}
-                height={300}
+                
                 />
                 <p className={styles.recipeName}>{recipe.name}</p>
                 </Link>

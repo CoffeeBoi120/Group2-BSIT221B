@@ -1,18 +1,18 @@
 import React from 'react';
 import styles from "@/styles/Home.module.css"; // Ensure correct path to your CSS module
 
-function Services() {
+function Explore() {
     return(
    
-      <div className={styles.servicescontainer}>
-        <p>Services</p>
+      <div className={styles.explorecontainer}>
+        <p>Explore</p>
       </div>
     
     )
   }
-  export default Services
+  export default Explore
 
-  Services.getLayout = function PageLayout(page){
+  Explore.getLayout = function PageLayout(page){
     return(
       <>
       {page}

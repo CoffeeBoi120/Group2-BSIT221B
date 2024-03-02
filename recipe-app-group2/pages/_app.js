@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
 
     const handleStart = (url) => {
       // Check if navigating back to the index page
-      if (router.pathname === '/about' || router.pathname === '/services' || router.pathname === '/home') {
+      if (router.pathname === '/about' || router.pathname === '/explore' || router.pathname === '/home') {
         setIsLoading(true); // Set loading state to true only for index page navigation
       }
     };
