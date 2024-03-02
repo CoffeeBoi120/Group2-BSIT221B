@@ -2,6 +2,7 @@ import Link from 'next/link'
 import fs from 'fs';
 import path from 'path';
 import Image from "next/image";
+import "@/styles/Home.module.css";
 
 function Recipes( {recipes} ) {
   return(
