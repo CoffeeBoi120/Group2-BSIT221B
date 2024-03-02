@@ -84,52 +84,6 @@
 
 
 
-/** Main **/
-.Main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: auto;
-  width: auto;
-}
-
-.headerpic{
-  width: auto;
-  height: 20%;
-}
-
-.cont1 {
-  width: auto;
-  height: 30%;
-}
-
-.cont2 {
-  width: auto;
-  height: 5%;
-}
-
-.cont2 p {
-  text-align: center;
-}
-
-.cont3 {
-  width: auto;
-  height: 5%;
-}
-
-.cont3 img {
-  width: auto;
-}
-
-/**services**/
-.servicescontainer{
-  width: auto;
-  height: 100vh;
-}
-
-
-
-
 
 
 
@@ -181,3 +135,173 @@
 }
 
 
+
+
+/** MAINPAGE **/
+
+
+
+/** descriptipon**/
+.mainp{
+  display: flex;
+  flex-direction: column; /* Display the elements in a column */
+  align-items: center; /* Center the items horizontally */
+}
+
+.mainpagehead {
+  width: 100%;
+  height: 25%;
+  max-height: 30vh; /* Ensure the height does not exceed 30vh */
+}
+
+.mainpagehead img {
+  width: 100%;
+  height: 100%; /* Make the image fill the entire height of its container */
+  object-fit: cover; /* Ensure the image covers the entire container */
+
+}
+.secondhead{
+  text-align: center;
+}
+
+.mainpagecont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin-top: 30%;
+  height: auto;
+ 
+}
+
+.mainpagecont div {
+  flex: 0 0 50%; 
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.mainpagecont img {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+.topContainer{
+  width: auto;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.topContainer .rightContain,.leftContain{
+  width: 30%;
+  height: 100%;
+  margin: 0 10px;
+}
+.rightContain{
+  border: 1px solid #c54646;
+}
+.leftContain{
+  border: 1px solid #1a8fdd;
+}
+
+.recipeImage {
+  width: 350px;
+  height: 400px;
+  display: block; 
+  margin: auto; 
+}
+
+.recipe-name {
+  font-size: 24px;
+  color: #333;
+}
+
+.title{
+  font-size: 20px;
+}
+
+
+.middleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add margin top to create space */
+}
+
+.middleContainer img {
+  width: 40%; /* Ensure the image takes up the full width of its container */
+  height: 15vh; /* Maintain aspect ratio */
+}
+
+.bottomContainer{
+  height: auto; /* Adjust the height as needed */
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1a8fdd;
+  margin: 20px auto;
+}
+
+/* H3 styling */
+.bottomContainer h3 {
+  font-size: 30px;
+  color: #333;
+  /* Add any other styles you want */
+}
+
+/* H4 styling */
+.bottomContainer h4 {
+  font-size: 20px;
+  color: #666;
+  /* Add any other styles you want */
+}
+
+/* H5 styling */
+.bottomContainer h5 {
+  font-size: 18px;
+  color: #999;
+  /* Add any other styles you want */
+}
+
+/* Title styling */
+.bottomContainer .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #444;
+  /* Add any other styles you want */
+}
+.bottomContainer ul, .ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* LI styling */
+.bottomContainer ul li {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #000000;
+  /* Add any other styles you want */
+}
+.bottomContainer ol li {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #000000;
+  /* Add any other styles you want */
+}
+
+
+
+.bottomBorder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+.bottomBorder img {
+  width: 50%; /* Ensure the image takes up the full width of its container */
+  height: 20vh; /* Maintain aspect ratio */
+}
