@@ -13,8 +13,8 @@ function Main() {
             <div class="indexnavmenu">
                 <ul>
                     <li><a href="/recipelist" class="nav-item" onclick="appearP2()">Recipes</a></li>
-                    <li><a href="/services" class="nav-item" onclick="appearP2()">Services</a></li>
-                    <li><a href="/about" class="nav-item" onclick="appearP2()">About</a></li>
+                    <li><a href="/services" class="nav-item" onclick="Loading()">Services</a></li>
+                    <li><a href="/about" class="nav-item" onclick="Loading()">About</a></li>
                 </ul>
             </div>
         </div>

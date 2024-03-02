@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
     
     const timeout = setTimeout(() => {
       setIsLoading(false);
-    }, 3000); 
+    }, 2600); 
 
     
     return () => clearTimeout(timeout);
