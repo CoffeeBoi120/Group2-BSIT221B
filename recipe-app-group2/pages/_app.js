@@ -2,7 +2,7 @@ import Footer from '@/Components/footer';
 import Header from '/Components/header';
 import { useRouter } from 'next/router';
 import React, { useState, useEffect } from 'react';
-import Loading from '/./components/loading';
+import Loading from '/Components/loading';
 import "@/styles/globals.css";
 import "@/styles/Home.module.css";
 
