@@ -1,10 +1,9 @@
 
-
 function Main() {
   
   return(
     <> 
-    
+
       <div className="indexcontainer">
         <div class="navbar1">
             <div class="indexlogo">
@@ -22,7 +21,7 @@ function Main() {
         <div class="indexcontent">
             <div class="homebox">
                 <p>"Indulge in the symphony of sweetness, for in every bite of dessert, we find a delightful harmony of joy and satisfaction."</p>
-                <a href="/recipelist" className="hoverable-button" >Learn More</a>
+                <a href="/recipelist" className="hoverable-button" onclick="appearP2()">Learn More</a>
             </div>
         </div>
       </div>
