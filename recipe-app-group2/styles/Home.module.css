@@ -121,17 +121,34 @@
   width: auto;
 }
 
+/**services**/
+.servicescontainer{
+  width: auto;
+  height: 100vh;
+}
+
+
+
+
+
+
+
 
 
 /** about **/
 
 .aboutcontainer{
-  height: 100vh;
+  height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center; 
   margin: 5% 5% 5% 5%;
+}
+.aboutmaincomp{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 .leftcont{
   height: 90%;
@@ -157,13 +174,8 @@
   align-items: center;
 }
   
-
-.abovecont{
-  width: auto;
-  height: 5%;
-}
 .abovecont .img2{
-  width: 700px;
-  height: 5%;
+  height: 100%;
+  width: 500px;
  
 }
