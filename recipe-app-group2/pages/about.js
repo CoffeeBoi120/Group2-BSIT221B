@@ -1,22 +1,26 @@
-import React, { useState } from 'react';
-
+import React from 'react';
+import styles from "@/styles/Home.module.css"; // Ensure correct path to your CSS module
 
 function About() {
-    return(
-      <>
-      <div className="aboutcontainer">
-        <div className="leftcont">
-          <p> wwwwwwwww</p>
-        </div>
+    return (
+        <div className={styles.aboutcontainer}>
+            
+            <div className={styles.leftcont}>
+                <p>Nice to meet you!!</p>
+            </div>
 
-        <div className="rightcont">
-          <img src="static/images/eatdess.jpg" id="footerlogo" alt="Logo"/>
+            <div className={styles.rightcont}>
+                <img src="static/images/eatdess.jpg" className={styles.img} alt="Logo" />
+            </div>
+
+            <div className={styles.abovecont}>
+              <img src="static/images/aboveborder.jpg" className={styles.img2} alt="" />
+            </div>
         </div>
-      </div>
-      </>
-    )
-  }
-  export default About
+    );
+}
+
+export default About;
 
   About.getLayout = function PageLayout(page){
     return(

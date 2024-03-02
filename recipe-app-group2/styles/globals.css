@@ -278,18 +278,3 @@
 /** about container **/ 
 
 
-.aboutcontainer{
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; 
-  width: auto;
-  
-}
-.aboutcontainer img{
-  width: 100px;
-  height: 100px
-}
-
-
