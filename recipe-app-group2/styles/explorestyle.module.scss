@@ -1,20 +1,35 @@
 .explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: auto; /* Set height to fill the viewport vertically */
+  width: 100%; /* Fill the entire width of the parent container */
+
+  .tips {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    height: auto; /* Set height to fill the viewport vertically */
+    width: auto;
+    height: auto;
+
+
+    .tips1, .tips2, .tips3, .tips4, .tips5, .tips6, .tips7, .tips8, .tips9, .tips10 {
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
   }
-  
-  .icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; /* Center items horizontally within the row */
-    gap: 20px; /* Add margin between images */
-  }
-  
-  .icons img {
-    width: 100px;
-    height: 100px;
-  }
- 
+
+    
+
+.right {
+    width: calc(50% - 10px); /* Adjust the width of each image */
+    margin-bottom: 10px; /* Add some vertical spacing between images */
+    height: 100px; /* Set the height of each image */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+    object-position: center; /* Center images within their containers */
+}
+}
