@@ -6,7 +6,7 @@ function About() {
         <div className={styles.aboutcontainer}>
 
           <div className={styles.abovecont}>
-                <img src="static/images/abovebord.jpg" className={styles.img2} alt="Logo" />
+                <img src="static/images/topborder.jpg" className={styles.img2} alt="Logo" />
           </div>
 
           <div className={styles.aboutmaincomp}>
@@ -19,7 +19,9 @@ function About() {
                   <img src="static/images/eatdess.jpg" className={styles.img} alt="Logo" />
               </div>
           </div>
-
+          <div className={styles.botcont}>
+                <img src="static/images/bottomborder.jpg" className={styles.img2} alt="Logo" />
+          </div>
             
         </div>
     );

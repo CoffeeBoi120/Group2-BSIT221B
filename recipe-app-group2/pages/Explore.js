@@ -1,11 +1,28 @@
 import React from 'react';
-import styles from "@/styles/Home.module.css"; // Ensure correct path to your CSS module
+import styles from "@/styles/Home.module.css";
 
 function Explore() {
     return(
    
       <div className={styles.explorecontainer}>
-        <p>Explore</p>
+        <div className={styles.icons}>
+
+
+        </div>
+
+        <div className={styles.exploretopborder}> 
+          <img src="/static/images/topborder.jpg" alt="" />
+        </div>
+
+        <div className={styles.tips}>
+
+
+        </div>
+
+        <div className={styles.exploretopborder}> 
+          <img src="/static/images/bottomborder.jpg" alt="" />
+        </div>
+
       </div>
     
     )

@@ -24,8 +24,8 @@ function Recipelist( {recipe} ){
                     </div>
                 </div>
                     
-                <div className={styles.middleContainer}>
-                    <img src="/static/images/upbordermain.png" alt="" />
+                <div className={styles.topBorder}>
+                    <img src="/static/images/topborder.jpg" alt="" />
                 </div >
                 
                 
@@ -56,7 +56,7 @@ function Recipelist( {recipe} ){
                 </div>
 
                 <div className={styles.bottomBorder}>
-                    <img src="/static/images/botbordermain.png" alt="" />
+                    <img src="/static/images/bottomborder.jpg" alt="" />
                 </div >
 
             </div>

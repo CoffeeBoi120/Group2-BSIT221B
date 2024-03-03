@@ -13,8 +13,12 @@ function Recipes( {recipes} ) {
         <img src="/static/images/mainheader.png" alt="" />
       </div>
 
-      <div className={styles.HeaderText}> 
+      <div className={styles.Headcont}> 
         <p>"In the world of desserts, every bite is a chapter in the book of indulgence, where each page unfolds a tale of sweet satisfaction and culinary delight."</p>
+      </div>
+
+      <div className={styles.Borderabove}> 
+        <img src="/static/images/topborder.jpg" alt="" />
       </div>
 
       <div className={styles.ContentTitle}> 
@@ -43,6 +47,12 @@ function Recipes( {recipes} ) {
           })
         }
       </div>
+
+      <div className={styles.Borderbottom}> 
+        <img src="/static/images/bottomborder.jpg" alt="" />
+      </div>
+
+
     </div>
   
     </>
