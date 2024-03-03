@@ -7,7 +7,7 @@ import styles from "@/styles/mainpagestyle.module.scss";
 function Recipes( {recipes} ) {
   return(
     <>
-    <div className={styles.MainPage}>
+    <div className={styles.Main}>
 
       <div className={styles.HeaderPic}> 
         <img src="/static/images/mainheader.png" alt="" />

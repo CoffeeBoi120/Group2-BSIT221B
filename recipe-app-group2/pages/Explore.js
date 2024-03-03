@@ -28,9 +28,9 @@ function Explore() {
 
       </div>
     
-    )
+    );
   }
-  export default Explore
+  export default Explore;
 
   Explore.getLayout = function PageLayout(page){
     return(
