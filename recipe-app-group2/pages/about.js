@@ -38,7 +38,6 @@ function About() {
             <div className={styles.about3}>
 
                 <div className={styles.rightcont}>
-                    <h2>Nice to meet you!!</h2>
                     <p>Join us on a culinary adventure where every dessert is a celebration of life's sweet moments. Whether shared with loved ones or savored in solitude, our desserts are more than just treats – they're expressions of joy, comfort, and the simple pleasures that make life deliciously memorable.</p>
                 </div>
 
