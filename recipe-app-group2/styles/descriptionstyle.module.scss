@@ -63,14 +63,14 @@ $borderColorLeft: #1a8fdd;
 // SCSS for .bottomContainer
 .bottomContainer {
   height: auto;
-  width: 70%;
+  width: 60%;
   justify-content: center;
   align-items: center;
   border: 1px solid #1a8fdd;
   margin: 20px auto;
 
   h3 {
-    font-size: 30px;
+    font-size: 50px;
     color: #333;
   }
 
@@ -85,26 +85,28 @@ $borderColorLeft: #1a8fdd;
   }
 
   .title {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     color: #444;
+    
   }
 
   ul, ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-top: 20px;
   }
 
   ul li {
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 25px;
     color: #000000;
   }
 
   ol li {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 25px;
     color: #000000;
   }
 }

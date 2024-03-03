@@ -17,7 +17,7 @@ function About() {
               </div>
 
               <div className={styles.rightcont}>
-                  <img src="static/images/eatdess.jpg" className={styles.img} alt="Logo" />
+                  <img src="static/images/eatcookie.gif" className={styles.img} alt="Logo" />
               </div>
               
           </div>
