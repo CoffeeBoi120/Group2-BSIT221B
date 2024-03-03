@@ -16,6 +16,18 @@ function Recipes( {recipes} ) {
       <div className={styles.Headcont}> 
         <p>"In the world of desserts, every bite is a chapter in the book of indulgence, where each page unfolds a tale of sweet satisfaction and culinary delight."</p>
       </div>
+      
+      <div className={styles.icons}>
+          <img src="/static/images/cakeicon.png" alt="" />
+          <img src="/static/images/chocolateicon.png" alt="" />
+          <img src="/static/images/cookieicon.png" alt="" />
+          <img src="/static/images/tarticon.png" alt="" />
+          <img src="/static/images/frozenicon.png" alt="" />
+          <img src="/static/images/puddingicon.png" alt="" />
+          <img src="/static/images/pastryicon.png" alt="" />
+          <img src="/static/images/candyicon.png" alt="" />
+          <img src="/static/images/fruiticon.png" alt="" />
+        </div>
 
       <div className={styles.Borderabove}> 
         <img src="/static/images/topborder.jpg" alt="" />

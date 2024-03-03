@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/descriptionstyle.module.scss";
 
 function Recipelist( {recipe} ){
     return(
