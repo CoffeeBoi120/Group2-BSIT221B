@@ -1,3 +1,5 @@
+import React from 'react';
+import styles from "@/styles/indexstyle.module.scss";
 
 function Main() {
   

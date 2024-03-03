@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from "@/styles/Home.module.css"; // Ensure correct path to your CSS module
+import styles from "@/styles/aboutstyle.module.scss";
+
 
 function About() {
     return (
@@ -18,7 +19,10 @@ function About() {
               <div className={styles.rightcont}>
                   <img src="static/images/eatdess.jpg" className={styles.img} alt="Logo" />
               </div>
+              
           </div>
+
+
           <div className={styles.botcont}>
                 <img src="static/images/bottomborder.jpg" className={styles.img2} alt="Logo" />
           </div>

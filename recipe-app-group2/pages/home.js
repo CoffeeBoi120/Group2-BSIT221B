@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "@/styles/Home.module.css";
+import "@/styles/mainpagestyle.module.scss";
 
 function Home() {
     return(
