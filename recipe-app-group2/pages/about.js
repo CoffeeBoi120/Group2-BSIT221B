@@ -4,13 +4,13 @@ import styles from "@/styles/aboutstyle.module.scss";
 
 function About() {
     return (
-        <div className={styles.aboutcontainer}>
+        <div className={styles.about}>
 
-          <div className={styles.abovecont}>
+          <div className={styles.aboveborder}>
                 <img src="static/images/topborder.jpg" className={styles.img2} alt="Logo" />
           </div>
 
-          <div className={styles.aboutmaincomp}>
+          <div className={styles.aboutcontainer}>
 
               <div className={styles.leftcont}>
                   <p>Nice to meet you!!</p>
@@ -23,7 +23,7 @@ function About() {
           </div>
 
 
-          <div className={styles.botcont}>
+          <div className={styles.bottomborder}>
                 <img src="static/images/bottomborder.jpg" className={styles.img2} alt="Logo" />
           </div>
             

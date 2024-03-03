@@ -1,6 +1,6 @@
 
 
-.aboutcontainer{
+.about{
     height: auto;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     justify-content: center; 
     height: auto;
   
-      .aboutmaincomp{
+      .aboutcontainer{
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -38,7 +38,7 @@
       }
     }
         
-      .abovecont{
+      .abovecontainer{
         width: auto;
         height: auto;
         display: flex;
@@ -46,12 +46,12 @@
         align-items: center;
         margin-top: 20px;
       
-      .abovecont img{
+      .abovecontainer img{
         width: 80%;
         height: auto;
       }
       
-      .botcont{
+      .bottomborder{
         width: auto;
         height: auto;
         display: flex;
@@ -61,7 +61,7 @@
       
       
       }
-      .bottomcont img{
+      .bottomborder img{
         width: 60%;
         height: auto;
       }

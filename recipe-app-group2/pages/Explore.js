@@ -4,7 +4,7 @@ import styles from "@/styles/explorestyle.module.scss";
 function Explore() {
     return(
    
-      <div className={styles.explorecontainer}>
+      <div className={styles.explore}>
 
         <div className={styles.icons}>
           <img src="/static/images/cakeicon.png" alt="" />
