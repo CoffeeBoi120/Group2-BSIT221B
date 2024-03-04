@@ -1,6 +1,7 @@
 // Tip.js
 
 import React from 'react';
+import styles from "@/styles/tipstyle.module.scss";
 
 function Tip({ text, imageSrc, alt }) {
     return (

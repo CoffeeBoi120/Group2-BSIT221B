@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "@/styles/explorestyle.module.scss";
+import Tip from "./tip";
 
 function Explore() {
     return(
