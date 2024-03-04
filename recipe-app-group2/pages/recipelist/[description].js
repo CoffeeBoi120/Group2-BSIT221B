@@ -3,7 +3,7 @@ import path from 'path';
 import Image from "next/image";
 import styles from "@/styles/descriptionstyle.module.scss";
 import Background from '@/Components/backgroundimg';
-
+import {Topborder,Bottomborder } from '@/Components/border';
 
 function Recipelist( {recipe} ){
     return(
@@ -26,9 +26,7 @@ function Recipelist( {recipe} ){
                     </div>
                 </div>
                     
-                <div className={styles.topBorder}>
-                    <img src="/static/images/topbor.png" alt="" />
-                </div >
+                <Topborder/>
                 
                 
 
@@ -57,9 +55,7 @@ function Recipelist( {recipe} ){
                     </ul>
                 </div>
 
-                <div className={styles.bottomBorder}>
-                    <img src="/static/images/bottombor.png" alt="" />
-                </div >
+                <Bottomborder/>
 
             </div>
         </div>

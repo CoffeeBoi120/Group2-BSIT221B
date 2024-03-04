@@ -65,18 +65,6 @@ $borderColorLeft: #1a8fdd;
 }
 
 
-.topBorder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-
-  img {
-    width: 80%;
-    height: auto;
-  }
-}
-
 
 .bottomContainer {
   height: auto;
@@ -128,15 +116,3 @@ $borderColorLeft: #1a8fdd;
   }
 }
 
-
-.bottomBorder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-
-  img {
-    width: 80%; 
-    height: auto;
-  }
-}
