@@ -83,33 +83,33 @@ function Explore() {
 
             <div className={styles.problem}>
                 <Problems
-                    imageSrc="/static/images/exploreimg1.webp"
+                    imageSrc="/static/images/prob1.jpg"
                     alt="Logo"
                     text="Flat Cakes or Muffins: Overmixing the batter or using expired leavening agents can cause cakes and muffins to become flat."
                 />
                 <Problems
-                    imageSrc="/static/images/exploreimg2.jpg"
+                    imageSrc="/static/images/prob2.jpg"
                     alt="Logo"
                     text="Cracked Cheesecakes: Overmixing the cheesecake batter or baking at too high a temperature can lead to cracks."
                 />
                 <Problems
-                    imageSrc="/static/images/exploreimg1.webp"
+                    imageSrc="/static/images/prob3.jpg"
                     alt="Logo"
                     text="Burnt Cookies: Overbaking cookies or baking at too high a temperature can cause them to burn."
                 />
                 <Problems
-                    imageSrc="/static/images/exploreimg1.webp"
+                    imageSrc="/static/images/prob4.jpg"
                     alt="Logo"
                     text="Soggy Bottoms: Underbaked pastries or pies can result in soggy bottoms. Blind baking crusts before filling can help prevent this."
                 />
                 <Problems
-                    imageSrc="/static/images/exploreimg1.webp"
+                    imageSrc="/static/images/prob5.jpg"
                     alt="Logo"
                     text="Tough Bread: Over-kneading or using too much flour can result in tough bread."
                    
                 />
                 <Problems
-                    imageSrc="/static/images/exploreimg1.webp"
+                    imageSrc="/static/images/prob6.jpg"
                     alt="Logo"
                     text="Sunken Cakes: Opening the oven door too soon or using expired leavening agents can cause cakes to sink in the middle."
                 />
