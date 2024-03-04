@@ -1,4 +1,6 @@
 import React from 'react';
+import SearchComponent from '@/Components/SearchComponent';
+import recipeData from '@/Components/recipe.json';
 
 
 function Header() {
@@ -16,8 +18,7 @@ function Header() {
                 </ul>
             </nav>
             <div className="search-bar">
-                <input type="text" placeholder="Search..." />
-                <button type="submit">Search</button>
+            <SearchComponent data={recipeData} />
             </div>
         </header>
     );
