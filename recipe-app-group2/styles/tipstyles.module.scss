@@ -1,0 +1,78 @@
+.tip {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .left {
+        display: flex; /* Make .left a flex container */
+        justify-content: center; /* Center its children horizontally */
+        align-items: center; /* Center its children vertically */
+        width: 30%;
+        border: 2px solid rgb(209, 127, 21);
+        height: 300px;
+
+        p {
+            text-align: center; /* Center the text within the paragraph */
+            font-size: 30px;
+        }
+    }
+
+    .right {
+        display: flex; /* Make .right a flex container */
+        justify-content: center; /* Center its children horizontally */
+        align-items: center; /* Center its children vertically */
+        width: 30%;
+        border: 2px solid rgb(209, 127, 21);
+   
+
+        img {
+            width: 500px;
+            height: 300px;
+            margin-left: 10%;
+        }
+    }
+    
+}
+
+
+
+.problem {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .left {
+        display: flex; /* Make .right a flex container */
+        justify-content: center; /* Center its children horizontally */
+        align-items: center; /* Center its children vertically */
+        width: 30%;
+        border: 2px solid rgb(209, 127, 21);
+   
+
+        img {
+            width: 500px;
+            height: 300px;
+            margin-left: 10%;
+        }
+        
+    }
+
+    .right {
+        display: flex; /* Make .left a flex container */
+        justify-content: center; /* Center its children horizontally */
+        align-items: center; /* Center its children vertically */
+        width: 30%;
+        border: 2px solid rgb(209, 127, 21);
+        height: 300px;
+        
+        p {
+            text-align: center; /* Center the text within the paragraph */
+            font-size: 30px;
+        }
+    }
+    
+}
