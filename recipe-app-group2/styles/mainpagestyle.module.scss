@@ -1,16 +1,16 @@
 .Main {
-  width: 100%; /* Add this line to make the container span the entire width */
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
   .HeaderPic {
-    width: 100%; /* Adjusted to 100% width */
+    width: 100%;
     margin-bottom: 10%;
 
     img {
-      width: 100%; /* Adjusted to 100% width */
+      width: 100%;
       object-fit: cover;
       height: auto;
     }
@@ -19,8 +19,8 @@
   .Headcont {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 20px 0;
     width: 100%;
@@ -28,8 +28,8 @@
     margin-bottom: 30px;
     height: 300px;
     background-color: #ffeded;
-
   }
+
   .Headcont p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
@@ -38,17 +38,15 @@
   .icons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     margin-top: 10%;
   }
-  
+
   .icons img {
     width: 120px;
     height: 120px;
-    margin: 30px; 
+    margin: 30px;
   }
-
-
 
   .ContentTitle {
     font-size: 60px;
@@ -60,13 +58,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%; /* Adjust the width of the content area */
-    margin-top: 20px; /* Adjust the top margin */
+    width: 80%;
+    margin-top: 20px;
   }
 
   .MainContent div {
-    flex: 0 0 calc(30% - 15px); /* Two items per row with a margin of 15px between them */
-    margin: 5px; /* Adjust the margin as needed */
+    flex: 0 0 calc(30% - 15px);
+    margin: 5px;
     text-align: center;
   }
 
@@ -78,9 +76,9 @@
   .recipeName {
     margin-top: 10px;
     font-size: 25px;
-    font-weight: bold; /* Adjust font-weight as needed */
-    color: #000000; /* Adjust color as needed */
-    text-align: center; /* Center the text */
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
   }
 
   .Borderabove,
@@ -89,7 +87,7 @@
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center horizontally */
+    justify-content: center;
   }
 
   .Borderabove img,

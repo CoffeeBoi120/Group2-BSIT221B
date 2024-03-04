@@ -9,7 +9,7 @@ function Explore() {
       <div className={styles.explore}>
         <Background/>
 
-        <div className={styles.exploretopborder}> 
+        <div className={styles.topborder}> 
           <img src="/static/images/topbor.png" alt="" />
         </div>
 
@@ -118,7 +118,7 @@ function Explore() {
                 
             </div>
 
-        <div className={styles.hacks}> 
+        <div className={styles.bottomborder}> 
           <img src="/static/images/bottombor.png" alt="" />
         </div>
 

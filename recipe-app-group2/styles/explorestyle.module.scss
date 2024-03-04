@@ -1,21 +1,20 @@
 .explore {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
-  height: auto; /* Set height to fill the viewport vertically */
-  width: 100%; /* Fill the entire width of the parent container */
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
 
-    .title {
-      font-size: 30px; /* Example font size */
-      color: #000000; /* Example color */
-      margin-bottom: 10%; /* Example margin */
-      width: 100%;
-      height: 10%;
-      background-color: bisque;
-      text-align: center;
-    }
-
+  .title {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 10%;
+    background-color: bisque;
+    text-align: center;
+  }
 
   .tips, .problem {
     display: flex;
@@ -24,23 +23,6 @@
     width: auto;
     height: auto;
 
-
-    .tips1, .tips2, .tips3, .tips4, .tips5, .tips6, .tips7, .tips8, .tips9, .tips10 {
-        width: auto;
-        height: auto;
-        margin-bottom: 10px;
-        display: flex;
-        flex-direction: row;
-    }
   }
-
-    
-
-.right {
-    width: calc(50% - 10px); /* Adjust the width of each image */
-    margin-bottom: 10px; /* Add some vertical spacing between images */
-    height: 100px; /* Set the height of each image */
-    object-fit: cover; /* Ensure images maintain aspect ratio */
-    object-position: center; /* Center images within their containers */
-}
+  
 }
