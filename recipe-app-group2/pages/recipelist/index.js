@@ -3,12 +3,13 @@ import fs from 'fs';
 import path from 'path';
 import Image from "next/image";
 import styles from "@/styles/mainpagestyle.module.scss";
+import backgroundimg from '@/Components/backgroundimg';
 
 function Recipes( {recipes} ) {
   return(
     <>
-    <div className={styles.Main}>
-
+    <div className={styles.Main} >
+    <Background/>
       <div className={styles.HeaderPic}> 
         <img src="/static/images/mainheader.png" alt="" />
       </div>
