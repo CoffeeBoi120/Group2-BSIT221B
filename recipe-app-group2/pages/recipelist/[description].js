@@ -17,13 +17,12 @@ function Recipelist( {recipe} ){
                         <img
                         src={`/./${recipe.image}`}
                         alt={recipe.name}
-                       
                         className={styles.recipeImage}
                         />
                     </div>
                     <div className={styles.leftContain}>
-                        <h1 className={styles.recipeName}>{recipe.name}</h1>
-                        <h2 className={styles.recipeInfo}>{recipe.information}</h2>
+                        <p className={styles.recipeName}>{recipe.name}</p>
+                        <p className={styles.recipeInfo}>{recipe.information}</p>
                     </div>
                 </div>
                     

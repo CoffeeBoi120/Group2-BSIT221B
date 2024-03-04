@@ -1,53 +1,70 @@
 $borderColorRight: #c54646;
 $borderColorLeft: #1a8fdd;
 
-// Define mixins if needed
 
-// SCSS for .topContainer
 .topContainer {
   width: auto;
-  height: 50vh;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 10%;
+  
 
-  // Nested styles for .rightContain and .leftContain
+  
   .rightContain, .leftContain {
     width: 30%;
     height: 100%;
-    margin: 0 10px;
+  
   }
-
+  
   .rightContain {
     border: 1px solid $borderColorRight;
+    background-color: #f3f3f3;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  
+    .recipeImage {
+      width: 450px;
+      height: 500px;
+      margin: 5%; 
+    }
   }
+  
 
   .leftContain {
     border: 1px solid $borderColorLeft;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100%; 
+
+    .recipeName {
+        font-size: 40px;
+        color: #333;
+        margin-top: 20px;
+    }
+
+    .recipeInfo {
+        font-size: 25px;
+    }
+}
 }
 
-// SCSS for .recipeImage
-.recipeImage {
-  width: 450px;
-  height: 500px;
-  display: block;
-  margin: auto;
-}
 
-// SCSS for .recipe-name
-.recipe-name {
-  font-size: 30px;
-  color: #333;
-}
 
-// SCSS for .title
+
+
+
+
+
 .title {
   font-size: 20px;
 }
 
-// SCSS for .topBorder
+
 .topBorder {
   display: flex;
   justify-content: center;
@@ -60,7 +77,7 @@ $borderColorLeft: #1a8fdd;
   }
 }
 
-// SCSS for .bottomContainer
+
 .bottomContainer {
   height: auto;
   width: 60%;
@@ -111,7 +128,7 @@ $borderColorLeft: #1a8fdd;
   }
 }
 
-// SCSS for .bottomBorder
+
 .bottomBorder {
   display: flex;
   justify-content: center;
