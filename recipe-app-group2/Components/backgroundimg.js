@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "@/styles/backgroundimg.module.scss";
 
-function background() {
+function Background() {
     return(
         <>
 
@@ -12,4 +12,4 @@ function background() {
     ) 
 }
 
-export default background
+export default Background

@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import Image from "next/image";
 import styles from "@/styles/mainpagestyle.module.scss";
-import backgroundimg from '@/Components/backgroundimg';
+import Background from '@/Components/backgroundimg';
 
 function Recipes( {recipes} ) {
   return(
@@ -64,8 +64,6 @@ function Recipes( {recipes} ) {
       <div className={styles.Borderbottom}> 
         <img src="/static/images/bottomborder.jpg" alt="" />
       </div>
-
-
     </div>
   
     </>
