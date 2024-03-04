@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from "@/styles/aboutstyle.module.scss";
 import Background from '@/Components/backgroundimg';
+import {Topborder,Bottomborder } from '@/Components/border';
 
 function About() {
     return (
         <div className={styles.about}>
           <Background/>
-          <div className={styles.aboveborder}>
-                <img src="static/images/topbor.png" className={styles.img2} alt="Logo" />
-          </div>
+
+          <Topborder/>
 
           <div className={styles.aboutcontainer}>
 
@@ -49,9 +49,7 @@ function About() {
           </div>
 
 
-          <div className={styles.bottomborder}>
-                <img src="static/images/bottombor.png" className={styles.img2} alt="Logo" />
-          </div>
+          <Bottomborder/>
             
         </div>
     );

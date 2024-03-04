@@ -4,6 +4,7 @@ import path from 'path';
 import Image from "next/image";
 import styles from "@/styles/mainpagestyle.module.scss";
 import Background from '@/Components/backgroundimg';
+import {Topborder,Bottomborder } from '@/Components/border';
 
 function Recipes( {recipes} ) {
   return(
@@ -30,9 +31,7 @@ function Recipes( {recipes} ) {
           <img src="/static/images/fruiticon.png" alt="" />
         </div>
 
-      <div className={styles.Borderabove}> 
-        <img src="/static/images/topbor.png" alt="" />
-      </div>
+      <Topborder/>
 
       <div className={styles.ContentTitle}> 
         <p>Recipes</p>
@@ -61,9 +60,7 @@ function Recipes( {recipes} ) {
         }
       </div>
 
-      <div className={styles.Borderbottom}> 
-        <img src="/static/images/bottombor.png" alt="" />
-      </div>
+      <Bottomborder/>
     </div>
     <Background/>
   

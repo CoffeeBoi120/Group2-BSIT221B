@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "@/styles/explorestyle.module.scss";
 import {Tip,Problems} from '@/Components/tip';
 import Background from '@/Components/backgroundimg';
+import {Topborder,Middleborder,Bottomborder } from '@/Components/border';
 
 function Explore() {
     return(
@@ -9,9 +10,7 @@ function Explore() {
       <div className={styles.explore}>
         <Background/>
 
-        <div className={styles.topborder}> 
-          <img src="/static/images/topbor.png" alt="" />
-        </div>
+        <Topborder/>
 
             <div className={styles.title}> 
                 <h1>  Baking Tips</h1>
@@ -71,9 +70,7 @@ function Explore() {
                 
             </div>
 
-            <div className={styles.middleborder}>
-                <img src="/static/images/topborder.jpg" alt="" />
-            </div>
+            <Middleborder/>
 
            
     
@@ -118,9 +115,7 @@ function Explore() {
                 
             </div>
 
-        <div className={styles.bottomborder}> 
-          <img src="/static/images/bottombor.png" alt="" />
-        </div>
+            <Bottomborder/>
 
       </div>
     
