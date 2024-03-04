@@ -31,7 +31,7 @@ function Recipes( {recipes} ) {
         </div>
 
       <div className={styles.Borderabove}> 
-        <img src="/static/images/topborder.jpg" alt="" />
+        <img src="/static/images/topbor.png" alt="" />
       </div>
 
       <div className={styles.ContentTitle}> 
@@ -62,9 +62,10 @@ function Recipes( {recipes} ) {
       </div>
 
       <div className={styles.Borderbottom}> 
-        <img src="/static/images/bottomborder.jpg" alt="" />
+        <img src="/static/images/bottombor.png" alt="" />
       </div>
     </div>
+    <Background/>
   
     </>
     )

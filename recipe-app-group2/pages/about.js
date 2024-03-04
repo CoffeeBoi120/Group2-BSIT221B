@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from "@/styles/aboutstyle.module.scss";
-
+import Background from '@/Components/backgroundimg';
 
 function About() {
     return (
         <div className={styles.about}>
-
+          <Background/>
           <div className={styles.aboveborder}>
-                <img src="static/images/topborder.jpg" className={styles.img2} alt="Logo" />
+                <img src="static/images/topbor.png" className={styles.img2} alt="Logo" />
           </div>
 
           <div className={styles.aboutcontainer}>
@@ -50,7 +50,7 @@ function About() {
 
 
           <div className={styles.bottomborder}>
-                <img src="static/images/bottomborder.jpg" className={styles.img2} alt="Logo" />
+                <img src="static/images/bottombor.png" className={styles.img2} alt="Logo" />
           </div>
             
         </div>

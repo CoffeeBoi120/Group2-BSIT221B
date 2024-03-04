@@ -1,15 +1,16 @@
 import React from 'react';
 import styles from "@/styles/explorestyle.module.scss";
 import {Tip,Problems} from '@/Components/tip';
+import Background from '@/Components/backgroundimg';
 
 function Explore() {
     return(
    
       <div className={styles.explore}>
-
+        <Background/>
 
         <div className={styles.exploretopborder}> 
-          <img src="/static/images/topborder.jpg" alt="" />
+          <img src="/static/images/topbor.png" alt="" />
         </div>
 
             <div className={styles.title}> 
@@ -118,7 +119,7 @@ function Explore() {
             </div>
 
         <div className={styles.hacks}> 
-          <img src="/static/images/bottomborder.jpg" alt="" />
+          <img src="/static/images/bottombor.png" alt="" />
         </div>
 
       </div>

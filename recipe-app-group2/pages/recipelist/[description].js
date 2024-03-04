@@ -2,11 +2,14 @@ import fs from 'fs';
 import path from 'path';
 import Image from "next/image";
 import styles from "@/styles/descriptionstyle.module.scss";
+import Background from '@/Components/backgroundimg';
+
 
 function Recipelist( {recipe} ){
     return(
         <>
         <div className={styles.Maincomp}>
+            <Background/>
             <div key={recipe.id}>
 
                 <div className={styles.topContainer}>
@@ -25,7 +28,7 @@ function Recipelist( {recipe} ){
                 </div>
                     
                 <div className={styles.topBorder}>
-                    <img src="/static/images/topborder.jpg" alt="" />
+                    <img src="/static/images/topbor.png" alt="" />
                 </div >
                 
                 
@@ -56,7 +59,7 @@ function Recipelist( {recipe} ){
                 </div>
 
                 <div className={styles.bottomBorder}>
-                    <img src="/static/images/bottomborder.jpg" alt="" />
+                    <img src="/static/images/bottombor.png" alt="" />
                 </div >
 
             </div>

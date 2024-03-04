@@ -1,4 +1,15 @@
-.backgroundimg{
-    width: auto;
-    height: auto;
+.backgroundimg {
+    position: fixed; /* Position the background image */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the entire width of the viewport */
+    height: 100%; /* Cover the entire height of the viewport */
+    z-index: -1; /* Ensure the background is behind other content */
+  
+  
+  .backgroundimg img {
+    object-fit: cover; /* Cover the entire container */
+    width: 100%;
+    height: 100%;
+  }
 }
