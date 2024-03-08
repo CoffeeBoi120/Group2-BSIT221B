@@ -50,8 +50,8 @@ function About() {
 
 
           <Bottomborder/>
-            
-        </div>
+          <script src="components/respo.js"></script>
+        </div >
     );
 }
 
