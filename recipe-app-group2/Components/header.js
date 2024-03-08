@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchComponent from '@/Components/SearchComponent';
+import SearchComponent from '@/Components/searchcomponent';
 import recipeData from '@/Components/recipe.json';
 
 
