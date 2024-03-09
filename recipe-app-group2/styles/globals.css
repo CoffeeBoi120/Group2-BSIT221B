@@ -227,9 +227,9 @@ nav {
   .nav-side li {
     padding: 20px;
     font-size: 30px;
-    color: #ffffff; 
+    font-color: red;
   }
- 
+
   .toggle {
     position: absolute;
     left: 20px; 
@@ -237,6 +237,10 @@ nav {
     cursor: pointer;
     display: block;
     color: #ffffff;
+    
+  }
+  .exit {
+    margin-left: 80%; 
     
   }
   .search-barmob {
@@ -263,8 +267,95 @@ nav {
     border-radius: 5px;
     cursor: pointer;
   }
+ 
 
 }
+
+@media screen and (max-width: 320px) {
+
+
+
+  
+  .hideonmobile{
+    display: none;
+  }
+  nav{
+    display: block;
+    position: relative;
+    padding: 15px 20px;
+  }
+  .navcont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo horizontally */
+    flex: 1; /* Let the logo take up available space */
+  }
+  .logo-sidebar img{
+    width: 80px;
+    height: 100px;
+  }
+  .menu{
+    margin-top: 15px;
+    display: none;
+  }
+  .nav-side {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .nav-side li {
+    padding: 20px;
+    font-size: 25px;
+    font-color: red;
+  }
+
+  .toggle {
+    position: absolute;
+    left: 20px; 
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    color: #ffffff;
+    
+  }
+  .exit {
+    margin-left: 80%; 
+    
+  }
+  .search-barmob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-barmob input {
+    padding: 8px 12px; /* Adjust padding to change the input field size */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 200px; /* Adjust width to change the input field width */
+    height: 30px;
+  }
+  
+  .search-barmob button {
+    padding: 8px 12px; /* Adjust padding to change the button size */
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+
+}
+
 
 
 
