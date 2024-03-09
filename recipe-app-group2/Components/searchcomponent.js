@@ -27,7 +27,7 @@ const SearchComponent = ({ data }) => {
       router.push(`/recipelist/${foundItem.id}`);
     } else {
       // Show message when no matching item is found
-      console.log('Item not found!');
+      console.log('Dessert not found!');
       setShowNotFoundMessage(true);
 
       // Hide the message after a delay (e.g., 3 seconds)
