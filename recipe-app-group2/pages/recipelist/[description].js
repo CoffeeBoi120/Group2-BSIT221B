@@ -1,10 +1,8 @@
 import fs from 'fs';
 import path from 'path';
-import Image from "next/image";
 import styles from "@/styles/descriptionstyle.module.scss";
 import Background from '@/Components/backgroundimg';
 import {Topborder,Bottomborder } from '@/Components/border';
-import ContainerExampleText from '/Components/semantic';
 
 function Recipelist( {recipe} ){
     return(
