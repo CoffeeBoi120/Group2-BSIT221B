@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import Loading from '/Components/loading';
 import "@/styles/globals.css";
 import "@/styles/Home.module.css";
+import 'semantic-ui-css/semantic.min.css'
 
 
 

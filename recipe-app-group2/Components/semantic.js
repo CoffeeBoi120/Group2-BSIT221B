@@ -1,8 +1,9 @@
-
 import React from 'react'
+import { Card } from 'semantic-ui-react';
 import { ButtonContent, Button, Icon, Container, Header  } from 'semantic-ui-react'
 import styles from "@/styles/indexstyle.module.scss";
 import 'semantic-ui-css/semantic.min.css'
+import Link from 'next/link';
 
 const ButtonExampleAnimated = () => (
     <div>
@@ -34,5 +35,6 @@ const ContainerExampleText = () => (
      
     </Container>
   )
-  
-  export { ButtonExampleAnimated, ContainerExampleText }
+
+
+  export { ButtonExampleAnimated, ContainerExampleText,}
