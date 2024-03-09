@@ -1,49 +1,4 @@
 
-.Loading {
-  position: absolute;
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-  height: 100vh;
-  z-index: 99;
-  left: -100%;
-  -webkit-transition: .5s;
-  transition: .5s;
-
-}
- .Loading img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-
-.Loading2 {
-  position: absolute;
-  background-color: rgb(255, 94, 94);
-  width: 100%;
-  height: 100vh;
-  z-index: 99;
-  left: -100%;
-  -webkit-transition: .2s;
-  transition: .2s;
-}
-
-.Loading3 {
-  position: absolute;
-  background-color: rgb(0, 141, 151);
-  width: 100%;
-  height: 100vh;
-  z-index: 99;
-  left: -100%;
-  -webkit-transition: .7s;
-  transition: .7s;
-}
-
-
-
-
 .indexcontainer{
   background-image: url("/static/images/homepagebg.png");
   background-size: cover;
@@ -147,51 +102,57 @@
 
 
 
-/** break break break **/
-/**Header**/
 
 
-nav {
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  height: 15vh;
+
+
+
+
+
+
+
+/** header**/
+
+
+nav { 
   background-color: #AE5661;
-  max-width: 100%;
+  width: 100%;
+  height: 20%;
+  padding: 0 20px;
+  display: flex;
+ 
 }
-nav a:hover{
+.navcont{
+  display: flex;
+  align-items: center;
+}
+.navcont a {
   color: #ffffff;
 }
-.logo {
-  flex: 1;
-}
-.logo a{
 
-  align-items: center;
-  font-size: 20px;
+.navcont a:hover {
+  color: aqua;
 }
-.logo img{
+
+.logo img {
   width: 250px;
-  height: 100px;
+  height: 120px;
 }
-.menu{
-  display: flex;
-  align-items: center;
-  list-style: none;
-  margin-right: 90%;
-  
 
+.nav-item {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
-.menu li{
-  padding: 15px;
-  font-size: 16px;
+
+.nav-item li {
+  margin-right: 20px;
+  font-size: 30px;
 }
 .toggle{
-  font-size: 30px;
   display: none;
-  color: #ffffff;
 }
-
 
 .search-bar {
   display: flex;
@@ -216,16 +177,23 @@ nav a:hover{
 .sidebar{
   display: none;
 }
-.sidebar-active {
-  overflow: hidden;
+.sidebar.active {
+  display: block;
+  background-color: #AE5661; /* Add your desired background color here */
+  width: 200px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 65%;
 }
 
 
-
-
-
 @media screen and (max-width: 768px) {
-
+  .hideonmobile{
+    display: none;
+  }
   nav{
     display: block;
     position: relative;
@@ -239,7 +207,8 @@ nav a:hover{
   .logo{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Center the logo horizontally */
+    flex: 1; /* Let the logo take up available space */
   }
   .logo img{
     width: 320px;
@@ -249,10 +218,18 @@ nav a:hover{
     margin-top: 15px;
     display: none;
   }
- .menu.active,
-  .toggle {
-    display: block;
+  .nav-side {
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
+
+  .nav-side li {
+    padding: 20px;
+    font-size: 30px;
+    color: #ffffff; 
+  }
+ 
   .toggle {
     position: absolute;
     left: 20px; 
@@ -262,100 +239,32 @@ nav a:hover{
     color: #ffffff;
     
   }
+  .search-barmob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
   
-
-  .sidebar.active {
-    /* Add your desired background color here */
-    display: block;
-    background-color: #AE5661; /* Add your desired background color here */
-    width: 200px;
-    padding: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 65%;
-    animation: fadeInLeft 1s ease;
-  }
-  .sidebar ul {
-    list-style: none; /* Remove list styles */
-    padding: 0; /* Remove default padding */
-  }
-
-  .sidebar ul li {
-    margin-bottom: 10px; /* Adjust margin between list items */
-  }
-    .sidebar ul li.exit {
-      margin-left: 80%;
-      animation: fadeOutRight 1s ease;
-  }
-  .sidebar .search-bar {
-    display: flex; /* Ensure the search bar is a flex container */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin-bottom: 10%;
-}
-
-.sidebar .search-bar input {
-    padding: 5px 10px;
+  .search-barmob input {
+    padding: 8px 12px; /* Adjust padding to change the input field size */
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-right: 10px;
-}
-
-.sidebar .search-bar button {
-    padding: 5px 10px;
+    width: 200px; /* Adjust width to change the input field width */
+    height: 30px;
+  }
+  
+  .search-barmob button {
+    padding: 8px 12px; /* Adjust padding to change the button size */
     background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+
 }
-  
-  
-
-  .sidebar ul li a {
-    color: #ffffff; /* Adjust link color */
-    text-decoration: none; /* Remove underline */
-    display: block; /* Display links as block elements */
-    padding: 8px 10px; /* Add padding to links */
-    border-radius: 5px; /* Add border radius to links */
-    transition: background-color 0.3s ease; /* Add transition effect */
-    text-align: center;
-    margin-bottom: 10%;
-    font-size: 40px;
-  }
-  .sidebar ul li a:hover {
-    background-color: #9b2323;
-  }
-  @keyframes fadeOutLeft {
-    from {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    to {
-      opacity: 0;
-      transform: translateX(-100%);
-    }
-  }
-  
-  @keyframes fadeOutRight {
-    from {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    to {
-      opacity: 0;
-      transform: translateX(100%);
-    }
-  }
-  
-}
-
-
-
-
-
 
 
 

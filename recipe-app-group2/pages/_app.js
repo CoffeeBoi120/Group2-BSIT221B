@@ -1,5 +1,5 @@
 import Footer from '@/Components/footer';
-import Header from '/Components/header';
+import Header from '@/Components/header';
 import { useRouter } from 'next/router';
 import React, { useState, useEffect } from 'react';
 import Loading from '/Components/loading';
