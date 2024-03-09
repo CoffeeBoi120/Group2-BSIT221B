@@ -43,8 +43,8 @@ function Recipes( {recipes} ) {
        
       <Container>
       <Card.Group>
-        {recipes.map((item) => (
-          <ItemCard key={item.id} item={item} />
+        {recipes.map((dessert) => (
+          <ItemCard key={dessert.id} item={dessert} />
         ))}
       </Card.Group>
     </Container>
