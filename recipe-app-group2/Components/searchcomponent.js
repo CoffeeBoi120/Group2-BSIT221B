@@ -48,14 +48,14 @@ const SearchComponent = ({ data }) => {
       <button onClick={handleSearch}>Search</button>
 
       {showEmptyFieldMessage && (
-        <div style={{ color: 'red', marginTop: '8px' }}>
-          Please enter a search term.
+        <div style={{ color: 'white', marginTop: '8px' }}>
+          Please enter a dessert name!
         </div>
       )}
 
       {showNotFoundMessage && (
-        <div style={{ color: 'red', marginTop: '8px' }}>
-          Item not found. Please try again.
+        <div style={{ color: 'white', marginTop: '8px' }}>
+          Dessert not found! Please try again!
         </div>
       )}
     </div>
