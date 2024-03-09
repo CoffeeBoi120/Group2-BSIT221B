@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "@/styles/indexstyle.module.scss";
+import {ButtonExampleAnimated} from '/Components/semantic';
 
 function Main() {
   
@@ -23,7 +24,10 @@ function Main() {
         <div class="indexcontent">
             <div class="homebox">
                 <p>"Indulge in the symphony of sweetness, for in every bite of dessert, we find a delightful harmony of joy and satisfaction."</p>
-                <a href="/recipelist" className="hoverable-button" onclick="appearP2()">Learn More</a>
+                
+                <a href="/recipelist" >
+                  <ButtonExampleAnimated />
+                </a>
             </div>
         </div>
       </div>
@@ -33,4 +37,4 @@ function Main() {
     </>
   )
 }
-export default Main
+export default Main;

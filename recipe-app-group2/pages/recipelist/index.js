@@ -62,7 +62,7 @@ function Recipes( {recipes} ) {
 
       <Bottomborder/>
     </div>
-    <Background/>
+   
   
     </>
     )
