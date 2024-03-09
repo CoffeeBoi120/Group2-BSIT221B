@@ -1,25 +1,59 @@
-import React from 'react';
+
 import SearchComponent from '@/Components/searchcomponent';
 import recipeData from '@/Components/recipe.json';
-
+import style from '@/styles/headerstyle.module.scss';
+import React, { useState } from 'react';
 
 function Header() {
 
+    const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+
+    const handleToggleSidebar = () => {
+        setIsSidebarVisible(!isSidebarVisible); // Toggle the sidebar visibility
+    };
+
+    const handleHideSidebar = () => {
+        setIsSidebarVisible(false); // Hide the sidebar
+    };
+
+
     return (
         <header className="navbar"> {}
-            <div class="logo">
-                <a href= "/"> <img src="static/images/desertdelightlogo.png" alt="Logo" /> </a>
-            </div>
-            <nav className="navmenu"> {}
-                <ul>
-                    <li><a href="/recipelist">Recipes</a></li>
-                    <li><a href="/explore">Explore</a></li>
-                    <li><a href="/about">About</a></li>
+
+            <nav> 
+                <div className='navcont'>
+                    <div className='logo'>
+                        <a href= "/index"> <img src="static/images/desertdelightlogo.png" alt="Logo" /> </a>
+                    </div>
+
+                    <div className='toggle' >
+                        <a href="#" onClick={handleToggleSidebar}><svg xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" style={{ fill: '#fff' }}/></svg></a>
+                    </div>
+                </div>
+                <ul className={`menu ${isSidebarVisible ? 'active' : ''}`}>
+                    <li class="hideonmobile"><a href="/recipelist">Recipes</a></li>
+                    <li class="hideonmobile"><a href="/explore">Explore</a></li>
+                    <li class="hideonmobile"><a href="/about">About</a></li>
+                    <div className="search-bar" class="hideonmobile">
+                        <SearchComponent data={recipeData} />
+                    </div>
                 </ul>
             </nav>
-            <div className="search-bar">
-            <SearchComponent data={recipeData} />
+
+            <div className={`sidebar ${isSidebarVisible ? 'active' : ''}`}>
+                <ul>
+                    <li class="exit"><a href="#" onClick={handleHideSidebar}><svg xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" style={{ fill: '#fff' }}/></svg></a></li>
+                    <li>< a href= "/index"> <img src="static/images/desertdelightlogo.png" alt="Logo" /> </a></li>
+                    <li className="search-bar hideonmobile">
+                        <SearchComponent data={recipeData} />
+                    </li>
+                    <li class="hideonwindow"><a href="/recipelist">Recipes</a></li>
+                    <li class="hideonwindow"><a href="/explore">Explore</a></li>
+                    <li class="hideonwindow"><a href="/about">About</a></li>                                       
+                </ul>
             </div>
+
+            
         </header>
     );
 }

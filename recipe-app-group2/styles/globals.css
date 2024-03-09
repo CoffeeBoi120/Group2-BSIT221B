@@ -151,78 +151,222 @@
 /**Header**/
 
 
-
-.navbar {
-  padding: 10px;
+nav {
+  padding: 10px 20px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   height: 15vh;
   background-color: #AE5661;
-  align-items: center;
-  align-items: flex-end;
-  
+  max-width: 100%;
 }
-
-.logo img {
-  height: 100px;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 3vh;
-}
-
-.navmenu {
-  margin-right: auto; 
-  margin-bottom: 3vh;
-
-}
-
-.navmenu ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end; 
-  align-items: center;
-  
-}
-
-.navmenu ul li {
-  margin-right: 30px;
-  font-size: 22px;
-}
-
-.navmenu ul li a {
-  text-decoration: none;
+nav a:hover{
   color: #ffffff;
 }
-.navmenu ul li.active:hover {
-  background-color: #f0f0f0;
-  
+.logo {
+  flex: 1;
 }
+.logo a{
+
+  align-items: center;
+  font-size: 20px;
+}
+.logo img{
+  width: 250px;
+  height: 100px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 90%;
+  
+
+}
+.menu li{
+  padding: 15px;
+  font-size: 16px;
+}
+.toggle{
+  font-size: 30px;
+  display: none;
+  color: #ffffff;
+}
+
 
 .search-bar {
   display: flex;
-  align-items: center; 
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 3vh;
-  margin-right: auto;
+  align-items: center; /* Align items vertically in the center */
 }
 
 .search-bar input {
   padding: 5px 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  margin-right: 10px; /* Add margin to separate input and button */
 }
 
 .search-bar button {
   padding: 5px 10px;
-  margin-left: 10px; 
-  background-color: #AE5661;
+  background-color: #000000;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
+.sidebar{
+  display: none;
+}
+.sidebar-active {
+  overflow: hidden;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  nav{
+    display: block;
+    position: relative;
+    padding: 15px 20px;
+  }
+  .navcont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo img{
+    width: 320px;
+    height: 150px;
+  }
+  .menu{
+    margin-top: 15px;
+    display: none;
+  }
+ .menu.active,
+  .toggle {
+    display: block;
+  }
+  .toggle {
+    position: absolute;
+    left: 20px; 
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    color: #ffffff;
+    
+  }
+  
+
+  .sidebar.active {
+    /* Add your desired background color here */
+    display: block;
+    background-color: #AE5661; /* Add your desired background color here */
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 65%;
+    animation: fadeInLeft 1s ease;
+  }
+  .sidebar ul {
+    list-style: none; /* Remove list styles */
+    padding: 0; /* Remove default padding */
+  }
+
+  .sidebar ul li {
+    margin-bottom: 10px; /* Adjust margin between list items */
+  }
+    .sidebar ul li.exit {
+      margin-left: 80%;
+      animation: fadeOutRight 1s ease;
+  }
+  .sidebar .search-bar {
+    display: flex; /* Ensure the search bar is a flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 10%;
+}
+
+.sidebar .search-bar input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.sidebar .search-bar button {
+    padding: 5px 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  
+
+  .sidebar ul li a {
+    color: #ffffff; /* Adjust link color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Display links as block elements */
+    padding: 8px 10px; /* Add padding to links */
+    border-radius: 5px; /* Add border radius to links */
+    transition: background-color 0.3s ease; /* Add transition effect */
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 40px;
+  }
+  .sidebar ul li a:hover {
+    background-color: #9b2323;
+  }
+  @keyframes fadeOutLeft {
+    from {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes fadeOutRight {
+    from {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
