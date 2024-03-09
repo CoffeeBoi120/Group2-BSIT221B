@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import { Input, Button, Message } from 'semantic-ui-react';
 
 const SearchComponent = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -11,6 +12,10 @@ const SearchComponent = ({ data }) => {
     if (searchTerm.trim() === '') {
       // Show message for empty search term
       setShowEmptyFieldMessage(true);
+      // Hide the empty field message after a delay (e.g., 3 seconds)
+      setTimeout(() => {
+        setShowEmptyFieldMessage(false);
+      }, 3000);
       return;
     }
 
@@ -24,13 +29,12 @@ const SearchComponent = ({ data }) => {
 
     if (foundItem) {
       // Redirect to a specific page or content based on the found item
-      router.push(`/recipelist/${foundItem.id}`);
+      router.push(`/details/${foundItem.id}`);
     } else {
       // Show message when no matching item is found
-      console.log('Dessert not found!');
+      console.log('Item not found!');
       setShowNotFoundMessage(true);
-
-      // Hide the message after a delay (e.g., 3 seconds)
+      // Hide the not found message after a delay (e.g., 3 seconds)
       setTimeout(() => {
         setShowNotFoundMessage(false);
       }, 3000);
@@ -39,24 +43,24 @@ const SearchComponent = ({ data }) => {
 
   return (
     <div>
-      <input
+      <Input
         type="text"
         placeholder="Search..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <button onClick={handleSearch}>Search</button>
+      <Button onClick={handleSearch}>Search</Button>
 
       {showEmptyFieldMessage && (
-        <div style={{ color: 'white', marginTop: '8px' }}>
-          Please enter a dessert name!
-        </div>
+        <Message error>
+          Please enter a search term.
+        </Message>
       )}
 
       {showNotFoundMessage && (
-        <div style={{ color: 'white', marginTop: '8px' }}>
-          Dessert not found! Please try again!
-        </div>
+        <Message error>
+          Item not found. Please try again.
+        </Message>
       )}
     </div>
   );
