@@ -24,18 +24,19 @@
     text-align: center;
     margin: 20px 0;
     width: 100%;
-    height: auto; /* Adjust height to auto to allow content to expand */
-    min-height: 300px; /* Minimum height to prevent overlap */
+    height: auto;
+    min-height: 300px;
     margin-bottom: 30px;
     background-color: #ffeded;
-    padding: 20px; /* Add padding to create space between content and container */
-  
+    padding: 20px;
+
     p {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 35px;
-      margin-top: 20px; /* Add margin to create space between paragraph and container */
+      margin-top: 20px;
     }
   }
+
   .icons {
     display: flex;
     flex-wrap: wrap;
@@ -61,44 +62,37 @@
   .MainContent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Horizontally center items */
-    align-items: center; 
+    justify-content: center;
+    align-items: flex-start;
     margin-top: 20px;
 
-    img {
-      width: 300px;
-      height: 300px;
-    }
-
-   .itemCard {
-     transition: transform 0.3s ease-in-out;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-     border-radius: 10px;
-     overflow: hidden;
+    .itemCard {
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 10px auto;
     }
 
     .itemCard:hover {
-     transform: scale(1.05);
+      transform: scale(1.05);
     }
 
     .cardImage {
-     width: 100%;
-     height: 200px;
-     object-fit: cover;
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
     }
 
     .cardContent {
-     padding: 1em;
+      padding: 1em;
     }
 
     .cardHeader {
-     font-size: 1.5em;
-     margin-bottom: 0.5em;
-     color: #333;
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      color: #333;
     }
-
-
-
   }
 
   .Borderabove,

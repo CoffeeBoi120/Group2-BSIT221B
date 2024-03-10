@@ -1,118 +1,114 @@
-$borderColorRight: #c54646;
-$borderColorLeft: #1a8fdd;
-
+$primaryColor: #ffeeee; // Coral color
+$backgroundColor: #AE5661;
+$fontColor: #ffeeee; // Dark gray color
 
 .topContainer {
-  width: auto;
-  height: auto;
+  width: 80%;
+  margin: 5% auto;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 10%;
-  
+  justify-content: space-between;
 
-  
   .rightContain, .leftContain {
-    width: 30%;
-    height: 100%;
-  
+    width: 48%;
+    margin: 0 1%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
   }
-  
+
   .rightContain {
-    border: 1px solid $borderColorRight;
-    background-color: #f3f3f3;
-    display: flex; 
+    background-color: $backgroundColor;
+    display: flex;
     align-items: center;
     justify-content: center;
-  
+    border-radius: 12px;
+
     .recipeImage {
-      width: 450px;
-      height: 500px;
-      margin: 5%; 
+      width: 100%;
+      max-width: 450px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
   }
-  
 
   .leftContain {
-    border: 1px solid $borderColorLeft;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    height: 100%; 
+    border-radius: 12px;
+    box-shadow: none;
 
     .recipeName {
-        font-size: 40px;
-        color: #333;
-        margin-top: 20px;
+      font-size: 32px;
+      color: black;
+      margin-top: 20px;
     }
 
     .recipeInfo {
-        font-size: 25px;
+      font-size: 18px;
+      color: black;
+      margin-top: 10px;
     }
+  }
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: $primaryColor;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    .rightContain, .leftContain {
+      width: 100%;
+      margin: 0;
+      margin-top: 20px;
+    }
+  }
 }
-}
-
-
-
-
-
-
-
-
-.title {
-  font-size: 20px;
-}
-
-
 
 .bottomContainer {
-  height: auto;
-  width: 60%;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #1a8fdd;
+  width: 80%;
   margin: 20px auto;
+  padding: 20px;
+  background-color: $backgroundColor;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   h3 {
-    font-size: 50px;
-    color: #333;
+    font-size: 36px;
+    color: $fontColor;
+    margin-bottom: 20px;
   }
 
   h4 {
     font-size: 20px;
-    color: #666;
+    color: $fontColor;
+    margin-bottom: 10px;
   }
 
   h5 {
     font-size: 18px;
-    color: #999;
+    color: $fontColor;
+    margin-bottom: 10px;
   }
 
   .title {
-    font-size: 50px;
+    font-size: 36px;
     font-weight: bold;
-    color: #444;
-    
+    color: $primaryColor;
+    margin-bottom: 20px;
   }
 
   ul, ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     margin-top: 20px;
   }
 
-  ul li {
-    margin-bottom: 5px;
-    font-size: 25px;
-    color: #000000;
-  }
-
-  ol li {
-    margin-bottom: 5px;
-    font-size: 25px;
-    color: #000000;
+  ul li, ol li {
+    font-size: 18px;
+    color: $fontColor;
+    margin-bottom: 8px;
   }
 }
-
