@@ -15,17 +15,22 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     const handleStart = (url) => {
       // Check if navigating back to any of these pages
-      if (['/about', '/explore', '/home'].includes(router.pathname)) {
+      if (['/about', '/explore', '/home'].includes(url)) {
         setIsLoading(true); // Set loading state to true only for specified page navigations
       }
     };
-
+  
     const timeout = setTimeout(() => {
       setIsLoading(false);
     }, 2600);
-
-    return () => clearTimeout(timeout);
-  }, []);
+  
+    router.events.on('routeChangeStart', handleStart);
+  
+    return () => {
+      clearTimeout(timeout);
+      router.events.off('routeChangeStart', handleStart);
+    };
+  }, [router.events]);
 
   // Destructure props in the function signature for better readability
   if (Component.getLayout) {
