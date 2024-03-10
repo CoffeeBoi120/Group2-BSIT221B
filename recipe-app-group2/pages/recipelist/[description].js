@@ -3,10 +3,15 @@ import path from 'path';
 import styles from "@/styles/descriptionstyle.module.scss";
 import Background from '@/Components/backgroundimg';
 import {Topborder,Bottomborder } from '@/Components/border';
+import Head from 'next/head';
 
 function Recipelist( {recipe} ){
     return(
         <>
+         <Head>
+         <title>{recipe.name}</title>
+         </Head>
+
         <div className={styles.Maincomp}>
             <Background/>
             <div key={recipe.id}>

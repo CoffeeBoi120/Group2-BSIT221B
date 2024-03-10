@@ -1,11 +1,15 @@
 import React from 'react';
 import styles from "@/styles/indexstyle.module.scss";
 import {ButtonExampleAnimated} from '/Components/semantic';
+import Head from 'next/head';
 
 function Main() {
   
   return(
-    <> 
+    <>  
+      <Head>
+     <title>Dessert Delights</title>
+     </Head>
 
       <div className="indexcontainer">
         <div class="navbar1">

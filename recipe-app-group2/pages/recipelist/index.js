@@ -6,10 +6,14 @@ import Background from '@/Components/backgroundimg';
 import {Topborder,Bottomborder } from '@/Components/border';
 import { Card, Container } from 'semantic-ui-react';
 import ItemCard from '@/Components/itemcard';
+import Head from 'next/head';
 
 function Recipes( {recipes} ) {
   return(
     <>
+     <Head>
+      <title>Recipe List</title>
+      </Head>
     <div className={styles.Main} >
     <Background/>
       <div className={styles.HeaderPic}> 

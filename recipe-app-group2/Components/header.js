@@ -1,11 +1,11 @@
-
 import SearchComponent from '@/Components/searchcomponent';
 import recipeData from '@/Components/recipe.json';
 import style from '@/styles/headerstyle.module.scss';
 import React, { useState } from 'react';
 
 
-function Header() {
+
+function Header (){
 
     const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
@@ -18,9 +18,9 @@ function Header() {
     };
 
 
+
     return (
         <header className="navbar"> {}
-
             <nav> 
                 <div className='navcont'>
                     <div className='logo'>
