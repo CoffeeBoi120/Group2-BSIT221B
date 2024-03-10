@@ -9,6 +9,7 @@ function Main() {
     <>  
       <Head>
      <title>Dessert Delights</title>
+     <meta name="Landing Page" content="Landing Page of website"></meta>
      </Head>
 
       <div className="indexcontainer">

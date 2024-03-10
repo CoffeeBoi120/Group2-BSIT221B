@@ -10,6 +10,7 @@ function Explore() {
         <>
         <Head>
       <title>Explore</title>
+      <meta name="Explore Page" content="Explore more tips related to dessert making!"></meta>
       </Head>
    
       <div className={styles.explore}>

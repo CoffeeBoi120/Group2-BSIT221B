@@ -9,6 +9,7 @@ function About() {
         <>
         <Head>
        <title>About Us</title>
+       <meta name="About Dessert Delights" content="Get to Learn more about Dessert Delights"></meta>
        </Head>
         
         <div className={styles.about}>

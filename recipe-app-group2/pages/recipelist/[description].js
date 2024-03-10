@@ -10,6 +10,7 @@ function Recipelist( {recipe} ){
         <>
          <Head>
          <title>{recipe.name}</title>
+         <meta name="Dessert Information" content="Learn more about the Dessert you picked!"></meta>
          </Head>
 
         <div className={styles.Maincomp}>

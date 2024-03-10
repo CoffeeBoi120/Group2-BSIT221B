@@ -13,6 +13,7 @@ function Recipes( {recipes} ) {
     <>
      <Head>
       <title>Recipe List</title>
+      <meta name="Recipe List" content="Discover various Desserts and how to make them!"></meta>
       </Head>
     <div className={styles.Main} >
     <Background/>
