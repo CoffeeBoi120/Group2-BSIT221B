@@ -24,62 +24,51 @@
     text-align: center;
     margin: 20px 0;
     width: 100%;
-    height: 20%;
+    height: auto; /* Adjust height to auto to allow content to expand */
+    min-height: 300px; /* Minimum height to prevent overlap */
     margin-bottom: 30px;
-    height: 300px;
     background-color: #ffeded;
+    padding: 20px; /* Add padding to create space between content and container */
+  
+    p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 35px;
+      margin-top: 20px; /* Add margin to create space between paragraph and container */
+    }
   }
-
-  .Headcont p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
-  }
-
   .icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10%;
-  }
 
-  .icons img {
-    width: 120px;
-    height: 120px;
-    margin: 30px;
+    img {
+      width: 120px;
+      height: 120px;
+      margin: 30px;
+    }
   }
 
   .ContentTitle {
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
   }
 
   .MainContent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 80%;
+    justify-content: center; /* Horizontally center items */
+    align-items: center; 
     margin-top: 20px;
 
-  }
-
-  .MainContent div {
-    flex: 0 0 calc(30% - 15px);
-    margin: 5px;
-    text-align: center;
-  }
-
-  .MainContent img {
-    width: 300px;
-    height: 300px;
-  }
-
-  .recipeName {
-    margin-top: 10px;
-    font-size: 25px;
-    font-weight: bold;
-    color: #000000;
-    text-align: center;
+    img {
+      width: 300px;
+      height: 300px;
+    }
   }
 
   .Borderabove,
@@ -89,11 +78,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
 
-  .Borderabove img,
-  .Borderbottom img {
-    width: 80%;
-    height: auto;
+    img {
+      width: 80%;
+      height: auto;
+    }
   }
 }

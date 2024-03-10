@@ -1,9 +1,10 @@
 .tip {
     display: flex;
-
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    width: auto;
+    height: auto;
 
     .left {
         display: flex;
@@ -11,7 +12,7 @@
         align-items: center; 
         width: 30%;
         border: 2px solid rgb(209, 127, 21);
-        height: 300px;
+       
 
         p {
             text-align: center; 
@@ -25,7 +26,7 @@
         align-items: center;
         width: 30%;
         border: 2px solid rgb(209, 127, 21);
-   
+        overflow: hidden;
 
         img {
             width: 500px;
@@ -51,12 +52,13 @@
         align-items: center;
         width: 30%;
         border: 2px solid rgb(209, 127, 21);
-   
+        overflow: hidden;
 
         img {
             width: 500px;
             height: 300px;
             margin-left: 10%;
+          
         }
         
     }
@@ -67,12 +69,42 @@
         align-items: center;
         width: 30%;
         border: 2px solid rgb(209, 127, 21);
-        height: 300px;
+        overflow: hidden;
+      
         
         p {
             text-align: center; 
             font-size: 30px;
         }
     }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .tip, .problem {
+          flex-direction: column; /* Change to column layout on smaller screens */
+      
+          .left, .right {
+            width: 100%; /* Make both left and right containers take up full width */
+            margin: 10px; /* Add margin for spacing */
+          }
+          
+          .left p {
+            text-align: center; /* Center the text */
+            font-size: 20px;
+          }
+      
+          .right p {
+            margin: 10px; /* Add margin for spacing */
+          }
+      
+          .right img {
+            width: 100%; /* Make the image fill the container width */
+            height: auto; /* Maintain aspect ratio */
+            margin: 10px 0; /* Add some vertical margin for spacing */
+          }
+        }
+      }
+
+    @media (min-width: 321px) and (max-width: 768px) {
     
+}
 }
