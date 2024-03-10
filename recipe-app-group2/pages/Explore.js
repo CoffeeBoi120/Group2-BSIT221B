@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from "@/styles/explorestyle.module.scss";
-import { Tip, Problems } from '@/Components/tip';
 import Background from '@/Components/backgroundimg';
 import Head from 'next/head';
 import {Topborder,Middleborder,Bottomborder } from '@/Components/border';
