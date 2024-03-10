@@ -2,15 +2,16 @@ import React from 'react';
 import styles from "@/styles/aboutstyle.module.scss";
 import Background from '@/Components/backgroundimg';
 import Head from 'next/head';
-import {Topborder,Bottomborder } from '@/Components/border';
+import { Topborder, Bottomborder } from '@/Components/border';
 
 function About() {
     return (
         <>
         <Head>
-       <title>About Us</title>
-       <meta name="About Dessert Delights" content="Get to Learn more about Dessert Delights"></meta>
-       </Head>
+         <title>About Us</title>
+         <meta name="About Dessert Delights" content="Get to Learn more about Dessert Delights"></meta>
+         <script src="components/respo.js"></script>
+        </Head>
         
         <div className={styles.about}>
           <Background/>
@@ -57,7 +58,6 @@ function About() {
 
 
           <Bottomborder/>
-          <script src="components/respo.js"></script>
         </div >
         </>
     );

@@ -3,11 +3,9 @@ import Header from '@/Components/header';
 import { useRouter } from 'next/router';
 import React, { useState, useEffect } from 'react';
 import Loading from '/Components/loading';
-import "@/styles/globals.css";
-import "@/styles/Home.module.css";
-import 'semantic-ui-css/semantic.min.css'
-
-
+import '@/styles/globals.css';
+import '@/styles/Home.module.css';
+import 'semantic-ui-css/semantic.min.css';
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
@@ -15,46 +13,44 @@ export default function App({ Component, pageProps }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-
     const handleStart = (url) => {
-      // Check if navigating back to the index page
-      if (router.pathname === '/about' || router.pathname === '/explore' || router.pathname === '/home') {
-        setIsLoading(true); // Set loading state to true only for index page navigation
+      // Check if navigating back to any of these pages
+      if (['/about', '/explore', '/home'].includes(router.pathname)) {
+        setIsLoading(true); // Set loading state to true only for specified page navigations
       }
     };
-    
+
     const timeout = setTimeout(() => {
       setIsLoading(false);
-    }, 2600); 
+    }, 2600);
 
-    
     return () => clearTimeout(timeout);
   }, []);
 
-  //checks to see if it has component.getlayout condition if true do not load the loading screen
-  if(Component.getLayout){
-    return(Component.getLayout( 
-    <>
-    <div>
-      {<Header />}
-      <Component {...pageProps} />
-      {<Footer />}
-      </div>
-    </>
-    ))
+  // Destructure props in the function signature for better readability
+  if (Component.getLayout) {
+    return Component.getLayout(
+      <>
+        <div>
+          {<Header />}
+          <Component {...pageProps} />
+          {<Footer />}
+        </div>
+      </>
+    );
   }
 
   return (
     <>
       {isLoading ? (
         <Loading />
-      ) : <div>
-      {!isIndexPage && <Header />}
-      <Component {...pageProps} />
-      {!isIndexPage && <Footer />}
-      </div>
-      
-      }
+      ) : (
+        <div>
+          {!isIndexPage && <Header />}
+          <Component {...pageProps} />
+          {!isIndexPage && <Footer />}
+        </div>
+      )}
     </>
-  )
+  );
 }
