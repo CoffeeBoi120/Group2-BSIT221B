@@ -23,7 +23,7 @@ function Header (){
         <header className="navbar"> {}
             <nav> 
                 <div className='navcont'>
-                    <div className={styles.logo}>
+                    <div className='logo'>
                         <a href= "/"> <img src="static/images/desertdelightlogo.png" alt="Logo" /> </a>
                     </div>
 
