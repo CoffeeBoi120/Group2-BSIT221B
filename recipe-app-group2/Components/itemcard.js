@@ -7,7 +7,8 @@ const ItemCard = ({ item }) => (
     <Link href={`/recipelist/${item.id}`}>
     <img 
     src={item.image} 
-    wrapped ui={false} />
+    wrapped ui={false}
+    alt={item.name} />
     <Card.Content>
       <Card.Header>{item.name}</Card.Header>
       <Card.Description>{item.description}</Card.Description>
