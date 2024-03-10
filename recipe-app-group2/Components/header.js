@@ -1,6 +1,6 @@
 import SearchComponent from '@/Components/searchcomponent';
 import recipeData from '@/Components/recipe.json';
-import style from '@/styles/headerstyle.module.scss';
+import styles from '@/styles/headerstyle.module.scss';
 import React, { useState } from 'react';
 
 
@@ -23,7 +23,7 @@ function Header (){
         <header className="navbar"> {}
             <nav> 
                 <div className='navcont'>
-                    <div className='logo'>
+                    <div className={styles.logo}>
                         <a href= "/"> <img src="static/images/desertdelightlogo.png" alt="Logo" /> </a>
                     </div>
 
