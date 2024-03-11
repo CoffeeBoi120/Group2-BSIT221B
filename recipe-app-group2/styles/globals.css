@@ -192,6 +192,65 @@ nav {
   bottom: 0;
   width: 65%;
 }
+
+.nav-side {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center items vertically */
+  height: 100%; /* Occupy full height of the sidebar */
+  padding: 0; /* Remove default padding */
+}
+.nav-side li {
+  margin-bottom: 20px; /* Add margin between each navigation item */
+}
+.nav-side li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px; 
+  text-align: center;
+
+}
+
+.nav-side li.exit {
+  margin-bottom: 20px; /* Add extra margin for the exit button */
+}
+
+.nav-side img {
+  width: 300px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; 
+}
+.nav-side .search-barmob {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  margin-bottom: 20px; /* Add margin at the bottom */
+  width: auto;
+  height: auto;
+}
+
+.nav-side .search-barmob input {
+  padding: 8px 12px; /* Adjust padding as needed */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px; /* Add margin between input and button */
+  width: 150px; /* Set width for the input field */
+  height: 30px;
+}
+
+.nav-side .search-barmob button {
+  padding: 8px 12px; /* Adjust padding as needed */
+  background-color: #b4b4b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 30px;
+}
+
+
+
 @media (min-width: 769px) and (max-width: 1024px) {
   nav{
     display: block;
@@ -216,6 +275,7 @@ nav {
     align-items: center;
     justify-content: center
   }
+  
 
 
 }
@@ -252,26 +312,44 @@ nav {
     display: none;
   }
   .nav-side {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    height: 100%; /* Occupy full height of the sidebar */
+    padding: 0; /* Remove default padding */
   }
-
   .nav-side li {
-    padding: 20px;
-    font-size: 30px;
-    font-color: red;
+    margin-bottom: 20px; /* Add margin between each navigation item */
+  }
+  .nav-side li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px; 
+    text-align: center;
+  
+  }
+  
+  .nav-side li.exit {
+    margin-bottom: 20px; /* Add extra margin for the exit button */
+  }
+  
+  .nav-side img {
+    width: 300px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; 
   }
 
-  .toggle {
+  .nav-side .toggle {
     position: absolute;
     left: 20px; 
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     display: block;
     color: #ffffff;
     
   }
+
   .exit {
     margin-left: 80%; 
     
@@ -350,18 +428,39 @@ nav {
     display: none;
   }
   .nav-side {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    height: 100%; /* Occupy full height of the sidebar */
+    padding: 0; /* Remove default padding */
   }
-
   .nav-side li {
-    padding: 20px;
-    font-size: 25px;
-    font-color: red;
+    margin-bottom: 20px; /* Add margin between each navigation item */
+  }
+  .nav-side li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px; 
+    text-align: center;
+  
+  }
+  
+  .nav-side li a:hover {
+    color: #ffc1c1; /* Change the color on hover */
+  }
+  
+  .nav-side li.exit {
+    margin-bottom: 20px; /* Add extra margin for the exit button */
+  }
+  
+  .nav-side img {
+    width: 300px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; 
   }
 
-  .toggle {
+  .nav-side .toggle {
     position: absolute;
     left: 20px; 
     font-size: 20px;
