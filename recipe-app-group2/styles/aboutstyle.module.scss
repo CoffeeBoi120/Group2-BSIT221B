@@ -373,11 +373,22 @@
       padding: 20px;
       border-radius: 10px;
     }
-    .recommendations p{
+    .recommendations {
+
+      p{
       font-size: 15px;
       padding: 20px;
       border-radius: 10px;
+      }
+      img{
+        margin-left: 0;
+        margin-top: 10px;
+        align-items: center;
+        width: 150px; /* Adjust the width as needed */
+        height: auto;
+      }
     }
+
 }
 }
 }
