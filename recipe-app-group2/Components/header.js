@@ -1,23 +1,27 @@
 import SearchComponent from '@/Components/searchcomponent';
 import recipeData from '@/Components/recipe.json';
 import styles from '@/styles/headerstyle.module.scss';
-import React, { useState } from 'react';
-
+import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 
 function Header (){
 
     const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+    const router = useRouter();
 
     const handleToggleSidebar = () => {
-        setIsSidebarVisible(!isSidebarVisible); // Toggle the sidebar visibility
+        setIsSidebarVisible(!isSidebarVisible); 
     };
 
     const handleHideSidebar = () => {
-        setIsSidebarVisible(false); // Hide the sidebar
+        setIsSidebarVisible(false); 
     };
 
-
+    useEffect(() => {
+       
+        setIsSidebarVisible(false);
+    }, [router.asPath]);
 
     return (
         <header className="navbar"> {}
@@ -32,9 +36,9 @@ function Header (){
                     </div>
                 
                         <ul className='nav-item'>
-                            <li class="hideonmobile"><a href="/recipelist" class="nav-item">Recipes</a></li>
-                            <li class="hideonmobile"><a href="/explore" class="nav-item">Explore</a></li>
-                            <li class="hideonmobile"><a href="/about" class="nav-item">About</a></li>
+                            <li className={router.pathname === '/recipelist' ? 'active' : 'hideonmobile'}><a href="/recipelist" class="nav-item">Recipes</a></li>
+                            <li className={router.pathname === '/explore' ? 'active' : 'hideonmobile'}><a href="/explore" class="nav-item">Explore</a></li>
+                            <li className={router.pathname === '/about' ? 'active' : 'hideonmobile'}><a href="/about" class="nav-item">About</a></li>
                         </ul>
                  
                     <div className="search-bar nav-item hideonmobile">

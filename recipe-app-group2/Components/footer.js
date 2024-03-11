@@ -10,7 +10,12 @@ function Footer() {
             </div>
             
             <div class="footcont2">
-            <p> aksdj@gmail.com|aksdj@gmail.com|aksdj@gmail.com  </p>
+                <p> aksdj@gmail.com </p>
+                <p> aksdj@gmail.com </p>
+                <p> aksdj@gmail.com </p>
+                <p> aksdj@gmail.com </p>
+                <p> aksdj@gmail.com </p>
+                <p> aksdj@gmail.com </p>
             </div>
 
             <div className="footcont3">

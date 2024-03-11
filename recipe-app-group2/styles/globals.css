@@ -131,7 +131,7 @@ nav {
 }
 
 .navcont a:hover {
-  color: aqua;
+  color: rgb(255, 205, 244);
 }
 
 .logo img {
@@ -148,7 +148,11 @@ nav {
 
 .nav-item li {
   margin-right: 20px;
-  font-size: 30px;
+  font-size: 25px;
+}
+.nav-item li.active a {
+  color: #ffc1c1; /* Change the color of active link */
+  font-weight: bold; /* Make active link bold */
 }
 .toggle{
   display: none;
@@ -188,9 +192,35 @@ nav {
   bottom: 0;
   width: 65%;
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav{
+    display: block;
+    position: relative;
+    padding: 15px 20px;
+  }
+  .navcont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex: 1; 
+
+  }
+  .logo img{
+    width: 250px;
+    height: 140px;
+    align-items: center;
+    justify-content: center
+  }
 
 
-@media screen and (max-width: 768px) {
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
   .hideonmobile{
     display: none;
   }
@@ -209,10 +239,13 @@ nav {
     align-items: center;
     justify-content: center; /* Center the logo horizontally */
     flex: 1; /* Let the logo take up available space */
+
   }
   .logo img{
-    width: 320px;
-    height: 150px;
+    width: 230px;
+    height: 120px;
+    align-items: center;
+    justify-content: center
   }
   .menu{
     margin-top: 15px;
@@ -271,7 +304,7 @@ nav {
 
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 1px) and (max-width: 320px) {
 
 
 
@@ -288,6 +321,19 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo horizontally */
+    flex: 1; /* Let the logo take up available space */
+
+  }
+  .logo img{
+    width: 180px;
+    height: 100px;
+    align-items: center;
+    justify-content: center
   }
   .logo-sidebar{
     display: flex;
@@ -318,7 +364,7 @@ nav {
   .toggle {
     position: absolute;
     left: 20px; 
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     display: block;
     color: #ffffff;
@@ -375,7 +421,7 @@ nav {
 /** footer footer footer **/
 
 .footercontainer{
-  height: 30vh;
+  height: auto;
   width: auto;
   background-color: #AE5661;
   display: flex;
@@ -392,9 +438,15 @@ nav {
 .footcont1 {
   width: auto;
 }
-
 .footcont2 {
   width: auto;
+  height: auto;
+}
+.footcont2 p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+
 }
 
 .footcont3 {
@@ -409,17 +461,34 @@ nav {
 .social-media-icons img {
   width: 30px; 
   margin: 0 10px; 
+  margin-top: 20px;
 }
 .footcont2 {
   display: flex;
   flex-direction: column;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footcont2 p {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
 
+@media (min-width: 321px) and (max-width: 768px) {
+  .footcont2 p {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+}
 
-
-
-
-/** about container **/ 
-
+@media (min-width: 1px) and (max-width: 320px) {
+  .footcont2 p {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
 
