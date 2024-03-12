@@ -40,11 +40,11 @@ function Recipes( {recipes} ) {
       {
         recipes.map(dessert => {
           return(
-            <div key={dessert.id}>
-              <Link href={`/recipelist/${dessert.id}`}>
-                <img src={dessert.image}></img>
-                <p>{dessert.name}</p>
-              </Link>
+               <div key={dessert.id} className={styles.items}>
+                 <Link href={`/recipelist/${dessert.id}`}>
+                 <img src={dessert.image}></img>
+                 <p>{dessert.name}</p>
+                 </Link>
               </div>
             )
           }
