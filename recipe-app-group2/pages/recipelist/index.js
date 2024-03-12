@@ -3,9 +3,8 @@ import path from 'path';
 import styles from "@/styles/mainpagestyle.module.scss";
 import Background from '@/Components/backgroundimg';
 import {Topborder,Bottomborder } from '@/Components/border';
-import { Card, Container } from 'semantic-ui-react';
-import ItemCard from '@/Components/itemcard';
 import Head from 'next/head';
+import Link from 'next/link';
 
 function Recipes( {recipes} ) {
   return(
@@ -38,13 +37,19 @@ function Recipes( {recipes} ) {
       </div>
 
       <div className={styles.MainContent}> 
-      <Container>
-        <Card.Group>
-         {recipes.map((dessert) => (
-          <ItemCard key={dessert.id} item={dessert} />
-         ))}
-        </Card.Group>
-      </Container>
+      {
+        recipes.map(dessert => {
+          return(
+            <div key={dessert.id}>
+              <Link href={`/recipelist/${dessert.id}`}>
+                <img src={dessert.image}></img>
+                <p>{dessert.name}</p>
+              </Link>
+              </div>
+            )
+          }
+        )
+      }
       </div>
 
       <Bottomborder/>
