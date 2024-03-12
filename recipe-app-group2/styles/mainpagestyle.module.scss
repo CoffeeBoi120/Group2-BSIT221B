@@ -172,6 +172,9 @@
 }
 
 @media (min-width: 1px) and (max-width: 320px) {
+  .HeaderPic{
+    display: none;
+  }
   .Headcont {
     display: flex;
     flex-direction: column;
