@@ -232,9 +232,8 @@
   }
   
   img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: 0 auto; /* Set margin to auto to horizontally center the image */
     width: 100px;
     height: 100px;
     transition: transform 0.3s ease-in-out;

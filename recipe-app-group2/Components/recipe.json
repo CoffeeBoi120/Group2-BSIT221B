@@ -122,7 +122,7 @@
       },
 
       {"id": 5,
-        "name": "Air Fryer Cinnamon Roll Bites",
+        "name": " Cinnamon Roll Bites",
         "image": "static/images/Air-Fryer-Cinnamon-Roll-Bites.png",
       "information": [
         "They are kid-sized and just a fun way to serve cinnamon rolls. Refrigerated cinnamon rolls are cut into bites, air fried, tossed in cinnamon sugar, and served with an orange-flavored creamy dip."
@@ -184,7 +184,7 @@
     },
 
     {"id": 7,
-      "name": "Donut Ice Cream Sandwiches",
+      "name": "Doughnut Ice Cream Sandwiches",
       "image": "static/images/Donut-Ice-Cream-Sandwiches.png",
       "information": "These donut ice cream sandwiches begin with a not-so-ordinary maple bacon bar, but butter pecan ice cream inside really takes them over the top. A maple bar will do for the sandwich, but it might be worth the trouble to track down a maple bacon bar. For a treat this good, who would think you'd only need 5 minutes to make them?",
       "ingredients": [
