@@ -20,11 +20,11 @@ function Footer() {
 
             <div className="footcont3">
                 <div className="social-media-icons">
-                    <a href="https://www.facebook.com"><img src="static/images/facebook.png" alt="Facebook"/></a>
-                    <a href="https://twitter.com"><img src="static/images/twitter.png" alt="Twitter"/></a>
-                    <a href="https://www.instagram.com"><img src="static/images/instagram.png" alt="Instagram"/></a>
-                    <a href="https://www.linkedin.com"><img src="static/images/pinterest.png" alt="Pinterest"/></a>
-                    <a href="https://www.youtube.com"><img src="static/images/youtube.png" alt="YouTube"/></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="static/images/facebook.png" alt="Facebook"/></a>
+                    <a href="https://twitter.com" target="_blank"><img src="static/images/twitter.png" alt="Twitter"/></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="static/images/instagram.png" alt="Instagram"/></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img src="static/images/pinterest.png" alt="Pinterest"/></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="static/images/youtube.png" alt="YouTube"/></a>
                 </div>
             </div>
        
