@@ -28,7 +28,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 20px; 
+  left: 10%; 
 }
 
 .homebox {
@@ -45,10 +45,9 @@
 .homebox p {
   margin-bottom: 5px;
   line-height: 1.5;
-  font-size: 30px;
+  font-size: 40px;
   text-align: left;
 }
-
 .hoverable-button {
   background-color: #b1b1b1;
   border: none;
@@ -103,10 +102,11 @@
    
   }
   
-  .indexlogo {
+   .indexlogo {
     position: absolute;
     top: 20px;
     left: 20px;
+    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -115,9 +115,8 @@
     height: auto;
     max-width: 100%; 
     max-height: 100%; 
-    align-items: center;
-    justify-content: center;
   }
+}
   .homebox {
     margin-left: 0; 
     position: relative;
@@ -142,7 +141,7 @@
     bottom: 20px;
     right: 20px;
   }
-}
+
 
 @media (min-width: 1px) and (max-width: 320px) {
   .indexcontainer {

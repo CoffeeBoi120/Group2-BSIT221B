@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from "@/styles/indexstyle.module.scss";
 import {ButtonExampleAnimated} from '/Components/semantic';
 import Head from 'next/head';
 
@@ -25,7 +24,7 @@ function Main() {
             <p>"Indulge in the symphony of sweetness, for in every bite of dessert, we find a delightful harmony of joy and satisfaction."</p>
           
             <a href="/recipelist" >
-              <ButtonExampleAnimated />
+              <ButtonExampleAnimated className="hoverable-button"/>
             </a>
           </div>
         </div>
