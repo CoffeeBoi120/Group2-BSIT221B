@@ -47,19 +47,19 @@ function About() {
                     <div className={styles.recommendations}>
                         <div className={styles.imageContainer}>
                             <a href="https://www.koidessertbar.com.au/" target="_blank">
-                                <img src="static/images/koibar.png" className={styles.img} alt="" />
+                                <img src="static/images/koibar.png" className={styles.img} alt="Koi Bar Image" />
                             </a>
                             <p>Koi</p>
                         </div>
                         <div className={styles.imageContainer}>
                             <a href="https://www.solaireresort.com/dining/oasis-garden-cafe" target="_blank">
-                                <img src="static/images/oasisdes.jpg" className={styles.img} alt="" />
+                                <img src="static/images/oasisdes.jpg" className={styles.img} alt="Oasides Image" />
                             </a>
                             <p>Oasis Garden Cafe</p>
                         </div>
                         <div className={styles.imageContainer}>
                             <a href="https://eatdrinkhilton.com/bru-coffee-bar-conrad-manila/" target="_blank">
-                                <img src="static/images/brucof.jpg" className={styles.img} alt="" />
+                                <img src="static/images/brucof.jpg" className={styles.img} alt="Bru Coffee Bar Image" />
                             </a>
                             <p>Bru Coffee Bar</p>
                         </div>
