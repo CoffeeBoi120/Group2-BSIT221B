@@ -4,11 +4,7 @@ import styles from '../styles/loading.module.scss';
 function Loading() {
   return (
     <div className={styles.Loading1} id="Loading">
-      <video src="/static/images/dessertloading.mp4" 
-      alt="Loading animation: 2 desserts sliding in frame" 
-      muted
-      autoPlay
-      loop/>
+      <img src="/static/images/dessertloading.gif" alt="Loading animation: 2 desserts sliding in frame" />
     </div>
   );
 }
