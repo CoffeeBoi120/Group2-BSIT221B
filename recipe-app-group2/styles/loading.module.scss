@@ -21,8 +21,8 @@
 @media (min-width: 321px) and (max-width: 768px) {
   .Loading1 {
       position: absolute;
-      width: 80%; /* Adjust the width percentage as needed */
-      height: 80vh; /* Adjust the height as needed */
+      width: 80%; 
+      height: 80vh;
       top: 0;
       left: 0;
       bottom: 0;
@@ -47,7 +47,6 @@
     .Loading1 img {
         width: 60%;
         height: 15vh;
-        /* Center the image horizontally and vertically */
         display: block;
         margin: auto;
     }

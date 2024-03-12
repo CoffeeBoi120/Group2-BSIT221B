@@ -1,6 +1,6 @@
-$primaryColor: #000000; // Coral color
+$primaryColor: #000000; 
 $backgroundColor: #f8e7e9;
-$fontColor: #2c2c2c; // Dark gray color
+$fontColor: #2c2c2c; 
 
 .Maincomp {
   display: flex;
@@ -58,7 +58,7 @@ $fontColor: #2c2c2c; // Dark gray color
       font-size: 25px;
       color: rgb(7, 4, 4);
       margin-top: 10px;
-      margin: 0 20px; /* Add left and right margins */
+      margin: 0 20px; 
     }
   }
 
@@ -192,14 +192,14 @@ $fontColor: #2c2c2c; // Dark gray color
   
       .recipeName {
         font-size: 30px;
-        margin: 0 20px; /* Add left and right margins */
-        text-align: center; /* Center the text */
+        margin: 0 20px; 
+        text-align: center; 
       }
   
       .recipeInfo {
         font-size: 18px;
-        margin: 0 20px; /* Add left and right margins */
-        text-align: center; /* Center the text */
+        margin: 0 20px; 
+        text-align: center; 
       }
     }
   }  
@@ -235,14 +235,14 @@ $fontColor: #2c2c2c; // Dark gray color
   
       .recipeName {
         font-size: 25px;
-        margin: 0 20px; /* Add left and right margins */
-        text-align: center; /* Center the text */
+        margin: 0 20px; 
+        text-align: center; 
       }
   
       .recipeInfo {
         font-size: 15px;
-        margin: 0 20px; /* Add left and right margins */
-        text-align: center; /* Center the text */
+        margin: 0 20px; 
+        text-align: center; 
       }
     }
   }  

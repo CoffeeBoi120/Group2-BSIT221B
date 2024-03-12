@@ -175,7 +175,7 @@
   }
 
   .homebox p {
-    width: 100%; /* Set the width to 100% to make it responsive */
+    width: 100%; 
     line-height: 1.5;
     font-size: 20px;
     text-align: left;
@@ -246,8 +246,8 @@ nav {
   font-size: 25px;
 }
 .nav-item li.active a {
-  color: #ffc1c1; /* Change the color of active link */
-  font-weight: bold; /* Make active link bold */
+  color: #ffc1c1;
+  font-weight: bold; 
 }
 .toggle{
   display: none;
@@ -255,14 +255,14 @@ nav {
 
 .search-bar {
   display: flex;
-  align-items: center; /* Align items vertically in the center */
+  align-items: center; 
 }
 
 .search-bar input {
   padding: 5px 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  margin-right: 10px; /* Add margin to separate input and button */
+  margin-right: 10px; 
 }
 
 .search-bar button {
@@ -278,7 +278,7 @@ nav {
 }
 .sidebar.active {
   display: block;
-  background-color: #AE5661; /* Add your desired background color here */
+  background-color: #AE5661;
   width: 200px;
   padding: 20px;
   position: fixed;
@@ -290,13 +290,13 @@ nav {
 
 .nav-side {
   display: flex;
-  flex-direction: column; /* Align items vertically */
-  justify-content: center; /* Center items vertically */
-  height: 100%; /* Occupy full height of the sidebar */
-  padding: 0; /* Remove default padding */
+  flex-direction: column; 
+  justify-content: center; 
+  height: 100%; 
+  padding: 0; 
 }
 .nav-side li {
-  margin-bottom: 20px; /* Add margin between each navigation item */
+  margin-bottom: 20px; 
 }
 .nav-side li a {
   color: #ffffff;
@@ -308,34 +308,34 @@ nav {
 }
 
 .nav-side li.exit {
-  margin-bottom: 20px; /* Add extra margin for the exit button */
+  margin-bottom: 20px; 
 }
 
 .nav-side img {
-  width: 300px; /* Adjust the width of the logo */
-  height: auto; /* Maintain aspect ratio */
+  width: 300px; 
+  height: auto; 
   margin-bottom: 20px; 
 }
 .nav-side .search-barmob {
   display: flex;
-  flex-direction: column; /* Align items vertically */
-  align-items: center; /* Center items horizontally */
-  margin-bottom: 20px; /* Add margin at the bottom */
+  flex-direction: column; 
+  align-items: center; 
+  margin-bottom: 20px; 
   width: auto;
   height: auto;
 }
 
 .nav-side .search-barmob input {
-  padding: 8px 12px; /* Adjust padding as needed */
+  padding: 8px 12px; 
   border-radius: 5px;
   border: 1px solid #ccc;
-  margin-bottom: 10px; /* Add margin between input and button */
-  width: 150px; /* Set width for the input field */
+  margin-bottom: 10px; 
+  width: 150px; 
   height: 30px;
 }
 
 .nav-side .search-barmob button {
-  padding: 8px 12px; /* Adjust padding as needed */
+  padding: 8px 12px;
   background-color: #b4b4b4;
   color: white;
   border: none;
@@ -371,8 +371,8 @@ nav {
     justify-content: center
   }
   .nav-side li {
-    margin-bottom: 20px; /* Add margin between each navigation item */
-    list-style: none; /* Remove bullet points */
+    margin-bottom: 20px; 
+    list-style: none; 
     font-size: 30px;
   }
   
@@ -406,8 +406,8 @@ nav {
   .logo{
     display: flex;
     align-items: center;
-    justify-content: center; /* Center the logo horizontally */
-    flex: 1; /* Let the logo take up available space */
+    justify-content: center; 
+    flex: 1; 
 
   }
   .toggle {
@@ -434,15 +434,14 @@ nav {
   }
   .nav-side {
     display: flex;
-    flex-direction: column; /* Align items vertically */
-    justify-content: center; /* Center items vertically */
-    height: 100%; /* Occupy full height of the sidebar */
-    padding: 0; /* Remove default padding */
+    flex-direction: column; 
+    justify-content: center;
+    height: 100%; 
+    padding: 0; 
   }
   
   .nav-side li {
-    margin-bottom: 20px; /* Add margin between each navigation item */
-    list-style: none; /* Remove bullet points */
+    margin-bottom: 20px; 
     font-size: 25px;
   }
   
@@ -456,14 +455,13 @@ nav {
   }
   
   .nav-side li.exit {
-    margin-bottom: 20px; /* Add extra margin for the exit button */
+    margin-bottom: 20px; 
   }
   
   .nav-side img {
-    max-width: 100%; /* Adjust the maximum width of the logo */
-    max-height: 100px; /* Adjust the maximum height of the logo */
-    width: auto; /* Ensure the image retains its aspect ratio */
-    height: auto; /* Ensure the image retains its aspect ratio */
+    max-width: 100%; 
+    max-height: 100px; 
+    width: auto;
     margin-bottom: 20px;
   }
 
@@ -478,10 +476,10 @@ nav {
   }
 
   .exit {
-    position: absolute; /* Position the element absolutely */
-    top: 0; /* Align the element to the top */
-    right: 0; /* Align the element to the right */
-    margin: 20px; /* Add margin for spacing */
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    margin: 20px; 
   }
   
   .search-barmob {
@@ -489,21 +487,21 @@ nav {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    width: 100%; /* Adjust the width to occupy the full width of the container */
+    width: 100%; 
   }
   
   .search-barmob input {
-    padding: 8px 12px; /* Adjust padding to change the input field size */
+    padding: 8px 12px;
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-right: 10px;
-    width: 70%; /* Adjust width to occupy 70% of the container */
-    max-width: 200px; /* Add a maximum width to prevent it from expanding too much */
+    width: 70%;
+    max-width: 200px;
     height: 30px;
   }
   
   .search-barmob button {
-    padding: 8px 12px; /* Adjust padding to change the button size */
+    padding: 8px 12px; 
     background-color: #000000;
     color: white;
     border: none;
@@ -530,8 +528,8 @@ nav {
   .logo{
     display: flex;
     align-items: center;
-    justify-content: center; /* Center the logo horizontally */
-    flex: 1; /* Let the logo take up available space */
+    justify-content: center; 
+    flex: 1; 
 
   }
   .logo img{
@@ -545,15 +543,15 @@ nav {
   }
   .nav-side {
     display: flex;
-    flex-direction: column; /* Align items vertically */
-    justify-content: center; /* Center items vertically */
-    height: 100%; /* Occupy full height of the sidebar */
-    padding: 0; /* Remove default padding */
+    flex-direction: column; 
+    justify-content: center; 
+    height: 100%; 
+    padding: 0; 
   }
   
   .nav-side li {
-    margin-bottom: 20px; /* Add margin between each navigation item */
-    list-style: none; /* Remove bullet points */
+    margin-bottom: 20px; 
+    list-style: none; 
   }
   
   .nav-side li a {
@@ -565,20 +563,20 @@ nav {
   }
   
   .nav-side li.exit {
-    margin-bottom: 20px; /* Add extra margin for the exit button */
+    margin-bottom: 20px; 
   }
   
   .nav-side img {
-    max-width: 100%; /* Adjust the maximum width of the logo */
-    max-height: 100px; /* Adjust the maximum height of the logo */
-    width: auto; /* Ensure the image retains its aspect ratio */
-    height: auto; /* Ensure the image retains its aspect ratio */
+    max-width: 100%; 
+    max-height: 100px; 
+    width: auto; 
+    height: auto; 
     margin-bottom: 20px;
   }
   .logo-sidebar{
     display: flex;
     align-items: center;
-    justify-content: center; /* Center the logo horizontally */
+    justify-content: center; 
     flex: 1; 
   }
   .logo-sidebar img{
@@ -594,10 +592,10 @@ nav {
     color: #ffffff;
 }
 .exit {
-  position: absolute; /* Position the element absolutely */
-  top: 0; /* Align the element to the top */
-  right: 0; /* Align the element to the right */
-  margin: 20px; /* Add margin for spacing */
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  margin: 20px;
   font-size: 15px;
 }
   .menu{
@@ -606,13 +604,13 @@ nav {
   }
   .nav-side {
     display: flex;
-    flex-direction: column; /* Align items vertically */
-    justify-content: center; /* Center items vertically */
-    height: 100%; /* Occupy full height of the sidebar */
-    padding: 0; /* Remove default padding */
+    flex-direction: column; 
+    justify-content: center; 
+    height: 100%; 
+    padding: 0; 
   }
   .nav-side li {
-    margin-bottom: 20px; /* Add margin between each navigation item */
+    margin-bottom: 20px;
   }
   .nav-side li a {
     color: #ffffff;
@@ -624,16 +622,16 @@ nav {
   }
   
   .nav-side li a:hover {
-    color: #ffc1c1; /* Change the color on hover */
+    color: #ffc1c1;
   }
   
   .nav-side li.exit {
-    margin-bottom: 20px; /* Add extra margin for the exit button */
+    margin-bottom: 20px;
   }
   
   .nav-side img {
-    width: 300px; /* Adjust the width of the logo */
-    height: auto; /* Maintain aspect ratio */
+    width: 300px; 
+    height: auto;
     margin-bottom: 20px; 
   }
 
@@ -658,16 +656,16 @@ nav {
   }
   
   .search-barmob input {
-    padding: 8px 12px; /* Adjust padding to change the input field size */
+    padding: 8px 12px; 
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-right: 10px;
-    width: 200px; /* Adjust width to change the input field width */
+    width: 200px; 
     height: 30px;
   }
   
   .search-barmob button {
-    padding: 8px 12px; /* Adjust padding to change the button size */
+    padding: 8px 12px;
     background-color: #000000;
     color: white;
     border: none;
