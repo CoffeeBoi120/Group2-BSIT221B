@@ -42,7 +42,7 @@ function Recipes( {recipes} ) {
           return(
                <div key={dessert.id} className={styles.items}>
                  <Link href={`/recipelist/${dessert.id}`}>
-                 <img src={dessert.image}></img>
+                 <img src={dessert.image} alt={dessert.name}></img>
                  <p>{dessert.name}</p>
                  </Link>
               </div>
