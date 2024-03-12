@@ -1,178 +1,189 @@
 .indexcontainer {
   position: relative;
+  width: 100%;
   height: 100vh;
 }
 
-.bg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.indexcontainer a img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
+.indexlogo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
 .indexlogo img {
-  height: auto;
-  width: 300px;
-  display: flex;
-  align-items: flex-end;
+  width: auto; /* Allow the width to adjust */
+  height: auto; /* Allow the height to adjust */
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  max-height: 100%; /* Ensure the image doesn't exceed its container height */
 }
 
-.indexcontent{
-  padding: 20px;
-  margin-left: 10%;
-  margin-top: 5%;
+.indexcontent {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px; /* Adjust as needed for the desired left margin */
 }
 
 .homebox {
+  position: relative;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 600px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
-  align-items: flex-end; 
+  width: 600px; /* Adjust as needed */
+  height: 300px;
+  margin-left: 10%;
+}
 
-}
 .homebox p {
-  margin-bottom: 5px;
   line-height: 1.5;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 10%; 
+  font-size: 30px;
+  text-align: left;
 }
+
 .hoverable-button {
-  background-color: #b1b1b1; 
+  background-color: #b1b1b1;
   border: none;
   color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 2px 2px;
   cursor: pointer;
-  padding: 10px 40px;
   border-radius: 4px;
   transition-duration: 0.4s;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
-.hoverable-button:hover {
-  background-color: #53ce59;
 
 
-}
 @media (min-width: 769px) and (max-width: 1024px) {
-  .indexcontainer {
-    height: 100vh; /* Ensure the container covers the full viewport height */
-    width: 100%;
+  .homebox {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Adjust as needed */
+    height: 300px;
+    margin-left: 10%;
   }
-
-  .bg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    width: 100%;
-    height: 100%; /* Ensure the background covers the full container height */
+  
+  .homebox p {
+    line-height: 1.5;
+    font-size: 30px;
+    text-align: left;
   }
-  .indexlogo img {
-    height: auto;
-    width: 300px;
-    display: flex;
-    align-items: flex-end;
+  
+  .homebox a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
   }
-
-
 }
 @media (min-width: 321px) and (max-width: 768px) {
   .indexcontainer {
-    height: 100vh; /* Ensure the container covers the full viewport height */
+    position: relative;
     width: 100%;
-  }
-
-  .bg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    width: 100%;
-    height: 100%; /* Ensure the background covers the full container height */
-  }
-  .homebox{
-    max-width: 500px;
-    width: auto;
-    height: auto;
-  }
-  .homebox p {
-
-      max-width: 100%;
-      margin-top: 10px;
-      text-align: center;
-      font-size: 40px;
-  }
-  .indexlogo {
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-  }
-
-  .indexlogo img {
-    height: auto;
-    width: 250px;
-  }
-
-  
-}
-@media (min-width: 1px) and (max-width: 320px) {
-  .indexcontainer {
-    height: 100vh; /* Ensure the container covers the full viewport height */
-    width: 100%;
-  }
-
-  .bg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    width: 100%;
-    height: 100%; /* Ensure the background covers the full container height */
-  }
-  .homebox{
-    max-width: 300px;
-    width: auto;
-    height: auto;
-  }
-  .homebox p {
-
-      max-width: 100%;
-      margin-top: 10px;
-      text-align: center;
-      font-size: 30px;
+    height: 100vh;
     
   }
+  .indexcontainer a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
   .indexlogo {
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    position: absolute;
+    top: 20px;
+    left: 20px;
   }
-
   .indexlogo img {
-    height: auto;
-    width: 200px;
+    width: auto; /* Adjust the width of the logo */
+    height: auto; /* Adjust the height of the logo */
+    max-width: 100%; /* Ensure the logo doesn't exceed its container */
+    max-height: 100%; /* Ensure the logo doesn't exceed its container */
+  }
+  .homebox {
+    margin-left: 0; /* Remove left margin in the media query */
+    position: relative;
+    width: 90%; /* Adjust as needed */
+    max-width: 500px; /* Set maximum width */
+    height: auto; /* Adjust as needed */
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
   }
 
+  .homebox p {
+    width: 100%; /* Set the width to 100% to make it responsive */
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: left;
+    height: 200px;
+  }
 
+  .homebox a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
+@media (min-width: 1px) and (max-width: 320px) {
+  .indexcontainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+  }
+  .indexcontainer a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .indexlogo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .indexlogo img {
+    width: auto; /* Adjust the width of the logo */
+    height: auto; /* Adjust the height of the logo */
+    max-width: 100%; /* Ensure the logo doesn't exceed its container */
+    max-height: 100%; /* Ensure the logo doesn't exceed its container */
+  }
+  .homebox {
+    margin-left: 0; /* Remove left margin in the media query */
+    position: relative;
+    width: 90%; /* Adjust as needed */
+    max-width: 500px; /* Set maximum width */
+    height: auto; /* Adjust as needed */
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
 
+  .homebox p {
+    width: 100%; /* Set the width to 100% to make it responsive */
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: left;
+    height: 200px;
+  }
 
-
-
-
-
+  .homebox a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
 
 
 

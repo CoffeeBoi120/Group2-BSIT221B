@@ -13,23 +13,24 @@ function Main() {
      </Head>
 
      <div className="indexcontainer">
-      <div className='bg' style={{ backgroundImage: 'url("/static/images/homepagebg.png")' }}>
-        <div class="navbar1">
+       <a href= ""> <img src=" /static/images/homepagebg.png" alt=""/> </a>
+        
           <div class="indexlogo">
             <a href= "/"> <img src="static/images/desertdelightlogo.png" alt="Logo"/> </a>
           </div>
-        </div>
+        
 
         <div class="indexcontent">
           <div class="homebox">
             <p>"Indulge in the symphony of sweetness, for in every bite of dessert, we find a delightful harmony of joy and satisfaction."</p>
+          
             <a href="/recipelist" >
               <ButtonExampleAnimated />
             </a>
           </div>
         </div>
       </div>
-    </div>
+    
 
     
       
