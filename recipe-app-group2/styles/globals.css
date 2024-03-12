@@ -355,6 +355,20 @@ nav {
     align-items: center;
     justify-content: center
   }
+  .nav-side li {
+    margin-bottom: 20px; /* Add margin between each navigation item */
+    list-style: none; /* Remove bullet points */
+    font-size: 30px;
+  }
+  
+  .nav-side li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
   
 
 
@@ -381,6 +395,18 @@ nav {
     flex: 1; /* Let the logo take up available space */
 
   }
+  .toggle {
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    color: #ffffff;
+  }
+
+  .nav-item li.active a {
+    display: none;
+  }
   .logo img{
     width: 230px;
     height: 120px;
@@ -398,16 +424,20 @@ nav {
     height: 100%; /* Occupy full height of the sidebar */
     padding: 0; /* Remove default padding */
   }
+  
   .nav-side li {
     margin-bottom: 20px; /* Add margin between each navigation item */
+    list-style: none; /* Remove bullet points */
+    font-size: 25px;
   }
+  
   .nav-side li a {
     color: #ffffff;
     text-decoration: none;
+    list-style: none;
     display: block;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     text-align: center;
-  
   }
   
   .nav-side li.exit {
@@ -415,12 +445,14 @@ nav {
   }
   
   .nav-side img {
-    width: 300px; /* Adjust the width of the logo */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; 
+    max-width: 100%; /* Adjust the maximum width of the logo */
+    max-height: 100px; /* Adjust the maximum height of the logo */
+    width: auto; /* Ensure the image retains its aspect ratio */
+    height: auto; /* Ensure the image retains its aspect ratio */
+    margin-bottom: 20px;
   }
 
-  .nav-side .toggle {
+  .toggle {
     position: absolute;
     left: 20px; 
     font-size: 20px;
@@ -431,14 +463,18 @@ nav {
   }
 
   .exit {
-    margin-left: 80%; 
-    
+    position: absolute; /* Position the element absolutely */
+    top: 0; /* Align the element to the top */
+    right: 0; /* Align the element to the right */
+    margin: 20px; /* Add margin for spacing */
   }
+  
   .search-barmob {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    width: 100%; /* Adjust the width to occupy the full width of the container */
   }
   
   .search-barmob input {
@@ -446,7 +482,8 @@ nav {
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-right: 10px;
-    width: 200px; /* Adjust width to change the input field width */
+    width: 70%; /* Adjust width to occupy 70% of the container */
+    max-width: 200px; /* Add a maximum width to prevent it from expanding too much */
     height: 30px;
   }
   
@@ -458,7 +495,6 @@ nav {
     border-radius: 5px;
     cursor: pointer;
   }
- 
 
 }
 
@@ -493,16 +529,66 @@ nav {
     align-items: center;
     justify-content: center
   }
+  .nav-item li.active a {
+    display: none;
+  }
+  .nav-side {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    height: 100%; /* Occupy full height of the sidebar */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .nav-side li {
+    margin-bottom: 20px; /* Add margin between each navigation item */
+    list-style: none; /* Remove bullet points */
+  }
+  
+  .nav-side li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .nav-side li.exit {
+    margin-bottom: 20px; /* Add extra margin for the exit button */
+  }
+  
+  .nav-side img {
+    max-width: 100%; /* Adjust the maximum width of the logo */
+    max-height: 100px; /* Adjust the maximum height of the logo */
+    width: auto; /* Ensure the image retains its aspect ratio */
+    height: auto; /* Ensure the image retains its aspect ratio */
+    margin-bottom: 20px;
+  }
   .logo-sidebar{
     display: flex;
     align-items: center;
     justify-content: center; /* Center the logo horizontally */
-    flex: 1; /* Let the logo take up available space */
+    flex: 1; 
   }
   .logo-sidebar img{
     width: 80px;
     height: 100px;
   }
+  .toggle {
+    position: absolute;
+    left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    color: #ffffff;
+}
+.exit {
+  position: absolute; /* Position the element absolutely */
+  top: 0; /* Align the element to the top */
+  right: 0; /* Align the element to the right */
+  margin: 20px; /* Add margin for spacing */
+  font-size: 15px;
+}
   .menu{
     margin-top: 15px;
     display: none;
