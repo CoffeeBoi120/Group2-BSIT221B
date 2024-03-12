@@ -51,7 +51,7 @@ function Header (){
                  <ul className='nav-side'> 
                     <li class="exit">
                         <a href="#" onClick={handleHideSidebar}><svg xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" style={{ fill: '#fff' }}/></svg></a></li>
-                    <li>< a href= "/index"> <img src="static/images/desertdelightlogo.png" alt="logo-sidebar" /> </a></li> 
+                    <li>< a href= "/"> <img src="static/images/desertdelightlogo.png" alt="logo-sidebar" /> </a></li> 
                     <li className="search-barmob hideonmobile"> 
                         <SearchComponent data={recipeData} /> 
                     </li> 
