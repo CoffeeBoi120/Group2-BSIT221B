@@ -36,7 +36,7 @@ function Header (){
                 
                         <ul className='nav-item'>
                             <li className={router.pathname === '/recipelist' ? 'active' : 'hideonmobile'}><a href="/recipelist" class="nav-item">Recipes</a></li>
-                            <li className={router.pathname === '/explore' ? 'active' : 'hideonmobile'}><a href="/explore" class="nav-item">Explore</a></li>
+                            <li className={router.pathname === '/explorepage' ? 'active' : 'hideonmobile'}><a href="/explorepage" class="nav-item">Explore</a></li>
                             <li className={router.pathname === '/about' ? 'active' : 'hideonmobile'}><a href="/about" class="nav-item">About</a></li>
                         </ul>
                  
@@ -55,7 +55,7 @@ function Header (){
                         <SearchComponent data={recipeData} /> 
                     </li> 
                     <li class="hideonwindow"><a href="/recipelist">Recipes</a></li> 
-                    <li class="hideonwindow"><a href="/explore">Explore</a></li>
+                    <li class="hideonwindow"><a href="/explorepage">Explore</a></li>
                     <li class="hideonwindow"><a href="/about">About</a></li> 
                 </ul> 
             </div>

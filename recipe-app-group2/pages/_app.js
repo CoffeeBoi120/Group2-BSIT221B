@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     const handleStart = (url) => {
       // Check if navigating back to any of these pages
-      if (['/about', '/explore', '/home'].includes(url)) {
+      if (['/about', '/explorepage', '/home'].includes(url)) {
         setIsLoading(true); // Set loading state to true only for specified page navigations
       }
     };
