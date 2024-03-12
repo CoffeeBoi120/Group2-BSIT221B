@@ -1,6 +1,5 @@
 import SearchComponent from '@/Components/searchcomponent';
 import recipeData from '@/Components/recipe.json';
-import styles from '@/styles/headerstyle.module.scss';
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 

@@ -1,5 +1,3 @@
-// Tip.js
-
 import React from 'react';
 import styles from "@/styles/tipstyles.module.scss";
 

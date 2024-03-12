@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'semantic-ui-react';
 import Link from 'next/link';
-import styles from '@/styles/mainpagestyle.module.scss'; // Import your CSS module
+import styles from '@/styles/mainpagestyle.module.scss';
 
 const ItemCard = ({ item }) => (
   <Card className={styles.itemCard}>
