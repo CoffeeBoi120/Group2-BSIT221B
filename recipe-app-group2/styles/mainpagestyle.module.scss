@@ -173,7 +173,7 @@
 }
 
 @media (min-width: 1px) and (max-width: 320px) {
-  .HeaderPic{
+  .HeaderPic {
     display: none;
   }
   .Headcont {
@@ -206,50 +206,44 @@
       height: 50px;
       margin: 10px; /* Adjust margin to make the spacing between icons consistent */
     }
+  }
 
-    .ContentTitle {
-      font-size: 40px;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-    }
+  .ContentTitle {
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 
-   .MainContent {
+  .MainContent {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
     margin-top: 20px;
 
-    .items{
+    .items {
       border-radius: 10px;
       overflow: hidden;
       margin: 10px auto; 
-      margin-left: auto;
-      margin-right: auto;
     }
 
-    img{
+    img {
       display: flex;
       justify-content: center;
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
       transition: transform 0.3s ease-in-out;
     }
 
-    img:hover{
-      transform: scale(1.1);
-    }
-
-    p{
+    p {
       font-family: myFont2;
-      font-size: 20px;
+      font-size: 15px;
       color: black;
       text-align: center;
     }
   }
-
-}
 }
 }
