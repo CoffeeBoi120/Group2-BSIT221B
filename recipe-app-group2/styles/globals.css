@@ -286,6 +286,7 @@ nav {
   left: 0;
   bottom: 0;
   width: 65%;
+  list-style: none;
 }
 
 .nav-side {
@@ -374,6 +375,7 @@ nav {
     margin-bottom: 20px; 
     list-style: none; 
     font-size: 30px;
+    list-style: none;
   }
   
   .nav-side li a {
@@ -382,6 +384,7 @@ nav {
     display: block;
     margin-bottom: 10px;
     text-align: center;
+    list-style: none;
   }
   
   
@@ -421,6 +424,7 @@ nav {
 
   .nav-item li.active a {
     display: none;
+    
   }
   .logo img{
     width: 230px;
@@ -443,6 +447,8 @@ nav {
   .nav-side li {
     margin-bottom: 20px; 
     font-size: 25px;
+    list-style: none;
+    text-decoration: none;
   }
   
   .nav-side li a {
