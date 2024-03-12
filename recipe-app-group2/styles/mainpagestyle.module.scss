@@ -223,27 +223,30 @@
     align-items: flex-start;
     align-content: center;
     margin-top: 20px;
-
-    .items {
-      border-radius: 10px;
-      overflow: hidden;
-      margin: 10px auto; 
-    }
-
-    img {
-      display: flex;
-      justify-content: center;
-      width: 150px;
-      height: 150px;
-      transition: transform 0.3s ease-in-out;
-    }
-
-    p {
-      font-family: myFont2;
-      font-size: 15px;
-      color: black;
-      text-align: center;
-    }
+  
+  
+  .items {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px auto; 
+  }
+  
+  img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  p {
+    font-family: myFont2;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    word-wrap: break-word; 
+  }
   }
 }
 }
