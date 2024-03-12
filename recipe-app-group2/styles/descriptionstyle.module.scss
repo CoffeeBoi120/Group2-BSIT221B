@@ -1,7 +1,15 @@
-$primaryColor: #ffeeee; // Coral color
-$backgroundColor: #AE5661;
-$fontColor: #ffeeee; // Dark gray color
+$primaryColor: #000000; // Coral color
+$backgroundColor: #f8e7e9;
+$fontColor: #2c2c2c; // Dark gray color
 
+.Maincomp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
 .topContainer {
   width: 80%;
   margin: 5% auto;
@@ -32,6 +40,7 @@ $fontColor: #ffeeee; // Dark gray color
   }
 
   .leftContain {
+    background-color: $backgroundColor;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,34 +49,33 @@ $fontColor: #ffeeee; // Dark gray color
     box-shadow: none;
 
     .recipeName {
-      font-size: 32px;
+      font-size: 50px;
       color: black;
       margin-top: 20px;
     }
 
     .recipeInfo {
-      font-size: 18px;
-      color: black;
+      font-size: 25px;
+      color: rgb(7, 4, 4);
       margin-top: 10px;
+      margin: 0 20px; /* Add left and right margins */
     }
   }
 
   .title {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: $primaryColor;
   }
-
-  @media screen and (max-width: 768px) {
-    flex-direction: column;
 
     .rightContain, .leftContain {
       width: 100%;
       margin: 0;
       margin-top: 20px;
+      margin-bottom: 20px;
     }
   }
-}
+
 
 .bottomContainer {
   width: 80%;
@@ -92,7 +100,7 @@ $fontColor: #ffeeee; // Dark gray color
   h5 {
     font-size: 18px;
     color: $fontColor;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .title {
@@ -107,8 +115,135 @@ $fontColor: #ffeeee; // Dark gray color
   }
 
   ul li, ol li {
-    font-size: 18px;
+    font-size: 20px;
     color: $fontColor;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
   }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .topContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .rightContain {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+  
+      .recipeImage {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        border-radius: 12px;
+
+      }
+    }
+  
+    .leftContain {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      box-shadow: none;
+  
+      .recipeName {
+        font-size: 32px;
+        margin-top: 20px;
+      }
+  
+      .recipeInfo {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+    }
+  }  
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .topContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .rightContain {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+  
+      .recipeImage {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        border-radius: 12px;
+      }
+    }
+  
+    .leftContain {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      box-shadow: none;
+  
+      .recipeName {
+        font-size: 30px;
+        margin: 0 20px; /* Add left and right margins */
+        text-align: center; /* Center the text */
+      }
+  
+      .recipeInfo {
+        font-size: 18px;
+        margin: 0 20px; /* Add left and right margins */
+        text-align: center; /* Center the text */
+      }
+    }
+  }  
+}
+
+@media (min-width: 1px) and (max-width: 320px) {
+  .topContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .rightContain {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+  
+      .recipeImage {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 12px;
+      }
+    }
+  
+    .leftContain {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      box-shadow: none;
+  
+      .recipeName {
+        font-size: 25px;
+        margin: 0 20px; /* Add left and right margins */
+        text-align: center; /* Center the text */
+      }
+  
+      .recipeInfo {
+        font-size: 15px;
+        margin: 0 20px; /* Add left and right margins */
+        text-align: center; /* Center the text */
+      }
+    }
+  }  
 }

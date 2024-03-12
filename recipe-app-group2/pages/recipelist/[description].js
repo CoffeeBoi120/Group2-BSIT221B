@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import styles from "@/styles/descriptionstyle.module.scss";
 import Background from '@/Components/backgroundimg';
-import {Topborder,Bottomborder } from '@/Components/border';
+import {Topborder,Bottomborder, Middleborder } from '@/Components/border';
 import Head from 'next/head';
 
 function Recipelist( {recipe} ){
@@ -15,6 +15,7 @@ function Recipelist( {recipe} ){
 
         <div className={styles.Maincomp}>
             <Background/>
+            <Topborder/>
             <div key={recipe.id}>
 
                 <div className={styles.topContainer}>
@@ -30,10 +31,9 @@ function Recipelist( {recipe} ){
                         <p className={styles.recipeInfo}>{recipe.information}</p>
                     </div>
                 </div>
-                    
-                <Topborder/>
-                
-                
+
+            <Middleborder/>
+
 
                 <div className={styles.bottomContainer}>
                     <h3>{"Dessert Type: " + recipe.class.desserttype  + ", " + " Origin: " + recipe.class.origin}</h3>
@@ -59,10 +59,8 @@ function Recipelist( {recipe} ){
                         <li className="list">{"Protein: "+ recipe.nutrition.protein}</li>
                     </ul>
                 </div>
-
-                <Bottomborder/>
-
             </div>
+            <Bottomborder/>
         </div>
         </>
     )

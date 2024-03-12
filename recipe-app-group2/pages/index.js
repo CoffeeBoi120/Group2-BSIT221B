@@ -13,10 +13,10 @@ function Main() {
      </Head>
 
      <div className="indexcontainer">
-       <a href= ""> <img src=" /static/images/homepagebg.png" alt=""/> </a>
+       <a> <img src=" /static/images/homepagebg.png" alt=""/> </a>
         
           <div class="indexlogo">
-            <a href= "/"> <img src="static/images/desertdelightlogo.png" alt="Logo"/> </a>
+            <a> <img src="static/images/desertdelightlogo.png" alt="Logo"/> </a>
           </div>
         
 
