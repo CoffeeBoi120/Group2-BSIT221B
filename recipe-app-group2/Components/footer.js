@@ -10,12 +10,12 @@ function Footer() {
             </div>
             
             <div class="footcont2">
-                <p> aksdj@gmail.com </p>
-                <p> aksdj@gmail.com </p>
-                <p> aksdj@gmail.com </p>
-                <p> aksdj@gmail.com </p>
-                <p> aksdj@gmail.com </p>
-                <p> aksdj@gmail.com </p>
+                <p> remojojd@students.nu-laguna.edu.ph </p>
+                <p> floresel@students.nu-laguna.edu.ph </p>
+                <p> aduanasa@students.nu-laguna.edu.ph </p>
+                <p> arcitakm@students.nu-laguna.edu.ph </p>
+                <p> gacusanabn@students.nu-laguna.edu.ph </p>
+                <p> tinaka@students.nu-laguna.edu.ph </p>
             </div>
 
             <div className="footcont3">
